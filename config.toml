@@ -3,6 +3,10 @@ title = "Evony TKR Tips"
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
+copyright = 'Luke Schierer'
+
+github_repo = "https://github.com/lschierer/EvonyTKRTips.git"
+
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
@@ -153,4 +157,18 @@ languageName = "English"
 # Weight used for sorting.
 weight = 1
 languagedirection = "ltr"
+
+[menu]
+[[menu.main]]
+  name = "About"
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = "Generals"
+  url = 'generals'
+  weight = 2
+[[menu.main]]
+  name = 'SvS'
+  url = 'svs'
+  weight = 3
 
