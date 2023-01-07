@@ -3,7 +3,7 @@ title = 'Why Another Evony Tips Site'
 disableTitleSeparator = true
 +++
 
-{{% blocks/cover title="Evony Tips for Budget Gamers" image_anchor="bottom" height="min" %}}
+{{% blocks/cover title="Tips for Budget Gamers" image_anchor="bottom" height="min" %}}
 {{% /blocks/cover %}}
 
 {{% blocks/section %}}
