@@ -6,9 +6,51 @@
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0"
   },
+  "name": "EvonyTKRTips",
+  "version": "0.0.1",
+  "description": "Evony TKR Tips Website",
+  "author": "Luke Schierer",
+  "license": "CC",
+  "main": "none.js",
   "scripts": {
-    "get:submodule": "git submodule update --init --depth 1",
+    "_build": "hugo --cleanDestinationDir -e dev -DFE",
+    "_check-links": "make check-links",
+    "_get:no": "echo SKIPPING get operation",
+    "_get:submodule": "set -x && git submodule update --init ${DEPTH:- --depth 1}",
+    "_prebuild": "npm run get:submodule",
     "_prepare:docsy": "cd themes/docsy && npm install",
+    "_serve:hugo": "hugo serve -DFE --minify",
+    "_serve": "netlify dev -c \"npm run _serve:hugo\"",
+    "build:preview": "set -x && npm run _build -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
+    "build:production": "hugo --cleanDestinationDir --minify",
+    "build": "npm run _build",
+    "check-links:all": "HTMLTEST_ARGS= npm run _check-links",
+    "check-links": "npm run _check-links",
+    "get:submodule": "npm run _get:${GET:-submodule}",
+    "postbuild:preview": "npm run _check-links",
+    "postbuild:production": "npm run _check-links",
+    "prebuild:preview": "npm run _prebuild",
+    "prebuild:production": "npm run _prebuild",
+    "prebuild": "npm run _prebuild",
+    "precheck-links:all": "npm run build",
+    "precheck-links": "npm run build",
+    "preinstall": "npm run get:submodule",
     "prepare": "npm run get:submodule && npm run _prepare:docsy",
-  }
+    "preserve:hugo": "npm run _prebuild",
+    "preserve": "npm run _prebuild",
+    "serve:hugo": "npm run _serve:hugo",
+    "serve": "npm run _serve",
+    "test": "npm run check-links",
+    "update:pkg:hugo": "npm install --save-dev --save-exact hugo-extended@latest",
+    "update:pkg:hugo+": "npm install --save-dev autoprefixer@latest postcss@latest postcss-cli@latest",
+    "update:submodule": "set -x && git submodule update --remote ${DEPTH:- --depth 1}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lschierer/EvonyTKRTips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lschierer/EvonyTKRTips/issues"
+  },
+  "homepage": "https://github.com/lschierer/EvonyTKRTips"
 }
