@@ -14,10 +14,10 @@ skip it and dive right in here.
 
 {{% /alert %}}
 
-{{% blocks/section %}}
+{{% blocks/section color="light"%}}
 There are two approaches to picking the mayors for your subcities.
 {{% /blocks/section %}}
-{{% blocks/section  %}}
+{{% blocks/section color="light"%}}
 As you look at the many generals in Evony for mayors, you are looking for what
 are called "debuff" generals.  These are generals that reduce one or more
 attributes of the attacking general and/or attacking army.  While you can
@@ -36,7 +36,7 @@ There are strong arguments each way, and both positions are presented better
 in other places.
 {{% /blocks/section %}}
 
-{{% blocks/section title="Reducing the Enemy's Ability to Attack You" %}}
+{{% blocks/section title="Reducing the Enemy's Ability to Attack You" color="light"%}}
 This is for people who depend on their PvP march and are just trying to survive
 the enemy's attack in the mean time.  While you would not mind hurting the
 enemy, you are focused on preventing him/her from hurting you. 
@@ -111,7 +111,7 @@ generals are the only ones available without getting lucky in paid events.
 {{< /tabpane >}}
 
 
-{{% blocks/section title="Reducing the Enemy's Ability to Survive Your Attack" %}}
+{{% blocks/section title="Reducing the Enemy's Ability to Survive Your Attack" color="light"%}}
 This is for people who want to make the enemy regret the decision to attack
 their keep.  They plan on having enough sieged troops to totally destroy any
 incoming march.  To make this possible, they want to make each attack by their
