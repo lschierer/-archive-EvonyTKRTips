@@ -1,5 +1,6 @@
 ---
 title: "Picking your first ranged pair"
+author: "Luke Schierer"
 ---
 
 In the [Overview][], I explain my thinking.  This is a fairly long article, but
