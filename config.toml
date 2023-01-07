@@ -2,7 +2,7 @@ baseURL = 'https://evonytkrtips.netg/'
 languageCode = 'en-us'
 title = 'Evony TKR Tips'
 copyright = "Copyright © 2023 Luke Schierer"
-theme = "color-your-world"
+theme = "docsy"
 
 enableGitInfo = true
 
