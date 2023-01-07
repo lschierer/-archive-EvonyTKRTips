@@ -1,7 +1,0 @@
-[submodule "themes/color-your-world"]
-	path = themes/color-your-world
-	url = https://gitlab.com/rmaguiar/hugo-theme-color-your-world.git
-[submodule "themes/docsy"]
-	path = themes/docsy
-	url = https://github.com/google/docsy.git
-	branch = v0.2.0
