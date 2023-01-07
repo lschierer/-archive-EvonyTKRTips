@@ -1,3 +1,10 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[params.style]
+  # Dark mode as default
+  # User preferences (site/system settings) will still have priority over it
+  # The default is false
+  isDark = true
+
