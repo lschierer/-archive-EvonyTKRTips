@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "aws-cdk-lib": "^2.59.0",
+    "hugo-extended": "^0.109.0"
+  }
+}
