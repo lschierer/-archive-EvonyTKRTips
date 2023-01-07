@@ -1,10 +1,92 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://evonytkrtips.netg/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Evony TKR Tips'
+copyright = "Copyright © 2023 Luke Schierer"
+theme = "color-your-world"
 
-[params.style]
-  # Dark mode as default
-  # User preferences (site/system settings) will still have priority over it
-  # The default is false
-  isDark = true
+enableGitInfo = true
 
+enableRobotsTXT = true
+
+enableInlineShortcodes = true
+
+paginate = 3
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  term = "terms"
+
+[frontmatter]
+  date = [ ':git', ':default', ':filename' ]
+
+[params]
+
+  # Site description
+  description = 'Tips on playing Evony TKR on a budget'
+
+  # Default path for images in posts
+  # ie.: "content/some-post/img"
+  # Can also be set PER PAGE
+  # It can be used to reduce repetition
+  # There's no default value
+  imgPath = "img"
+
+  # This will append a separator (of your choice) along the site title to your <title>
+  # ie.: | ❚ - – — • ⚫ 
+  # You can disabled it PER PAGE by using "disableTitleSeparator" at front
+  # matter or disable it entirely by commenting the line below
+  titleSeparator = "|"
+
+  [params.style]
+    # Dark mode as default
+	# User preferences (site/system settings) will still have priority over it
+	# The default is false
+	isDark = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[languages]
+
+  [languages.en]
+
+    languageName = "English"
+
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/"
+
+      [[languages.en.menu.main]]
+        name = "Generals"
+        weight = 2
+        url = "generals/"
+
+      [[languages.en.menu.main]]
+        name = "SvS"
+        weight = 3
+        url = "svs/"
+
+      [[languages.en.menu.main]]
+	     name = "Glossary"
+		 weight = 4
+		 url = "terms/"
