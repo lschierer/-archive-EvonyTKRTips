@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg19"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.51024183"
+     inkscape:cx="396.87064"
+     inkscape:cy="560.51853"
+     inkscape:window-width="1312"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs16">
+    <rect
+       x="23.34841"
+       y="28.736504"
+       width="739.96497"
+       height="136.49838"
+       id="rect6897" />
+    <filter
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       style="color-interpolation-filters:sRGB"
+       id="filter32821"
+       x="-0.013549753"
+       y="-0.069470828"
+       width="1.0327452"
+       height="1.1678878">
+      <feOffset
+         dy="3"
+         dx="3"
+         id="feOffset32811" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur32813" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         result="flood"
+         id="feFlood32815" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite"
+         id="feComposite32817" />
+      <feBlend
+         in="blur"
+         in2="composite"
+         mode="normal"
+         id="feBlend32819" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.43011154,0,0,0.25356019,-2.6559644,-2.7587667)"
+       id="text6895"
+       style="font-style:normal;font-weight:normal;font-size:76px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6897);fill:#000080;fill-opacity:1;stroke:none;filter:url(#filter32821)"><tspan
+         x="23.347656"
+         y="98.073432"
+         id="tspan146"><tspan
+           style="font-family:Wargames;-inkscape-font-specification:Wargames"
+           id="tspan144">Evony TKR Tips</tspan></tspan></text>
+  </g>
+</svg>
