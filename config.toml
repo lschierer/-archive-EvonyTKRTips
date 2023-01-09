@@ -14,7 +14,15 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 disableBrowserError = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = []
+
+[taxonomies]
+tag = "tags"
+
+[params.taxonomy]
+taxonomyCloud = ["tags"] # set taxonomyCloud = [] to hide taxonomy clouds
+taxonomyCloudTitle = ["Tag Cloud"] # if used, must have same length as taxonomyCloud
+taxonomyPageHeader = ["tags", "terms"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
 
 navbar_logo = true
 
