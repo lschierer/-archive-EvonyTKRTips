@@ -3,6 +3,7 @@ title: "Overview of Picking Generals"
 date: 2023-01-07T02:21:11-05:00
 author: "Luke Schierer"
 weight: 1
+tags = "guide"
 ---
 
 Knowing what generals to keep and what generals to get rid of is an important
@@ -62,8 +63,8 @@ discerning.
 For many of them, the value depends on your style of game play and your
 strategy of warfare. You cannot be strong everywhere, so why bother having the
 theoretical best pair for all four troop types?  Odds are you can only actually
-max out one of these anyway (see the Overview).  What your really need are
-generals that are good enough while you work on your priorities.
+max out one of these anyway.  What your really need are generals that are good
+enough while you work on your priorities.
 
 As you look at the ordered list below, realize that you may not have the
 general that you want to work on today.  In other words, *plan* rather than

@@ -2,6 +2,7 @@
 title: "Picking your wall generals"
 author: "Luke Schierer"
 weight: 4
+tags = "recommendation"
 ---
 
 In the [Overview][], I explain my thinking.  This is a fairly long article, but

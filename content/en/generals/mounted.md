@@ -2,6 +2,7 @@
 title: "Picking your first mounted pair"
 author: "Luke Schierer"
 weight: 2
+tags = "recommendation"
 ---
 
 In the [Overview][], I explain my thinking.  This is a fairly long article, but

@@ -2,6 +2,7 @@
 title: "Picking your first ground pair"
 author: "Luke Schierer"
 weight: 5
+tags = "recommendation"
 ---
 
 In the [Overview][], I explain my thinking.  This is a fairly long article, but

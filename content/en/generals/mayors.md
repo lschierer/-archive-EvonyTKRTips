@@ -2,6 +2,7 @@
 title: "Picking Mayors for your Subcities"
 author: "Luke Schierer"
 weight: 5
+tags = "recommendation"
 ---
 
 {{% alert title="Explanation" color="Primary" %}}
