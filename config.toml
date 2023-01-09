@@ -179,4 +179,7 @@ languagedirection = "ltr"
   name = 'SvS'
   url = 'svs'
   weight = 3
-
+[[menu.main]]
+  name = 'Glossary'
+  url = 'glossary'
+  weight = 4
