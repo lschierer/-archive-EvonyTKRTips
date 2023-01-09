@@ -22,23 +22,20 @@ between them.  Use whichever guide you feel you understand best.
 When picking your generals, you need to consider several things. 
 
 1. If you play long enough, you will get premium generals.  You may not,
-   however, be able to *ever* fully ascend these premium generals.  This
+   however, be able to *ever* fully [ascend][] these premium generals.  This
    matters a great deal when picking your main general, but assistants are
    *comparatively* easy to replace, *until* you are ready to invest rune stones
    in an assistant general. 
-
-2. Following up on the above, a general that you can get fragments for may be 
+1. Following up on the above, a general that you can get fragments for may be 
    *theoretically* weaker than some other general, but if you cannot get
    fragments for the other general, the one you can is *in practice* stronger. 
-
-3. Most dragons are *really* only available to paying players.  If you play
+1. Most dragons are *really* only available to paying players.  If you play
    long enough you will *probably*, *eventually* get your wings, and after
    that, your second level wonder.  For a Free to Play player, this may be over
    a year.  However, that means 4 dragons.  You are unlikely to ever have any
    others.  If a general requires a dragon, do you have one for him/her?  Will
    you ever? If so, when?  Who will you use in the mean time? 
-
-4. Rune Stones are incredibly scarce.  You don't actually need most of your
+1. Rune Stones are incredibly scarce.  You don't actually need most of your
    generals to be fully maxed out however.  You can get noticeable benefit from
    a general with 3 purple specialties if you pick the right generals.  Pick
    one general to max out, either your main monster general or your main PVP
@@ -50,6 +47,8 @@ While I have seen generic generals that by random chance have attractive
 attributes (such as ore exploitation as a specialty), these are the exception.
 Also note, that the advice below represents lessons learned, things I wish I
 had understood months ago.
+
+[ascend]: <{{< relref "/glossary/#ascend" >}}>
 
 In general, unless you have more slots for generals than you know what to do
 with, stick to Historic Gold Generals.  The attributes on these will be better,
@@ -73,18 +72,18 @@ accept compromises based on the generals you randomly happen to get first.
    only join them.  If you do, you need a good monster general pair.  This is
    different than a mounted PVP pair (the generals you pick for each role are
    different).   If you care about running rallies, this general and his/her
-   assistant needs to be your priority.  (2 generals)
+   assistant needs to be your priority.  ([2 generals]({{< relref "mounted" >}}))
 
 2. Decide on make-up of your main PVP march.  This will determine your main PVP
    general and main PVP assistant.  If you run rallies, this will be the *second*
-   general you look at.  If you do not, this will be the *first*.  ( 2 generals)
+   general you look at.  If you do not, this will be the *first*.  (2 generals)
 
 3. Decide *one* troop type that you will have a TON of.  This need not be the
    same as your main PVP march (particularly if you run rallies).  You will
    *someday* use this as the bulk of your meat shield and the bulk of your keep's
    defenses.  Look for Wall Defense generals that complement this troop type.
    You need a main general and an assistant general.  The main general will be
-   the *third* general you max out.  (2 generals)
+   the *third* general you max out.  ([2 generals]({{< relref "wall" >}}))
 
 4. Look for generals that are specialized as duty generals for your keep and
    other buildings.  If you find one for a building that is too small to get a
@@ -95,8 +94,8 @@ accept compromises based on the generals you randomly happen to get first.
 5. Look for generals that are specialized as "debuff" generals.  These will be
    your sub city mayors.  You have to be careful with these.  If you do not
    plan on investing rune stones on these, they rate *very* differently than if
-   you do plan on investing rune stones on them.  (between 4 and 8 generals
-   needed, depending on how many sub cities you have)
+   you do plan on investing rune stones on them.  ([between 4 and 8 generals
+   needed, depending on how many sub cities you have]({{< relref "mayors" >}}))
 
 6. Look for Baibars and Queen Jindock.  You will someday want four Baibars and
    five Queen Jindock generals.  Take your time finding these, but if you see
