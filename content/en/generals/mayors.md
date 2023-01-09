@@ -1,9 +1,9 @@
----
-title: "Picking Mayors for your Subcities"
-author: "Luke Schierer"
-weight: 5
-tags = "recommendation"
----
++++
+title = "Picking Mayors for your Subcities"
+author = "Luke Schierer"
+weight = 5
+tags = ['recommendation']
++++
 
 {{% alert title="Explanation" color="Primary" %}}
 In the [Overview][], I explain my thinking.  This is a fairly long article, but

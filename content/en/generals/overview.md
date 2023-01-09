@@ -1,10 +1,9 @@
----
-title: "Overview of Picking Generals"
-date: 2023-01-07T02:21:11-05:00
-author: "Luke Schierer"
-weight: 1
-tags = "guide"
----
++++
+title = "Overview of Picking Generals"
+author = "Luke Schierer"
+weight = 1
+tags = ['guide']
++++
 
 Knowing what generals to keep and what generals to get rid of is an important
 topic as you start building your keep. It is a complicated question.  Most of
