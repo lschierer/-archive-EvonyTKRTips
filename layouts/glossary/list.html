@@ -12,7 +12,7 @@
         {{ partial "section-index.html" . }}
 		<dl>
 		{{ range .Site.Data.glossary.terms }} 
-			<dt>{{ .term }}</dt>
+			<dt id='{{ .term }}'>{{ .term }}</dt>
 			<dd>{{ .definition }}</dd>
 		{{ end }}
 		</dl>
