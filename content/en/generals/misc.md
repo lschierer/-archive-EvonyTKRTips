@@ -34,11 +34,11 @@ When you go into the tavern to start refreshing like crazy, you are looking for
 several different things.
 1. [Mayors][] for your sub cities.
 1. Extra copies of generals you picked in other sections of this guide.
-1. Copies of Queen Jindock.  You want at least 5 copies to use, and maybe a few
+1. Copies of Queen Jindock.  You want 5 copies to use, and maybe a few
    spare for fragments that you will someday use.
 1. Copies of Baibars.  You want at least 4 copies to use, though like Queen
    Jindock, if you see extra copies grab them for fragments.  Someday you may
-   want fragments.
+   want fragments.  If you do not have Theodora, consider getting 5 copies to use.
 1. If you see Amir Timur, having *one* copy of him to send to relics can be
    useful.  He also makes a useful assistant if you find an empty keep that for
    some reason has a ton of available [RSS][]
@@ -59,3 +59,4 @@ several different things.
 
 [RSS]: <{{< relref "/glossary/#RSS" >}}>
 
+[Mayors]: <{{< relref "mayors" >}}>
