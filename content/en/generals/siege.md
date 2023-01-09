@@ -1,7 +1,7 @@
 +++
-title = "Picking your first mounted pair"
+title = "Picking your first seige pair"
 author = "Luke Schierer"
-weight = 2
+weight = 7
 tags = ['recommendation']
 +++
 
