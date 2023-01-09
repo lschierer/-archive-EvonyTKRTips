@@ -32,5 +32,8 @@ Many thanks to the incredible work put forth by those who have come before me on
 {{% blocks/feature title="Learn More About Generals" %}}
 For information on picking your first pairs of generals, click [here]({{< relref "generals" >}}).
 {{% /blocks/feature %}}
+{{% blocks/feature title="Learn More About the SvS Event" %}}
+For information on participating in the every other week Server versus Server event, click [here]({{< relref "svs" >}}).
+{{% /blocks/feature %}}
 {{% /blocks/section %}}
 
