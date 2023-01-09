@@ -1,0 +1,11 @@
+{
+	"terms": [{
+			"term": "buff",
+			"definition": "to increase in value either by percentage or by a specified amount, typically refering to the attributes of either a general or a type of troops."
+		},
+		{
+			"term": "debuff",
+			"definition": "to decrease in value either by percentage or by a specified amount, typically refering to the attributes of either a general or a type of troops."
+		}
+	]
+}
