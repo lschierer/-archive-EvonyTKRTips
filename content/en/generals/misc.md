@@ -35,13 +35,17 @@ several different things.
 1. [Mayors][] for your sub cities.
 1. Extra copies of generals you picked in other sections of this guide.
 1. Copies of Queen Jindock.  You want 5 copies to use, and maybe a few
-   spare for fragments that you will someday use.
+   spare for fragments that you will someday use.  You will use her for
+   gathering [RSS][] from tiles.
 1. Copies of Baibars.  You want at least 4 copies to use, though like Queen
    Jindock, if you see extra copies grab them for fragments.  Someday you may
    want fragments.  If you do not have Theodora, consider getting 5 copies to use.
 1. If you see Amir Timur, having *one* copy of him to send to relics can be
-   useful.  He also makes a useful assistant if you find an empty keep that for
-   some reason has a ton of available [RSS][]
+   useful.  Load is the *only* statistic that matters for relics.  The higher
+   your load, the more you bring home.  Nothing else matters.  You can
+   influence the speed of relic exploration with research, but nothing your
+   general is or does will matter.  Amir also makes a useful assistant if you
+   find an empty keep that for some reason has a ton of available [RSS][].
 1. Some [Duty][] generals are also available in the tavern. 
 1. Certain generals necessary for the [General's Hall][] are available in the
    tavern.  If these generals come up, get them.  _**However**_, if they are
