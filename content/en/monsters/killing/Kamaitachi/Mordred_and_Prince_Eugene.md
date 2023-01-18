@@ -1,5 +1,5 @@
 +++
-title = 'Killing Warlord2 with Mordred'
+title = 'Killing Kamaitachi with Mordred'
 author = 'Luke Schierer'
 +++
 
