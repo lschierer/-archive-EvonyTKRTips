@@ -1,5 +1,5 @@
 +++
-title = 'Killing Ranged Pan Level 3 with Guan'
+title = 'Killing Ranged Pan Level 2 with Guan'
 author = 'Luke Schierer'
 +++
 
