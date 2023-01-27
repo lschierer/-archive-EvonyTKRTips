@@ -82,9 +82,19 @@ Any section using percentages below are based this base size.
     * At Academy 30, 25/25 is possible. +100%
 * Military Advance
   * Prestige
+    * At Academy 31, 7/25 is possible. +17,500
+    * At Academy 32, 13/25 is possible. +32,500
+    * At Academy 33, 17/25 is possible. +42,500
+    * At Academy 34, 25/25 is possible. +50,000
+  * Adv Prestige
+    * At Academy 33, 10/25 is possible. +40,000
+    * At Academy 34, 19/25 is possible. +76,000
+    * At Academy 35, 25/25 is possible. +100,000
   * Adv Prestige
 
 #### Military Academy
+
+I do not have this yet, and I am having trouble finding details on it. 
 
 * Siege Machine Formation
   * Strike I
