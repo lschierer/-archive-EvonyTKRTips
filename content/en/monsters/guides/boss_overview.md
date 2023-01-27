@@ -19,14 +19,30 @@ point, it will be exciting.
 
 [griffin]: <https://www.evonytkrguide.com/bosses/griffin>
 
+[Getting Started]: <{{< relref "getting_started" >}}>
+
 ### Next Steps
 
+1. Exactly what you can kill when starts to depend fairly heavily on 
+   1. your monarch gear
+   1. your research
+   1. your general pair, and how developed said pair is.
+   1. the gear your main general has, and what refines you have on that gear
+   1. your blazons 
+   1. specialized duty officers in keep buildings that offer relevant buffs
+   1. any buffs you have either purchased (such as membership cards) or won
+      (such as keep attack buffs)
+1. Because of the previous bullet point, there is no exact point at which you
+   know that you can safely hunt for something.  The examples in the [Reports][]
+   section are just that - examples. 
 1. You won't care about your t10s once you have t12s.  
 1. When you can train t11s, you do not need more than about 750,000 of them for
    monster hunting.  
    * Train a *few* extra so that you do not have to heal *immediately* if you 
-	 do take wounded, but not too many.  If your 750k t11s cannot kill it, then
-	 more of them won't help.
+	 do take wounded, but not too many.  
+	 * If your 750k t11s cannot kill it, then more of them won't help.
+	 * *However*, some of the other things mentioned in the first bullet point
+	   *might* help.
    * You will continue to use your t11s as a second, backup, march even after
      you have t12s, and as a third march when you get t13s.
 1. Having t12 mounted troops opens up a number of different monsters that have
@@ -42,3 +58,5 @@ point, it will be exciting.
    explored the limits of t13s.
 
 [ghosting]: <{{< relref "glossary/#ghosting" >}}>
+
+[Reports]: <{{< relref "killing" >}}>
