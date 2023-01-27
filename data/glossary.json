@@ -1,6 +1,10 @@
 {
 	"terms": [
 		{
+			"term": "ascending",
+			"definition": "The use of Blood of Ares and general's fragments to increase a general's star count above 5.  Stars 6-10 will show as red stars."
+		},
+		{
 			"term": "bubble",
 			"definition": "the game calls these 'Truce Agreements'.  They look like semi-circular domes over your keep and protect you from attack."
 		},
@@ -23,6 +27,10 @@
 		{
 			"term": "RSS",
 			"definition": "Short for 'resources', this includes food, lumber, stone and ore.  It is distinct from 'materials' which are used for crafting armor."
+		},
+		{
+			"term": "specialties",
+			"definition": "Extra abilities for a general available when a general reaches level 25, and activated by the use of gems and rune stones.  Each of the four specialties requires a different kind of rune stone."
 		},
 		{
 			"term": "speed-up",
