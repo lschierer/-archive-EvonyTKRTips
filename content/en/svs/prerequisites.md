@@ -1,6 +1,6 @@
 +++
 title = 'Prerequisites'
-tags = ['guides']
+tags = ['guide']
 +++
 
 First off there are two types of participation, [minimal][], and active player
