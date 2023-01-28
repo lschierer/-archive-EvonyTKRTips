@@ -24,13 +24,14 @@ point, it will be exciting.
 ### Next Steps
 
 1. Exactly what you can kill when starts to depend fairly heavily on 
+   1. your [march size][]
    1. your monarch gear
    1. your research
    1. your general pair, and how developed said pair is.
    1. the gear your main general has, and what refines you have on that gear
    1. your blazons 
    1. specialized duty officers in keep buildings that offer relevant buffs
-   1. any buffs you have either purchased (such as membership cards) or won
+   1. any [buffs][] you have either purchased (such as membership cards) or won
       (such as keep attack buffs)
 1. Because of the previous bullet point, there is no exact point at which you
    know that you can safely hunt for something.  The examples in the [Reports][]
@@ -59,4 +60,8 @@ point, it will be exciting.
 
 [ghosting]: <{{< relref "glossary/#ghosting" >}}>
 
+[buffs]: <{{< relref "glossary/#buff" >}}> 
+
 [Reports]: <{{< relref "killing" >}}>
+
+[march size]: <{{< relref "march_size" >}}>
