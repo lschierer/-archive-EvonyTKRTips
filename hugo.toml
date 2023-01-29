@@ -19,6 +19,9 @@ disableKinds = []
 [taxonomies]
 tag = "tags"
 
+[outputs]
+  home = ["HTML", "RSS"]
+
 [params.taxonomy]
 taxonomyCloud = ["tags"] # set taxonomyCloud = [] to hide taxonomy clouds
 taxonomyCloudTitle = ["Tag Cloud"] # if used, must have same length as taxonomyCloud
@@ -185,6 +188,6 @@ languagedirection = "ltr"
   url = 'svs'
   weight = 4
 [[menu.main]]
-  name = 'Glossary'
-  url = 'glossary'
+  name = 'Reference'
+  url = 'Reference'
   weight = 5

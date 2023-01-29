@@ -58,9 +58,9 @@ point, it will be exciting.
    somewhere between 600k and 700k troops in it.  The author has not fully
    explored the limits of t13s.
 
-[ghosting]: <{{< relref "glossary/#ghosting" >}}>
+[ghosting]: <{{< relref "reference/glossary#ghosting" >}}>
 
-[buffs]: <{{< relref "glossary/#buff" >}}> 
+[buffs]: <{{< relref "reference/glossary#buff" >}}> 
 
 [Reports]: <{{< relref "killing" >}}>
 

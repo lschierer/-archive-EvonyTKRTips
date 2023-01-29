@@ -1,4 +1,12 @@
 {{ define "main" }}
 {{ .Render "content" }}
 
+		<dl>
+		{{ range .Site.Data.glossary.terms }}
+			<dt id='{{ .term }}'>{{ .term }}</dt>
+			<dd>{{ .definition }}</dd>
+		{{ end }}
+		</dl>
+
+
 {{ end }}

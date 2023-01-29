@@ -48,7 +48,7 @@ attributes (such as ore exploitation as a specialty), these are the exception.
 Also note, that the advice below represents lessons learned, things I wish I
 had understood months ago.
 
-[ascend]: <{{< relref "/glossary/#ascend" >}}>
+[ascend]: <{{< relref "/reference/glossary#ascend" >}}>
 
 In general, unless you have more slots for generals than you know what to do
 with, stick to Historic Gold Generals.  The attributes on these will be better,

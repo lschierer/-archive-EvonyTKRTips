@@ -170,9 +170,9 @@ the reality has more gradations than this shows.
 {{< alert title="Note" color="Info" >}}
 Some generals have a further increase when [ascended][], or from [specialties][].
 
-[ascended]: <{{< relref "glossary/#ascending" >}}>
+[ascended]: <{{< relref "reference/glossary#ascending" >}}>
 
-[specialties]: <{{< relref "glossary/#specialties" >}}>
+[specialties]: <{{< relref "reference/glossary#specialties" >}}>
 {{< /alert >}}
 
 ### Skill Book

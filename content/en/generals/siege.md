@@ -15,9 +15,9 @@ skip it and dive right in here.
 Your Siege generals will be the *last* PvP generals you invest [rune stones][]
 and [BoA][] on.  This is because siege troops require gems to heal. 
 
-[rune stones]: <{{< relref "/glossary/#rune_stones" >}}>
+[rune stones]: <{{< relref "/reference/glossary#rune_stones" >}}>
 
-[BoA]: <{{< relref "/glossary/#BoA" >}}>
+[BoA]: <{{< relref "/reference/glossary#BoA" >}}>
 
 ### For Free to Play Players:
 
@@ -35,7 +35,7 @@ For your assistant general, assemble Suleiman the Magnificent from fragments
 from relics.  He makes one of the best assistant generals for siege troops even
 if you do have a premium general, and he pairs with all of these options. 
 
-[ascended]: <{{< relref "/glossary/#ascend" >}}>
+[ascended]: <{{< relref "/reference/glossary#ascend" >}}>
 
 ### For Light Spenders
 
@@ -73,9 +73,9 @@ developing.
 
 [ranged]: <{{< relref "ranged" >}}>
 
-[ascend]: <{{< relref "/glossary/#ascend" >}}>
+[ascend]: <{{< relref "/reference/glossary#ascend" >}}>
 
-[BoC]: <{{< relref "/glossary/#BoC" >}}>
+[BoC]: <{{< relref "/reference/glossary#BoC" >}}>
 
-[BoG]: <{{< relref "/glossary/#BoG" >}}>
+[BoG]: <{{< relref "/reference/glossary#BoG" >}}>
 

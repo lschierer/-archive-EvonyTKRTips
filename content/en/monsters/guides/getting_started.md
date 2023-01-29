@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 author: "Luke Schierer"
+weight: 1
 ---
 
 ### Get a General
