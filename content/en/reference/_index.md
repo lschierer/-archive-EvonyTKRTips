@@ -1,6 +1,10 @@
 +++
 title = "Evony Reference Material"
 simple_list = true
+type = "docs"
+
+[[cascade]]
+  type = "docs"
 
 +++
 
