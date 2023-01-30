@@ -45,10 +45,12 @@ skill books between your two generals:
 * March Size
 * March Speed
 
-For light spenders, stay away from the temptation to invest in Elise.  While
-she is theoretically the best ground general out there (by far), that is only
-true if you can give her a dragon.  You are likely to only have 2 dragons for a
-LONG time - one for ranged, and one for mounted. Elise stinks without a dragon.
+### For light spenders
+
+Stay away from the temptation to invest in Elise.  While she is theoretically
+the best ground general out there (by far), that is only true if you can give
+her a dragon.  You are likely to only have 2 dragons for a LONG time - one for
+ranged, and one for mounted. Elise stinks without a dragon.
 
 I strongly recommend one of the following as your main general:
 * Guan Yu (fragments available from the VIP Premium Packages for $50, and from
@@ -56,13 +58,19 @@ I strongly recommend one of the following as your main general:
 * Carus (fragments available fairly regularly if you buy the alliance shop card
   for $20/month)
 
+From what I have found so far, these two will be the easiest to ascend of the
+premium ground generals.  This is why I recommended against Maeda, Scipio and
+Alexander, as each of these will not pair with at least one, and sometimes both
+of the two ground generals I am recommending as main generals.  Sticking to one
+of the four below will give you the greatest flexibility/power trade-off.
+
 Look for the following generals as assistant (ordered list):
 * Alessandra (217)
 * Basil II (199)
-* Soult (182)
+* Soult (182) - he does not pair with Trajan, so only use him *after* you have
+  your premium main general.
 * Trajan (163) - start with him, but try to avoid investing rune stones and
   replace him when you get someone higher up the list
 
 Follow the same skill book recommendation as the F2P above.
-
 
