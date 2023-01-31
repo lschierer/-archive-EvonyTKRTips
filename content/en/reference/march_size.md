@@ -11,7 +11,7 @@ A break down on where your march size comes from.  Many thanks to [EvonyGuideWik
 
 [EvonyGuideWiki]: <https://evonyguidewiki.com/en/index-en/>
 
-### Rally Spot
+## Rally Spot
 
 This is your base march size.
 
@@ -61,9 +61,9 @@ Any section using percentages below are based this base size.
 * Lv39 – 500,000
 * Lv40 – 550,000
 
-### Research
+## Research
 
-#### Academy
+### Academy
 * Military
   * Coordinate
     * You can max this out with Academy 26.
@@ -92,7 +92,7 @@ Any section using percentages below are based this base size.
     * At Academy 35, 25/25 is possible. +100,000
   * Adv Prestige
 
-#### Military Academy
+### Military Academy
 
 I do not have this yet, and I am having trouble finding details on it. 
 
@@ -101,7 +101,7 @@ I do not have this yet, and I am having trouble finding details on it.
   * Strike II
   * Strike III
 
-### Monarch Gear
+## Monarch Gear
 
 I do not have the granularity I would like here.  There is actually a
 difference between having one and two pieces of each level of monarch gear, so
@@ -123,7 +123,7 @@ the reality has more gradations than this shows.
 * Lv14 War Horn +50,000
 * Lv15 War Horn +60,000
 
-### Rank
+## Rank
 
 * Knight +5,000
 * Baron +10,000
@@ -132,7 +132,7 @@ the reality has more gradations than this shows.
 * Archduke +50,000
 * Regent +100,000
 
-### VIP
+## VIP
 
 * VIP4 +4,000
 * VIP5 +6,000
@@ -157,7 +157,7 @@ the reality has more gradations than this shows.
 * VIP24 +138,000
 * VIP25 +160,000
 
-### General
+## General
 
 * King Arthur +15%
 * Barbarossa +10%
@@ -175,22 +175,22 @@ Some generals have a further increase when [ascended][], or from [specialties][]
 [specialties]: <{{< relref "reference/glossary#specialties" >}}>
 {{< /alert >}}
 
-### Skill Book
+## Skill Book
 
 * Lv1 March Size +3%
 * Lv2 March Size +6%
 * Lv3 March Size +9%
 * Lv4 March Size +12%
 
-### General's Equipment
+## General's Equipment
 
-#### Dragon, Ares Equipment
+### Dragon, Ares Equipment
 
 * Fearless Dragon Ring (Star5) +11%
 * Fearless Ares Ring (Star5) +12%
 * Ares Equipment Set Buff (equip 6 pcs) +10%
 
-#### Civilization Equipment
+### Civilization Equipment
 
 * Plantagenet Ring (Star5) +13%
 * Freedom Star (Star5) +15%
@@ -204,9 +204,9 @@ Some generals have a further increase when [ascended][], or from [specialties][]
 * Antonine Shield (Star5) +15%
 * Antonine Equipment Set Buff (equip 4 pcs) +20%
 
-### Spiritual Beast
+## Spiritual Beast
 
-#### Behemoth King, Pegasus, Nine-tailed Fox
+### Behemoth King, Pegasus, Nine-tailed Fox
 
 * Lv1 Quality Ash (0) -> +1%
 * Lv2 Quality Green (+1) -> +3%
@@ -214,9 +214,9 @@ Some generals have a further increase when [ascended][], or from [specialties][]
 * Lv9 Quality Orange (+4) -> +13%
 * Lv10 Quality Gold (+5) -> +15%
 
-### Dragon
+## Dragon
 
-#### Celtic Demon
+### Celtic Demon
 
 * Level 2 – March size N/A
 * Level 4 – March size N/A
@@ -229,11 +229,11 @@ Some generals have a further increase when [ascended][], or from [specialties][]
 * Level 14 – March size +19%
 * Level 15 – March size +?%
 
-#### Amaterasu Dragon
+### Amaterasu Dragon
 
 * 2nd Ability “Dragon Blade” – MAX +15%
 
-### Duty Officer
+## Duty Officer
 
 Assign a Duty Officer to a Rally Spot. (Requires Rally Spot level 35)
 
@@ -247,7 +247,7 @@ Assign a Duty Officer to a Rally Spot. (Requires Rally Spot level 35)
   * If specialty 3 is maxed out, an additional +6%
   * If specialty 4 is maxed out, an additional +10%
 
-### Civilization Treasure
+## Civilization Treasure
 
 Unlock and upgrade the “Imperial Seal”.
 
@@ -257,7 +257,7 @@ Unlock and upgrade the “Imperial Seal”.
 * Lv4 +22.5%
 * Lv5 +30%
 
-### Item
+## Item
 
 * Junior March Size Increase : +50% for 1 hour
 * Medium March Size Increase : +100% for 1 hour
