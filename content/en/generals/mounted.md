@@ -27,6 +27,14 @@ For Monster Assistant:
   * Mounted Defense against Monsters
   * Mounted HP against Monsters
 
+
+You could use Martinus instead of Roland, but Martinus is useless until you can
+give him a dragon.  Since you won't have two dragons until level 30, I dislike
+this approach.  Roland is useful far sooner, and saves your (red) Celtic dragon
+for your [ranged][] march.
+
+[ranged]: <{{< relref "ranged" >}}>
+
 For PVP Assistant:
 * As a FTP or light spending player, I strongly recommend that Mounted not
   be your main PVP force, there are no good options for PVP in the FTP
@@ -62,4 +70,10 @@ fast, but it is still a highly respectable pair.
 For Mounted PVP, use Roland.  See the advice given to FTP players.
 
 As you spend more, consider replacing Theodora with Custer.  You will now be
-ready for really big monsters.
+ready for really big monsters.  As you make this transition, you may want to
+use the following skill book configuration on Custer:
+* March size
+* Mounted Defense
+* Mounted HP
+
+This will maximize your hitting power at the sacrifice of some double drops.
