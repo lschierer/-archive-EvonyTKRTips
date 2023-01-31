@@ -35,20 +35,23 @@ fragments.[^230107-2]
 Looking at your troops in your Rally Spot, mentally subtract out your main PvP
 march. You want to think about what is left when that is out attacking someone.
 
-* If the remainder is mostly mounted troops, pick Jadwiga for your assistant wall general.
-* If the remainder is mostly ground troops, pick Tran Hung Dao as your assistant wall general.
+* If the remainder is mostly mounted troops, pick Queen Boudica for your assistant wall general.
+* If the remainder is mostly ground troops, pick Robert the Bruce as your assistant wall general.
 * If the remainder is mostly ranged or siege class troops, look at what is the
   next most numerous type.
-  * If the next most numerous type is ground, pick Tran Hung Dao.
-  * If the next most numerous type is mounted, pick Jadwiga.
+  * If the next most numerous type is ground, pick between Robert the Bruce and
+    Tran Hung Dao.  The former makes your ground troops stronger, the latter
+    focuses on your siege while helping your ground troops.
+  * If the next most numerous type is mounted, pick Queen Boudica.
 
 If none of these describe you, then consider Ly Thuong Kiet, but you really
 ought to question if you are ready to engage in PvP yet.
 
 {{% alert title="Event Participants" color="primary" %}}
-If you see either of the following, they are superior choices for assistants available only as part of paid events:
+If you see any of the following, they are superior choices for assistants available only as part of paid events:
 * Leo III (322) - specializes in siege troops
-* Leonidas I (296) - specializes in ground troops
+* Lautaro (260) - specializes in ground troops with a secondary effect on mounted troops.
+* Yodo-dono (232) - specializes in ranged troops with a secondary generic boost to HP.
 {{% /alert %}}
 
 [^230107-2]: See [Evony Answers][]' article on [ascending][].
