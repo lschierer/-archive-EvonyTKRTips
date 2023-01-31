@@ -189,5 +189,5 @@ languagedirection = "ltr"
   weight = 4
 [[menu.main]]
   name = 'Reference'
-  url = 'Reference'
+  url = 'reference'
   weight = 5
