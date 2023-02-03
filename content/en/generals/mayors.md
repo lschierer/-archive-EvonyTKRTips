@@ -187,3 +187,8 @@ generals are the only ones available without getting lucky in paid events.
 {{% /tab %}}
 {{< /tabpane >}}
 
+At this time, I do not recommend the use of peace time mayors for either free
+or light spenders.  I explain why [here][peace].
+
+[peace]: <{{< relref "peace_time_subcity_mayors" >}}>
+
