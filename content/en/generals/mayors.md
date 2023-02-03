@@ -15,10 +15,10 @@ skip it and dive right in here.
 
 {{% /alert %}}
 
-{{% blocks/section color="light"%}}
+{{% blocks/section color="white"%}}
 There are two approaches to picking the mayors for your subcities.
 {{% /blocks/section %}}
-{{% blocks/section color="light"%}}
+{{% blocks/section color="white"%}}
 As you look at the many generals in Evony for mayors, you are looking for what
 are called "debuff" generals.  These are generals that reduce one or more
 attributes of the attacking general and/or attacking army.  While you can
@@ -34,7 +34,10 @@ you depend on your own PvP march to do the real damage and you just want to
 survive while that happens?  If so focus on ground and mounted troops. 
 
 There are strong arguments each way, and both positions are presented better
-in other places.
+in other places.  Alternately, take a hybrid approach and look for the few
+names that appear on both lists.  These may not be the strongest mayors in one
+or both categories, but that they show in the list at all means they are still
+among the top choices available. 
 {{% /blocks/section %}}
 
 {{% blocks/section title="Reducing the Enemy's Ability to Attack You" color="light"%}}
