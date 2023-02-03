@@ -1,7 +1,7 @@
 +++
 title = 'Picking generals'
 disableTitleSeparator = true
-simple_list = true
+simple_list = false
 
 [[cascade]]
   type = "docs"
