@@ -1,5 +1,5 @@
 +++
-title = 'Killing Hydra3 with Aethelflaed and t13s'
+title = 'Killing Hydra2 with Aethelflaed and t13s'
 author = 'Luke Schierer'
 +++
 
