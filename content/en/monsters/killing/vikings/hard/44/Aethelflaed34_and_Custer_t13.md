@@ -1,5 +1,5 @@
 +++
-title = 'Killing Ymir3 with Aethelflaed and t13s'
+title = 'Killing Hard Viking 44 with Aethelflaed and t13s'
 author = 'Luke Schierer'
 +++
 
