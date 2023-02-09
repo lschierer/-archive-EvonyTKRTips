@@ -1,5 +1,5 @@
 +++
-title = 'Killing Ymir3 with Aethelflaed'
+title = 'Killing Warlord3 with Aethelflaed'
 author = 'Luke Schierer'
 +++
 
