@@ -46,5 +46,5 @@ author = 'Luke Schierer'
   * highest blazon at l6
 * Troops:
   * 1,126,575 t13 mounted
-  * 0 wounded
+  * 6,025 wounded
 
