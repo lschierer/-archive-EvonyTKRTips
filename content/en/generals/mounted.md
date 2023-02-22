@@ -22,6 +22,9 @@ PVP and monsters.  Give him the following Skill Books:
 
 For Monster Assistant:
 * You will want Li Jing
+* Key your eyes open during events you can win generals for
+  * Zhao Yun (you will have to decide if you want to use him here, or for PvP)
+  * Sun Ce
 * Use the following skill books
   * Mounted Attack against Monsters
   * Mounted Defense against Monsters
@@ -42,6 +45,7 @@ For PVP Assistant:
 * Keep your eyes open during events you can win generals for
   * Maximilian I
   * Zhao Yun
+  * Prince Eugene
   * Basil II
   * If you win one of these Give them the following
     skill books.
