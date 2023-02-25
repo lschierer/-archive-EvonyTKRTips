@@ -1,12 +1,13 @@
 +++
-title = 'Killing Ranged Pan Level 3 with Guan and t12s, v2'
+title = 'Killing Ranged Pan Level 3 with Guan and t12s, v3'
 author = 'Luke Schierer'
 +++
 
 * Main General: Guan Yu
-  * Level 34
+  * Level 35
   * Specialities:
-    * Orange Ground Troop Assault and Annihilation
+    * Gold Ground Troop Assault
+    * Orange Annihilation
     * Purple Ground Troop Ares
   * 1 Red Star
   * All 5 stars: ares sword and courageous ares helmet, fearless dragon armor, fearless dragon leg armor, courageous dragon boots, fearless dragon ring
@@ -31,10 +32,10 @@ author = 'Luke Schierer'
 * Blazons:
   * full soul set
     * highest blazon at l6
-  * full justice set
-    * highest blazon at l1
+  * full sacrifice set
+    * highest blazon at l6
     * no monster bonuses in this set
 * Troops:
-  * 1,123,625 t12 ground
-  * 18,562 wounded
+  * 1,163,625 t12 ground
+  * 12,296 wounded
 
