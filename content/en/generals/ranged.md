@@ -42,10 +42,12 @@ your main PVP march.
 
 Keep your eye out for any of the following (this is a ordered list)
 
+* Charles XII 
 * James Conrad
 * Princess Kaguya
 * Alfred the Great
 * Tomyris
+* Edward III 
 * Simeon the Great (without dragon)
 * Wallenstein
 
