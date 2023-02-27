@@ -76,4 +76,4 @@ using mounted troops.  Some tips here.
 
 [roman numerals]: <https://wikipedia.org/wiki/Roman_numerals>
 
-[mg]: <{{< relref "mounted" >}}>
+[mg]: <{{< relref "../../generals//mounted" >}}>
