@@ -23,21 +23,25 @@ officers.  This is highly advantageous.  In rough terms, there is either
 1. no general at all who specializes in being a duty officer for this building; 
 
 * Where the premium generals exist, the tavern option also generally exists. 
-  * The tavern general will often have mixed attributes, some that apply during peace time, and some that apply during PvP
-  * The premium general will usually focus more heavily on PvP
-  * The premium general may require four gold specialties, five red stars, or both, to truly be stronger than the tavern general.
+  * The premium general is almost always worth getting even if you cannot ascend the general. 
+  * You *may* be able to offset the difference by ascending the tavern general,
+    but I have not fully explored an unbalanced comparison of that type. 
+  * Hold off on using any rune stones or Blood of Ares until you are sure you
+    are going to stick with a given duty general.
 * Duty generals do _**NOT**_ benefit from skill books.
 * Duty generals _**DO**_ benefit from armor, but **ONLY** at the precise moment
   when appointed as a duty officer.  Once appointed, the armor can be removed.
   This is very important, as it means you can take the set of armor you craft
   for your wall general and cycle it through all your duty generals, saving a
   TON of time and money.
+* Some buildings require an officer full time.  Others do not. 
 
 ## Buildings with Dedicated Generals
 
 ### Archer Tower
 
 * You can start using a duty general at Archer Tower level 11
+* A duty general is necessary whenever you might be attacked.
 * Maurice of Nassau
   * Premium General
     * occasionally available to win for free from events. 
@@ -57,19 +61,27 @@ officers.  This is highly advantageous.  In rough terms, there is either
 ### Hospital
 
 * You can start using a duty general at hospital level 15
+* A duty officer is necessary whenever you are initiating the healing of
+  troops.  The officer need not stay assigned for the full duration.
 * Skanderbeg 
   * Tavern General
   * Strongest Buffs (at 3-Orange Specialties Level):
     * Hospital Capacity Increase (when Hospital Officer):  +25%
     * Healing Speed Increase (when Hospital Officer):  +12%
 
-Note, some strong players actively dislike having a hospital duty officer, they
-prefer to rely on Source of Life than on Hospital Capacity and Healing Speed.
-There are strong arguments both ways. 
+{{% alert %}}
+Some strong players actively dislike having a hospital duty officer, they
+prefer to rely on Source of Life rather than on Hospital Capacity and Healing
+Speed.  There are strong arguments both ways. 
+{{% /alert %}}
 
 ### Keep 
 
 * You can start using a duty general at keep level 16
+* Depends on the buffs of the officer.  Officers that offer troop buffs must be
+  present when those troops are used.  Construction buffs are only used when
+  construction is initiated.  You need not keep the general assigned for the
+  duration of the construction.
 * Ashoka
   * Premium General
     * occasionally available to win for free from events. 
@@ -86,6 +98,12 @@ There are strong arguments both ways.
 ### Trap Factory
 
 * You can start using a duty general at trap factory level 19
+* Should be continuously assigned.
+* This is the one place I am unsure if the premium general is worth getting.
+  Siege damage is inevitable, and the high cost of repairs is one of the
+  biggest barriers to using siege effectively in the game.  A general that
+  reduces those costs may be worth more than the difference in
+  [buffs][]/[debuffs][] that we see here.
 * Otto the Great
   * Premium General
     * I have not seen him in an event that you do not have to pay to win
@@ -105,6 +123,10 @@ There are strong arguments both ways.
 ### Academy 
 
 * You can start using a duty general at academy level 20
+* Depends on the buffs of the officer.  Officers that offer troop buffs must be
+  present when those troops are used.  Research buffs are only used when
+  research is initiated.  You need not keep the general assigned for the
+  duration of the research.
 * Hammurabi
   * Premium General
     * I have not seen him in an event that you do not have to pay to win
@@ -114,6 +136,12 @@ There are strong arguments both ways.
     * Ranged Defense Increase (when Academy Officer):  +20%
     * Siege Defense Increase (when Academy Officer):  +20%
 * Eulji Mundeok
+  * This is almost a second exception.  If you do get Hammurabi, I recommend
+    still developing Mundeok's third specialty (and only this one specialty) to
+    the Orange or even Gold level as a peace time duty officer.  As you advance
+    in the game, research starts to become prohibitively expensive in terms of
+    both time and gold.  While Mundeok only helps with the time, that is not
+    something to discount.
   * Tavern General
   * Strongest Buffs (at 3-Orange Specialties Level):
     * Research Speed Increase (when Academy Officer):  +26%
@@ -121,6 +149,7 @@ There are strong arguments both ways.
 ### Archer Camp
 
 * You can start using a duty general at archer camp level 21
+* Should be continuously assigned.
 * Sulla
   * Premium General
     * occasionally available for free from events for the very lucky
@@ -143,6 +172,7 @@ There are strong arguments both ways.
 ### Barracks
 
 * You can start using a duty general at barracks level 25
+* Should be continuously assigned.
 * Jiang Ziya
   * Premium General
     * I have not seen him in an event that you do not have to pay to win
@@ -165,6 +195,7 @@ There are strong arguments both ways.
 ### Workshop
 
 * You can start using a duty general at workshop level 29
+* Should be continuously assigned.
 * Mikhail Kutuzov
   * Premium General
     * occasionally available for free from events for the very lucky
@@ -187,6 +218,7 @@ There are strong arguments both ways.
 ### Stables
 
 * You can begin using a duty general at stables level 33
+* Should be continuously assigned.
 * Stilicho
   * Premium General
     * occasionally available for free from events for the very lucky
@@ -209,6 +241,7 @@ There are strong arguments both ways.
 ### Rally Spot
 
 * You can begin using a duty general at rally spot level 35
+* Should be continuously assigned.
 * Zhang Liang
   * Premium General
     * I have not seen him in an event that you do not have to pay to win
@@ -226,4 +259,8 @@ There are strong arguments both ways.
     * All Troop HP Increase (when Rally Spot Officer):  +5%
     * March Size Increase (when Rally Spot Officer):  +9%
 
+
+[debuffs]: <{{< relref "glossary#debuff" >}}>
+
+[buffs]: <{{< relref "glossary#buff" >}}>
 
