@@ -21,7 +21,7 @@ PvP and monsters.  Give him the following Skill Books:
 * March Size
 
 ### For Monster Assistant:
-* You will want Li Jing, who is actually the 3rd best option for Roland's PvM assistant. 
+* You will want Li Jing
 * Use the following skill books
   * Mounted Attack against Monsters
   * Mounted Defense against Monsters
@@ -29,16 +29,14 @@ PvP and monsters.  Give him the following Skill Books:
 * Key your eyes open during events you can win generals for
   * Zhao Yun 
   * Sun Ce
-  * we are considering replacing Li Jing at all only because combinations with
+  * we are considering replacing Li Jing because combinations with
     him cannot use the Mounted Attack skill book.  If we replace him, you can
     reconfigure your Roland to use the following:
     * Mounted Attack
     * Mounted Defense or Mounted HP (does not matter which)
     * March Size
-
-If you do not have the available skill books (and it takes a significant
-number) to reconfigure Roland, you will not see much benefit in replacing Li
-Jing. 
+  * Note that you may want one of these to be your PvP assistant instead of a
+    PvM assistant. See below. 
 
 You could use Martinus instead of Roland, but Martinus is useless until you can
 give him a dragon.  Since you won't have two dragons until level 30, I dislike
@@ -52,11 +50,9 @@ for your [ranged][] march.
   be your main PvP force, there are no good options for PvP in the FTP
   range.
 * Keep your eyes open during events you can win generals for
-  * Bertrand du Guesclin 
   * Maximilian I 
-  * Gaius Octavius 
-  * Mordred 
-  * Maximilian I 
+  * Zhao Yun 
+  * Sun Ce 
   * If you win one of these Give them the following
     skill books.
     * March Speed
@@ -100,5 +96,7 @@ Send her with a single troop when you join rallies.  This maximizes your double
 drop chances even better than Baibars. 
 
 ### Player versus Player (PvP) 
-For Mounted PvP, use Roland.  See the advice given to FTP players.
+For Mounted PvP, use Roland.  See the advice given to FTP players, however, be
+sure to reconfigure your Roland to use the Mounted Attack skill book as soon as
+you stop using Li Jing.
 
