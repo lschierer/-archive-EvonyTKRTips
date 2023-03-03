@@ -12,24 +12,33 @@ skip it and dive right in here.
 
 [Overview]: <{{< relref "overview.md" >}}>
 
-### For Free to Play Players:
+## For Free to Play Players:
 
 You will need to double up with Roland as your main mounted general for both
-PVP and monsters.  Give him the following Skill Books:
+PvP and monsters.  Give him the following Skill Books:
 * Mounted Defense
 * Mounted HP
 * March Size
 
-For Monster Assistant:
-* You will want Li Jing
-* Key your eyes open during events you can win generals for
-  * Zhao Yun (you will have to decide if you want to use him here, or for PvP)
-  * Sun Ce
+### For Monster Assistant:
+* You will want Li Jing, who is actually the 3rd best option for Roland's PvM assistant. 
 * Use the following skill books
   * Mounted Attack against Monsters
   * Mounted Defense against Monsters
   * Mounted HP against Monsters
+* Key your eyes open during events you can win generals for
+  * Zhao Yun 
+  * Sun Ce
+  * we are considering replacing Li Jing at all only because combinations with
+    him cannot use the Mounted Attack skill book.  If we replace him, you can
+    reconfigure your Roland to use the following:
+    * Mounted Attack
+    * Mounted Defense or Mounted HP (does not matter which)
+    * March Size
 
+If you do not have the available skill books (and it takes a significant
+number) to reconfigure Roland, you will not see much benefit in replacing Li
+Jing. 
 
 You could use Martinus instead of Roland, but Martinus is useless until you can
 give him a dragon.  Since you won't have two dragons until level 30, I dislike
@@ -38,23 +47,25 @@ for your [ranged][] march.
 
 [ranged]: <{{< relref "ranged" >}}>
 
-For PVP Assistant:
+### For PvP Assistant:
 * As a FTP or light spending player, I strongly recommend that Mounted not
-  be your main PVP force, there are no good options for PVP in the FTP
+  be your main PvP force, there are no good options for PvP in the FTP
   range.
 * Keep your eyes open during events you can win generals for
-  * Maximilian I
-  * Zhao Yun
-  * Prince Eugene
-  * Basil II
+  * Bertrand du Guesclin 
+  * Maximilian I 
+  * Gaius Octavius 
+  * Mordred 
+  * Maximilian I 
   * If you win one of these Give them the following
     skill books.
     * March Speed
     * Mounted March Speed
     * Mounted Attack
 
-### For Light Spenders
+## For Light Spenders
 
+### Mounted against Monsters (PvM)
 I recommend using periodic events like Advanced Journey until you get
 Aethelflaed.  Do as many of these events as you can, you will need many copies
 of her.  It will take you longer to fully ascend her, but it is worth it.  She
@@ -71,8 +82,6 @@ fast, but it is still a highly respectable pair.
 * luck
 * either Mounted defense or mounted HP (does not strongly matter which)
 
-For Mounted PVP, use Roland.  See the advice given to FTP players.
-
 As you spend more, consider replacing Theodora with Custer.  You will now be
 ready for really big monsters.  As you make this transition, you may want to
 use the following skill book configuration on Custer:
@@ -81,3 +90,15 @@ use the following skill book configuration on Custer:
 * Mounted HP
 
 This will maximize your hitting power at the sacrifice of some double drops.
+
+If you do replace Theodora with Custer, use Theodora by configuring her with
+* March Speed
+* March Speed against Monsters
+* Luck
+
+Send her with a single troop when you join rallies.  This maximizes your double
+drop chances even better than Baibars. 
+
+### Player versus Player (PvP) 
+For Mounted PvP, use Roland.  See the advice given to FTP players.
+
