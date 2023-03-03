@@ -6,14 +6,14 @@ Thanks to [EvonyGuideWiki][] for this.[^230303-1]
 
 |Condition|Basic Buff|Marching|In-City/Defending|Reinforcing|
 | --- | --- | --- | --- | --- |
-| Solo Attack | x | x | 
-| Rally Owner | x | x |
-| Rally Participant | x | x |
-| Defense (Self City) | x | x |
-| Defense (Camp) | x |  | x |
-| Defense (Buildings, Relics) | x | x | | x |
-| Reinforcement (Ally's city) | x |  | x | x |
-| Reinforcement (Buildings, Relics) | x | x | |x |
+| Solo Attack                       | x | x | 
+| Rally Owner                       | x | x |
+| Rally Participant                 | x | x |
+| Defense (Self City)               | x |   | x |
+| Defense (Camp)                    | x | x |
+| Defense (Buildings, Relics)       | x | x |   | x |
+| Reinforcement (Ally's city)       | x |   | x | x |
+| Reinforcement (Buildings, Relics) | x | x |   | x |
 
 [EvonyGuideWiki]: <https://evonyguidewiki.com>
 
