@@ -13,7 +13,7 @@ Thanks to [EvonyGuideWiki][] for this.[^230303-1]
 | Defense (Camp) | x |  | x |
 | Defense (Buildings, Relics) | x | x | | x |
 | Reinforcement (Ally's city) | x |  | x | x |
-| Reinforcement (Buildings, Relics) | x | x | | | x |
+| Reinforcement (Buildings, Relics) | x | x | |x |
 
 [EvonyGuideWiki]: <https://evonyguidewiki.com>
 
