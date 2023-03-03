@@ -27,11 +27,11 @@ officers.  This is highly advantageous.  In rough terms, there is either
   * The premium general will usually focus more heavily on PvP
   * The premium general may require four gold specialties, five red stars, or both, to truly be stronger than the tavern general.
 * Duty generals do _**NOT**_ benefit from skill books.
-* Duty generals _**DO**_ benefit from armor, but **ONLY** when appointed as a
-  duty officer.  Once appointed, the armor can be removed.  This is very
-  important, as it means you can take the set of armor you craft for your wall
-  general and cycle it through all your duty generals, saving a TON of time and
-  money.
+* Duty generals _**DO**_ benefit from armor, but **ONLY** at the precise moment
+  when appointed as a duty officer.  Once appointed, the armor can be removed.
+  This is very important, as it means you can take the set of armor you craft
+  for your wall general and cycle it through all your duty generals, saving a
+  TON of time and money.
 
 ## Buildings with Dedicated Generals
 
