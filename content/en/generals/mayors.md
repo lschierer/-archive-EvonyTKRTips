@@ -56,64 +56,72 @@ generals are the only ones available without getting lucky in paid events.
 
 {{< tabpane text=true right=true >}}
 {{% tab header="Fully Ascended/4 Yellows" %}}
-1. Darius I - Grade:  A+  (100.0% - 640) 
-1. Yeon Gaesomun - Grade:  A  (94.2% - 603) 
-1. Amr ibn al-As - Grade:  A  (92.7% - 593) 
-1. Jester - Grade:  A-  (90.8% - 581) 
-1. Cnut the Great - Grade:  A-  (89.8% - 575) 
-1. Mark Antony - Grade:  A-  (87.5% - 560) 
-1. Constantine the Great - Grade:  B+  (85.2% - 545) 
-1. Baldwin IV - Grade:  B  (82.0% - 525) 
-1. Nordic Barbarian King - Grade:  B  (82.0% - 525) 
-1. Flavius Aetius - Grade:  C  (70.6% - 452) 
-1. David Farragut - Grade:  C  (69.1% - 442)
-1. **Harald - Grade:  C  (68.4% - 438)**
-1. **Margaret I - Grade:  C-  (66.4% - 425)**
+1. Darius I - Grade:  A+  (100.0% - 637)
+1. Yeon Gaesomun - Grade:  A  (94.7% - 603)
+1. Gilgamesh - Grade:  A  (94.0% - 599)
+1. Amr ibn al-As - Grade:  A  (92.9% - 592)
+1. Jester - Grade:  A-  (90.9% - 579)
+1. Cnut the Great - Grade:  A-  (90.3% - 575)
+1. Mark Antony - Grade:  A-  (87.6% - 558)
+1. Constantine the Great - Grade:  B+  (85.4% - 544)
+1. Baldwin IV - Grade:  B  (82.4% - 525)
+1. Nordic Barbarian King - Grade:  B  (82.4% - 525)
+1. Flavius Aetius - Grade:  C  (71.3% - 454)
+1. David Farragut - Grade:  C  (69.4% - 442)
+1. **Harald - Grade:  C  (68.8% - 438)**
+1. **Margaret I - Grade:  C-  (67.0% - 427)**
+1. **Mansa Musa - Grade:  C-  (63.4% - 404)**
 {{% /tab %}}
 {{% tab header="4 Yellow Specialties" %}}
-1. Darius I - Grade:  A+  (100.0% - 332)
-1. Yeon Gaesomun - Grade:  A+  (99.4% - 330)
-1. Baldwin IV - Grade:  A  (94.9% - 315)
-1. Jester - Grade:  A  (92.2% - 306)
-1. Cnut the Great - Grade:  A-  (88.6% - 294)
-1. Mark Antony - Grade:  B+  (85.8% - 285)
-1. **Himiko - Grade:  B+  (84.6% - 281)**
-1. Amr ibn al-As - Grade:  B  (81.9% - 272)
-1. **Mansa Musa - Grade:  B-  (78.9% - 262)**
-1. Nordic Barbarian King - Grade:  B-  (77.7% - 258)
-1. **Margaret I - Grade:  B-  (76.8% - 255)**
-1. David Farragut - Grade:  B-  (76.5% - 254)
-1. Constantine the Great - Grade:  B-  (75.6% - 251)
+1. Darius I - Grade:  A+  (100.0% - 334)
+1. Yeon Gaesomun - Grade:  A+  (99.1% - 331)
+1. Baldwin IV - Grade:  A  (94.9% - 317)
+1. Jester - Grade:  A  (91.9% - 307)
+1. Gilgamesh - Grade:  A-  (91.0% - 304)
+1. Cnut the Great - Grade:  A-  (88.6% - 296)
+1. Mark Antony - Grade:  B+  (85.9% - 287)
+1. **Himiko - Grade:  B+  (85.9% - 287)**
+1. Amr ibn al-As - Grade:  B  (81.7% - 273)
+1. **Mansa Musa - Grade:  B  (79.6% - 266)**
+1. Nordic Barbarian King - Grade:  B-  (77.8% - 260)
+1. **Margaret I - Grade:  B-  (77.5% - 259)**
+1. David Farragut - Grade:  B-  (76.6% - 256)
+1. Constantine the Great - Grade:  C+  (75.4% - 252)
+1. Flavius Aetius - Grade:  C+  (75.4% - 252)
 {{% /tab %}}
 {{% tab header="3 Orange Specialties" %}}
-1. Yeon Gaesomun – Grade:  A+  (100.0% - 211)
-1. Darius I – Grade:  A+  (96.2% - 203)
-1. Baldwin IV – Grade:  A  (94.8% - 200)
-1. Mark Antony – Grade:  A-  (88.6% - 187)
-1. **Harald – Grade:  A-  (87.7% - 185)**
-1. **Margaret I – Grade:  B+  (85.8% - 181)**
-1. Amr ibn al-As – Grade:  B+  (85.3% - 180)
-1. Jester – Grade: Grade:  B+  (84.8% - 179)
-1. Cnut the Great – Grade:  B+  (83.9% - 177)
-1. **Arminius – Grade:   B  (82.5% - 174)**
-1. Nordic Barbarian King – Grade:  B  (82.5% - 174)
-1. **Andrew Jackson – Grade:  B  (80.6% - 170)**
-1. **Mansa Musa – Grade:  B-  (78.2% - 165)**
+1. Yeon Gaesomun - Grade:  A+  (100.0% - 219)
+1. Darius I - Grade:  A+  (96.8% - 212)
+1. Baldwin IV - Grade:  A  (95.4% - 209)
+1. Gilgamesh - Grade:  A-  (89.5% - 196)
+1. Mark Antony - Grade:  A-  (89.5% - 196)
+1. **Mansa Musa - Grade:  A-  (89.5% - 196)**
+1. **Harald - Grade:  A-  (88.6% - 194)**
+1. Amr ibn al-As - Grade:  B+  (85.8% - 188)
+1. Jester - Grade:  B+  (85.4% - 187)
+1. Cnut the Great - Grade:  B+  (84.9% - 186)
+1. Nordic Barbarian King - Grade:  B+  (83.6% - 183)
+1. **Margaret I - Grade:  B  (83.1% - 182)**
+1. **Arminius - Grade:  B  (83.1% - 182)**
+1. Constantine the Great - Grade:  B  (80.8% - 177)
+1. **Himiko - Grade:  B-  (78.5% - 172)**
 {{% /tab %}}
 {{% tab header="3 Purple Specialties" %}}
-1. Yeon Gaesomun – Grade:  A+  (100.0% - 205)
-1. Darius I – Grade:  A  (92.2% - 189)
-1. Baldwin IV – Grade:  A-  (90.7% - 186)
-1. **Harald – Grade:  B+  (87.3% - 179)**
-1. **Margaret I – Grade:  B+  (84.9% - 174)**
-1. Amr ibn al-As – Grade:  B+  (84.9% - 174)
-1. Mark Antony – Grade:  B+  (84.4% - 173)
-1. Jester – Grade:  B+  (83.9% - 172)
-1. Nordic Barbarian King – Grade:  B  (82.0% - 168)
-1. Cnut the Great – Grade:  B-  (78.5% - 161)
-1. **Arminius – Grade:   B-  (77.6% - 159)**
-1. **Mansa Musa – Grade:  B-  (77.1% - 158)**
-1. **Andrew Jackson – Grade:  B-  (75.6% - 155)**
+1. Yeon Gaesomun - Grade:  A+  (100.0% - 213)
+1. Darius I - Grade:  A  (93.0% - 198)
+1. Baldwin IV - Grade:  A  (91.5% - 195)
+1. Gilgamesh - Grade:  A-  (89.2% - 190)
+1. **Mansa Musa - Grade:  A-  (88.3% - 188)**
+1. **Harald - Grade:  A-  (88.3% - 188)**
+1. Mark Antony - Grade:  B+  (85.4% - 182)
+1. Amr ibn al-As - Grade:  B+  (85.4% - 182)
+1. Jester - Grade:  B+  (84.5% - 180)
+1. **Margaret I - Grade:  B+  (84.0% - 179)**
+1. Nordic Barbarian King - Grade:  B  (83.1% - 177)
+1. Constantine the Great - Grade:  B  (82.2% - 175)
+1. Cnut the Great - Grade:  B  (79.8% - 170)
+1. **Arminius - Grade:  B-  (78.4% - 167)**
+1. Maximilian I - Grade:  C+  (74.2% - 158)
 {{% /tab %}}
 {{< /tabpane >}}
 
@@ -132,64 +140,72 @@ generals are the only ones available without getting lucky in paid events.
 
 {{< tabpane text=true right=true >}}
 {{% tab header="Fully Ascended/4 Yellows" %}}
-1. Nordic Barbarian King - Grade:  A+  (100.0% - 799)
-1. **Empress Dowager Cixi - Grade:  A-  (90.4% - 722)**
-1. Darius I - Grade:  A-  (88.7% - 709)
-1. **Nero - Grade:  A-  (88.5% - 707)**
-1. Amr ibn al-As - Grade:  A-  (88.4% - 706)
-1. Cnut the Great - Grade:  A-  (88.0% - 703)
-1. Yeon Gaesomun - Grade:  B+  (86.0% - 687)
-1. David Farragut - Grade:  B-  (76.3% - 610)
-1. **Harald - Grade:  B-  (75.6% - 604)**
-1. Mark Antony - Grade:  C+  (74.6% - 596)
-1. **Mansa Musa - Grade:  C  (70.3% - 562)**
-1. **Arminius - Grade:  D+  (59.4% - 475)**
-1. Flavius Aetius - Grade:  D+  (54.8% - 438)
+1. Gilgamesh - Grade:  A+  (100.0% - 946)
+1. Nordic Barbarian King - Grade:  B+  (84.4% - 798)
+1. **Empress Dowager Cixi - Grade:  B-  (76.3% - 722)**
+1. **Nero - Grade:  C+  (74.7% - 707)**
+1. Darius I - Grade:  C+  (74.6% - 706)
+1. Amr ibn al-As - Grade:  C+  (74.4% - 704)
+1. Cnut the Great - Grade:  C+  (74.3% - 703)
+1. Yeon Gaesomun - Grade:  C+  (72.3% - 684)
+1. David Farragut - Grade:  C-  (64.5% - 610)
+1. **Harald - Grade:  C-  (63.7% - 603)**
+1. Mark Antony - Grade:  C-  (62.8% - 594)
+1. **Mansa Musa - Grade:  D+  (59.7% - 565)**
+1. **Arminius - Grade:  D  (50.0% - 473)**
+1. Flavius Aetius - Grade:  D  (46.6% - 441)
+1. **Andrew Jackson - Grade:  D-  (39.4% - 373)**
 {{% /tab %}}
 {{% tab header="4 Yellow Specialties" %}}
-1. **Empress Dowager Cixi - Grade:  A+  (100.0% - 379)**
-1. **Nero - Grade:  A+  (95.5% - 362)**
-1. **Harald - Grade:  B+  (84.4% - 320)**
-1. **Mansa Musa - Grade:  B  (81.8% - 310)**
-1. Nordic Barbarian King - Grade:  B-  (79.4% - 301)
-1. Darius I - Grade:  B-  (79.4% - 301)
-1. Cnut the Great - Grade:  B-  (76.8% - 291)
-1. **Suleiman the Magnificent - Grade:  C+  (74.9% - 284)**
-1. David Farragut - Grade:  C+  (71.5% - 271)
-1. **Arminius - Grade:  C  (70.2% - 266)**
-1. Amr ibn al-As - Grade:  C  (69.4% - 263)
-1. Yeon Gaesomun - Grade:  C-  (63.9% - 242)
-1. Mark Antony - Grade:  D+  (59.4% - 225)
+1. Gilgamesh - Grade:  A+  (100.0% - 482)
+1. **Empress Dowager Cixi - Grade:  B-  (79.0% - 381)**
+1. **Nero - Grade:  C+  (75.1% - 362)**
+1. **Harald - Grade:  C-  (66.4% - 320)**
+1. **Mansa Musa - Grade:  C-  (65.6% - 316)**
+1. Nordic Barbarian King - Grade:  C-  (62.7% - 302)
+1. Darius I - Grade:  C-  (62.2% - 300)
+1. Cnut the Great - Grade:  D+  (60.8% - 293)
+1. **Suleiman the Magnificent - Grade:  D+  (58.7% - 283)**
+1. David Farragut - Grade:  D+  (56.6% - 273)
+1. **Arminius - Grade:  D+  (55.2% - 266)**
+1. Amr ibn al-As - Grade:  D+  (55.0% - 265)
+1. Yeon Gaesomun - Grade:  D  (50.0% - 241)
+1. Mark Antony - Grade:  D  (47.1% - 227)
+1. Flavius Aetius - Grade:  D  (45.2% - 218)
 {{% /tab %}}
 {{% tab header="3 Orange Specialties" %}}
-1. **Empress Dowager Cixi – Grade:  A+  (100.0% - 234)**
-1. **Nero – Grade:  A  (92.7% - 217)**
-1. **Harald – Grade:  A  (91.9% - 215)**
-1. Nordic Barbarian King –  A-  (90.2% - 211)
-1. David Farragut – Grade:  B+  (87.2% - 204)
-1. Darius I – Grade:  B  (80.3% - 188)
-1. **Suleiman the Magnificent – Grade:  B-  (78.6% - 184)**
-1. Yeon Gaesomun – Grade:  C+  (72.2% - 169)
-1. Cnut the Great – Grade:  C  (70.1% - 164)
-1. Amr ibn al-As – Grade:  C-  (66.2% - 155)
-1. Mark Antony – Grade:  C-  (65.4% - 153)
-1. **Arminius – Grade:  C-  (62.4% - 146)**
-1. **Honda Tadakatsu – Grade: D+ (57.7% - 135)**
+1. Gilgamesh - Grade:  A+  (100.0% - 278)
+1. **Empress Dowager Cixi - Grade:  B+  (87.4% - 243)**
+1. **Nero - Grade:  B  (80.6% - 224)**
+1. **Harald - Grade:  B  (79.9% - 222)**
+1. Nordic Barbarian King - Grade:  B-  (78.8% - 219)
+1. David Farragut - Grade:  B-  (76.6% - 213)
+1. Darius I - Grade:  C  (69.8% - 194)
+1. **Suleiman the Magnificent - Grade:  C  (68.3% - 190)**
+1. Yeon Gaesomun - Grade:  C-  (62.9% - 175)
+1. Cnut the Great - Grade:  C-  (62.2% - 173)
+1. **Mansa Musa - Grade:  D+  (59.7% - 166)**
+1. Amr ibn al-As - Grade:  D+  (59.0% - 164)
+1. Mark Antony - Grade:  D+  (58.3% - 162)
+1. **Arminius - Grade:  D+  (55.0% - 153)**
+1. **Robert Guiscard - Grade:  D+  (54.0% - 150)**
 {{% /tab %}}
 {{% tab header="3 Purple Specialties" %}}
-1. **Empress Dowager Cixi – Grade:  A+  (100.0% - 208)**
-1. **Nero – Grade:  A  (92.2% - 201)**
-1. **Harald – Grade:  A  (92.2% - 201)**
-1. Nordic Barbarian King – Grade:  A-  (90.4% - 197)
-1. David Farragut – Grade:  B+  (87.2% - 190)
-1. Darius I – Grade:  B  (83.5% - 182)
-1. **Suleiman the Magnificent – Grade:  B-  (78.4% - 171)**
-1. Cnut the Great – Grade:  C+  (71.6% - 156)
-1. Yeon Gaesomun – Grade:  C  (71.1% - 155)
-1. Mark Antony – Grade:  C-  (67.4% - 147)
-1. Amr ibn al-As – Grade:  C-  (64.7% - 141)
-1. **Arminius – Grade:  C-  (63.8% - 139)**
-1. **Robert Guiscard – Grade: D+ (61.0% - 133)**
+1. Gilgamesh - Grade:  A+  (100.0% - 264)
+1. **Empress Dowager Cixi - Grade:  B+  (86.0% - 227)**
+1. **Nero - Grade:  B-  (78.8% - 208)**
+1. **Harald - Grade:  B-  (78.8% - 208)**
+1. Nordic Barbarian King - Grade:  B-  (77.7% - 205)
+1. David Farragut - Grade:  C+  (75.4% - 199)
+1. Darius I - Grade:  C  (71.2% - 188)
+1. **Suleiman the Magnificent - Grade:  C-  (67.0% - 177)**
+1. Cnut the Great - Grade:  C-  (62.5% - 165)
+1. Yeon Gaesomun - Grade:  D+  (61.0% - 161)
+1. **Mansa Musa - Grade:  D+  (59.8% - 158)**
+1. Mark Antony - Grade:  D+  (59.1% - 156)
+1. Amr ibn al-As - Grade:  D+  (56.8% - 150)
+1. **Robert Guiscard - Grade:  D+  (56.1% - 148)**
+1. **Arminius - Grade:  D+  (55.3% - 146)**
 {{% /tab %}}
 {{< /tabpane >}}
 
@@ -216,138 +232,160 @@ can help make the decision.
 
 {{< tabpane text=true right=true >}}
 {{% tab header="Fully Ascended/4 Yellows" %}}
-1. Darius I - Grade:  A+  (100.0% - 926)
-1. Nordic Barbarian King - Grade:  A+  (98.5% - 912)
-1. Yeon Gaesomun - Grade:  A+  (96.1% - 890)
-1. Amr ibn al-As - Grade:  A  (94.9% - 879)
-1. Cnut the Great - Grade:  A  (94.2% - 872)
-1. Mark Antony - Grade:  A-  (91.5% - 847)
-1. **Empress Dowager Cixi - Grade:  B+  (84.7% - 784)**
-1. **Nero - Grade:  B+  (84.6% - 783)**
-1. Constantine the Great - Grade:  B  (79.9% - 740)
-1. David Farragut - Grade:  B-  (78.2% - 724)
-1. Jester - Grade:  B-  (77.8% - 720)
-1. **Harald - Grade:  B-  (76.1% - 705)**
-1. Baldwin IV - Grade:  B-  (75.9% - 703)
-1. **Mansa Musa - Grade:  C  (69.0% - 639)**
-1. Flavius Aetius - Grade:  C-  (64.9% - 601)
-1. **Arminius - Grade:  C-  (63.0% - 583)**
-1. Catherine II - Grade:  C-  (61.8% - 572)
-1. **Margaret I - Grade:  D+  (61.4% - 569)**
-1. **Pompey - Grade:  D+  (57.3% - 531)**
-1. **Andrew Jackson - Grade:  D+  (55.7% - 515.8)**
-1. **Empress Wu - Grade:  D  (51.4% - 476)**
-1. **Charles the Great - Grade:  D  (49.8% - 461)**
-1. **Lincoln - Grade:  D  (48.7% - 451)**
-1. **King Sejong - Grade:  D  (48.1% - 445)**
-1. **Suleiman the Magnificent - Grade:  D  (41.8% - 387)**
-1. **Himiko - Grade:  D-  (35.3% - 327)**
-1. **Vladimir the Great - Grade:  D-  (34.7% - 321)**
-1. Maximilian I - Grade:  D-  (34.6% - 320)
-1. **Honda Tadakatsu - Grade:  D-  (31.9% - 295)**
-1. **Edward the Black Prince - Grade:  D-  (31.9% - 295)**
-1. **Alexander Nevski - Grade:  D-  (31.5% - 292)**
-1. **Mehmed II - Grade:  D-  (30.0% - 278)**
-1. **Wei Qing - Grade:  D-  (24.5% - 227)**
-1. **Gustavus Adolphus - Grade:  D-  (24.2% - 224)**
-1. Elizabeth I - Grade:  D-  (22.9% - 212)
-1. **Robert Guiscard - Grade:  D-  (21.2% - 196)**
+1. Gilgamesh - Grade:  A+  (100.0% - 1066)
+1. Darius I - Grade:  B+  (86.5% - 922)
+1. Nordic Barbarian King - Grade:  B+  (85.5% - 911)
+1. Yeon Gaesomun - Grade:  B  (83.2% - 887)
+1. Amr ibn al-As - Grade:  B  (82.3% - 877)
+1. Cnut the Great - Grade:  B  (81.8% - 872)
+1. Mark Antony - Grade:  B-  (79.3% - 845)
+1. **Empress Dowager Cixi - Grade:  C+  (73.5% - 784)**
+1. **Nero - Grade:  C+  (73.4% - 782)**
+1. Constantine the Great - Grade:  C  (69.3% - 739)
+1. David Farragut - Grade:  C  (67.9% - 724)
+1. Jester - Grade:  C-  (67.4% - 718)
+1. **Harald - Grade:  C-  (66.0% - 704)**
+1. Baldwin IV - Grade:  C-  (65.9% - 702)
+1. **Mansa Musa - Grade:  D+  (60.3% - 643)**
+1. Flavius Aetius - Grade:  D+  (56.8% - 605)
+1. **Arminius - Grade:  D+  (54.5% - 581)**
+1. **Margaret I - Grade:  D+  (53.8% - 573)**
+1. Catherine II - Grade:  D  (52.0% - 554)
+1. **Pompey - Grade:  D  (49.7% - 530)**
+1. **Andrew Jackson - Grade:  D  (48.6% - 518)**
+1. **Empress Wu - Grade:  D  (44.5% - 474)**
+1. **Charles the Great - Grade:  D  (43.1% - 459)**
+1. **Lincoln - Grade:  D  (42.7% - 455)**
+1. **King Sejong - Grade:  D  (41.6% - 443)**
+1. **Suleiman the Magnificent - Grade:  D-  (36.0% - 384)**
+1. **Himiko - Grade:  D-  (31.2% - 333)**
+1. **Vladimir the Great - Grade:  D-  (30.5% - 325)**
+1. Maximilian I - Grade:  D-  (29.8% - 318)
+1. **Edward the Black Prince - Grade:  D-  (28.1% - 300)**
+1. **Honda Tadakatsu - Grade:  D-  (28.0% - 299)**
+1. **Alexander Nevski - Grade:  D-  (27.8% - 296)**
+1. **Mehmed II - Grade:  D-  (26.4% - 281)**
+1. **Wei Qing - Grade:  D-  (21.9% - 233)**
+1. **Gustavus Adolphus - Grade:  D-  (21.5% - 229)**
+1. Elizabeth I - Grade:  D-  (19.5% - 208)
+1. **Robert Guiscard - Grade:  D-  (19.0% - 203)**
 {{% /tab %}}
 {{% tab header="4 Yellow Specialties" %}}
-1. Cnut the Great - Grade:  A-  (91.4% - 395)
-1. Yeon Gaesomun - Grade:  A-  (90.3% - 390)
-1. **Empress Dowager Cixi - Grade:  A-  (89.6% - 387)**
-1. Nordic Barbarian King - Grade:  A-  (87.7% - 379)
-1. **Harald - Grade:  B+  (87.0% - 376)**
-1. **Nero - Grade:  B+  (86.3% - 373)**
-1. **Mansa Musa - Grade:  B+  (83.8% - 362)**
-1. David Farragut - Grade:  B  (83.3% - 360)
-1. Jester - Grade:  B  (83.3% - 360)
-1. Baldwin IV - Grade:  B  (82.6% - 357)
-1. Amr ibn al-As - Grade:  B  (81.5% - 352)
-1. **Arminius - Grade:  B  (80.8% - 349)**
-1. Mark Antony - Grade:  B  (80.1% - 346)
-1. Flavius Aetius - Grade:  C+  (72.0% - 311)
-1. **Margaret I - Grade:  C  (70.4% - 304)**
-1. **Suleiman the Magnificent - Grade:  C  (69.0% - 298)**
-1. **Himiko - Grade:  C  (69.0% - 298)**
-1. Maximilian I - Grade:  C-  (64.8% - 280)
-1. **Andrew Jackson - Grade:  C-  (63.4% - 273.8)**
-1. Constantine the Great - Grade:  C-  (62.7% - 271)
-1. **Vladimir the Great - Grade:  D+  (60.9% - 263)**
-1. **Honda Tadakatsu - Grade:  D  (50.7% - 219)**
-1. **Edward the Black Prince - Grade:  D  (47.0% - 203)**
-1. **Alexander Nevski - Grade:  D  (46.8% - 202)**
-1. Elizabeth I - Grade:  D  (43.3% - 187)
-1. **Robert Guiscard - Grade:  D-  (39.4% - 170)**
-1. **Wei Qing - Grade:  D-  (39.1% - 169)**
-1. **Mehmed II - Grade:  D-  (35.9% - 155)**
-1. **Pompey - Grade:  D-  (35.6% - 154)**
-1. **Gustavus Adolphus - Grade:  D-  (35.0% - 151)**
+1. Gilgamesh - Grade:  A+  (100.0% - 547)
+1. Darius I - Grade:  B-  (79.2% - 433)
+1. Cnut the Great - Grade:  C+  (72.8% - 398)
+1. Yeon Gaesomun - Grade:  C  (71.3% - 390)
+1. **Empress Dowager Cixi - Grade:  C  (70.9% - 388)**
+1. Nordic Barbarian King - Grade:  C  (69.8% - 382)
+1. **Harald - Grade:  C  (68.9% - 377)**
+1. **Nero - Grade:  C  (68.4% - 374)**
+1. **Mansa Musa - Grade:  C-  (67.5% - 369)**
+1. David Farragut - Grade:  C-  (66.4% - 363)
+1. Jester - Grade:  C-  (66.0% - 361)
+1. Baldwin IV - Grade:  C-  (65.6% - 359)
+1. Amr ibn al-As - Grade:  C-  (64.7% - 354)
+1. **Arminius - Grade:  C-  (64.0% - 350)**
+1. Mark Antony - Grade:  C-  (63.6% - 348)
+1. Flavius Aetius - Grade:  D+  (58.1% - 318)
+1. **Margaret I - Grade:  D+  (56.7% - 310)**
+1. **Himiko - Grade:  D+  (56.1% - 307)**
+1. **Suleiman the Magnificent - Grade:  D+  (54.3% - 297)**
+1. Maximilian I - Grade:  D  (51.7% - 283)
+1. **Andrew Jackson - Grade:  D  (51.0% - 279)**
+1. Constantine the Great - Grade:  D  (49.9% - 273)
+1. **Vladimir the Great - Grade:  D  (49.5% - 271)**
+1. **Honda Tadakatsu - Grade:  D-  (41.3% - 226)**
+1. **Edward the Black Prince - Grade:  D-  (38.6% - 211)**
+1. **Alexander Nevski - Grade:  D-  (38.4% - 210)**
+1. Elizabeth I - Grade:  D-  (34.0% - 186)
+1. **Robert Guiscard - Grade:  D-  (32.9% - 180)**
+1. **Wei Qing - Grade:  D-  (32.5% - 178)**
+1. **Mehmed II - Grade:  D-  (29.4% - 161)**
+1. **Gustavus Adolphus - Grade:  D-  (29.1% - 159)**
+1. **Pompey - Grade:  D-  (28.5% - 156)**
+1. **Charles the Great - Grade:  D-  (26.1% - 143)**
+1. **Lincoln - Grade:  D-  (21.0% - 115)**
+1. **King Sejong - Grade:  D-  (20.5% - 112)**
+1. Catherine II - Grade:  D-  (19.2% - 105)
+1. **Empress Wu - Grade:  F  (15.9% - 87)**
 {{% /tab %}}
 {{% tab header="3 Orange Specialties" %}}
-1. **Harald – Grade:  A+  (100.0% - 278)**
-1. Darius I - Grade:  A+  (97.1% - 270) 
-1. Nordic Barbarian King – Grade:  A+  (95.7% - 266)
-1. Yeon Gaesomun - Grade:  A  (94.6% - 263)
-1. **Empress Dowager Cixi – Grade:  A-  (89.6% - 249)**
-1. David Farragut – Grade:  A-  (89.2% - 248) 
-1. **Nero – Grade:  B+  (84.5% - 235)**
-1. Mark Antony – Grade:  B+  (84.5% - 235) 
-1. Cnut the Great – Grade:  B+  (83.8% - 233)
-1. Amr ibn al-As – Grade:  B  (83.1% - 231)
-1. Baldwin IV - Grade:  B  (82.4% - 229) 
-1. Jester – Grade:  B  (80.6% - 224) 
-1. **Arminius – Grade:  B-  (79.1% - 220)**
-1. **Mansa Musa – Grade:  B-  (76.3% - 212)**
-1. **Suleiman the Magnificent – Grade:  C+  (73.7% - 205)**
-1. **Margaret I – Grade:  C  (70.4% - 197)**
-1. Flavius Aetius – Grade:  C  (70.9% - 197)
-1. Constantine the Great – Grade:  C  (70.5% - 196)
-1. Maximilian – Grade:  C  (69.8% - 194) 
-1. **Andrew Jackson – Grade:  C  (69.8% - 194)**
-1. **Himiko – Grade:  C-  (65.8% - 183)**
-1. **Honda Tadakatsu – Grade:  C-  (65.8% - 183)**
-1. **Alexander Nevski – Grade:  D+  (60.1% - 167)**
-1. **Edward the Black Prince – Grade:  D+  (59.4% - 165)**
-1. **Vladimir the Great – Grade:  D+  (57.9% - 161)**
-1. **Robert Guiscard – Grade:  D+  (56.5% - 157)**
-1. **Wei Qing – Grade:  D+  (56.1% - 156)**
-1. **Gustavus Adolphus –  D  (52.2% - 145)**
-1. **Mehmed II – Grade:  D  (51.4% - 143)**
-1. Elizabeth I – Grade:  D  (49.3% - 137)
+1. Gilgamesh - Grade:  A+  (100.0% - 322) 
+1. **Harald – Grade:  B+  (86.6% - 279)**
+1. Darius I - Grade:  B+  (84.2% - 271) 
+1. Nordic Barbarian King – Grade:  B+  (83.5% - 269) 
+1. Yeon Gaesomun - Grade:  B  (81.7% - 263)
+1. David Farragut – Grade:  B-  (78.0% - 251)
+1. **Empress Dowager Cixi – Grade:  B-  (77.6% - 250)**
+1. Mark Antony – Grade:  C+  (73.6% - 237) 
+1. Cnut the Great – Grade:  C+  (73.3% - 236) 
+1. **Nero – Grade:  C+  (73.3% - 236)**
+1. Amr ibn al-As – Grade:  C+  (72.4% - 233) 
+1. Baldwin IV - Grade:  C+  (71.7% - 231)
+1. Jester – Grade:  C  (69.9% - 225)
+1. **Arminius – Grade:  C  (68.6% - 221)**
+1. **Mansa Musa – Grade:  C  (68.0% - 219)**
+1. Flavius Aetius – Grade:  C-  (63.4% - 204)
+1. **Suleiman the Magnificent – Grade:  C-  (63.4% - 204)**
+1. **Margaret I – Grade:  C-  (63.0% - 203)**
+1. **Andrew Jackson – Grade:  C-  (62.1% - 200)**
+1. Constantine the Great – Grade:  C-  (61.5% - 198)
+1. Maximilian – Grade:  D+  (61.2% - 197)
+1. **Himiko – Grade:  D+  (59.6% - 192)**
+1. **Honda Tadakatsu – Grade:  D+  (59.0% - 190)**
+1. **Alexander Nevski – Grade:  D+  (54.3% - 175)**
+1. **Edward the Black Prince – Grade:  D+  (53.7% - 173)**
+1. **Vladimir the Great – Grade:  D  (52.5% - 169)**
+1. **Robert Guiscard – Grade:  D  (51.9% - 167)**
+1. **Wei Qing – Grade:  D  (51.2% - 165)**
+1. **Gustavus Adolphus –  D  (47.5% - 153)**
+1. **Mehmed II – Grade:  D  (46.3% - 149)**
+1. Elizabeth I – Grade:  D  (42.2% - 136)
+1. **Charles the Great – Grade:  D-  (35.7% - 115)**
+1. **Pompey – Grade:  D-  (32.8% - 109)**
+1. **King Sejong – Grade:  D-  (28.9% - 93)**
+1. Catherine II – Grade:  D-  (24.2% - 78)
+1. **Empress Wu – Grade:  D-  (21.1% - 68)**
+1. **Lincoln – Grade:  D-  (20.8% - 67)**
 {{% /tab %}}
 {{% tab header="3 Purple Specialties" %}}
-1. Harald – Grade:  A+  (100.0% - 257)
-1. Darius I – Grade:  A+  (96.9% - 249)
-1. Nordic Barbarian King –  Grade:  A  (95.3% - 245)
-1. Yeon Gaesomun – Grade:  A  (93.8% - 241)
-1. David Farragut – Grade:  A-  (88.3% - 227)
-1. Empress Dowager Cixi – Grade:  A-  (87.9% - 226)
-1. Mark Antony – Grade:  B  (83.3% - 214)
-1. Nero – Grade:  B  (82.5% - 212)
-1. Cnut the Great – Grade:  B  (81.7% - 210)
-1. Amr ibn al-As – Grade:  B  (81.7% - 210)
-1. Baldwin IV – Grade:  B  (80.9% - 208)
-1. Jester – Grade:  B-  (78.6% - 202)
-1. Arminius – Grade:   B-  (77.0% - 198)
-1. Margaret I – Grade:  C+  (75.1% - 193)
-1. Suleiman the Magnificent – Grade:  C+  (72.0% - 185)
-1. Mansa Musa – Grade:  C  (69.3% - 178)
-1. Flavius Aetius – Grade:  C  (68.5% - 176)
-1. Maximillian I – Grade:  C-  (67.3% - 173)
-1. Andrew Jackson – Grade:  C-  (66.9% - 172)
-1. Constantine the Great – Grade:  C-  (66.9% - 172)
-1. Honda Tadakatsu – Grade:  C-  (63.0% - 162)
-1. Himiko – Grade:  C-  (62.6% - 161)
-1. Vladimir the Great – Grade:  D+  (59.1% - 152)
-1. Robert Guiscard – Grade: D+ (57.6% - 148)
-1. Wei Qing – Grade:  D+  (57.2% - 147)
-1. Alexander Nevski – Grade:  D+  (56.4% - 145)
-1. Edward the Black Prince – Grade:  D+  (56.0% - 144)
-1. Gustavus Adolphus – Grade:  D  (53.3% - 137)
-1. Mehmed II – Grade:  D  (52.5% - 135)
-1. Elizabeth I – Grade:  D  (49.8% - 128)
+1. Gilgamesh - Grade:  A+  (100.0% - 307)
+1. **Harald - Grade:  B+  (86.3% - 265)**
+1. Darius I - Grade:  B+  (83.7% - 257)
+1. Nordic Barbarian King - Grade:  B  (83.1% - 255)
+1. Yeon Gaesomun - Grade:  B  (80.8% - 248)
+1. David Farragut - Grade:  B-  (77.2% - 237)
+1. **Empress Dowager Cixi - Grade:  B-  (76.2% - 234)**
+1. Mark Antony - Grade:  C+  (72.6% - 223)
+1. Cnut the Great - Grade:  C+  (71.7% - 220)
+1. **Nero - Grade:  C+  (71.7% - 220)**
+1. Amr ibn al-As - Grade:  C  (71.3% - 219)
+1. Baldwin IV - Grade:  C  (70.7% - 217)
+1. **Mansa Musa - Grade:  C  (68.7% - 211)**
+1. Jester - Grade:  C  (68.4% - 210)
+1. **Arminius - Grade:  C-  (67.1% - 206)**
+1. **Margaret I - Grade:  C-  (65.1% - 200)**
+1. Constantine the Great - Grade:  C-  (63.8% - 196)
+1. **Suleiman the Magnificent - Grade:  C-  (62.2% - 191)**
+1. Flavius Aetius - Grade:  C-  (61.9% - 190)
+1. **Andrew Jackson - Grade:  D+  (60.3% - 185)**
+1. Maximilian I - Grade:  D+  (59.6% - 183)
+1. **Himiko - Grade:  D+  (57.7% - 177)**
+1. **Honda Tadakatsu - Grade:  D+  (57.3% - 176)**
+1. **Vladimir the Great - Grade:  D+  (54.4% - 167)**
+1. **Robert Guiscard - Grade:  D+  (53.7% - 165)**
+1. **Wei Qing - Grade:  D  (53.1% - 163)**
+1. **Alexander Nevski - Grade:  D  (52.1% - 160)**
+1. **Edward the Black Prince - Grade:  D  (51.8% - 159)**
+1. **Gustavus Adolphus - Grade:  D  (49.5% - 152)**
+1. **Mehmed II - Grade:  D  (48.2% - 148)**
+1. Elizabeth I - Grade:  D  (43.6% - 134)
+1. **Charles the Great - Grade:  D-  (34.9% - 107)**
+1. **Pompey - Grade:  D-  (34.5% - 106)**
+1. **King Sejong - Grade:  D-  (28.7% - 88)**
+1. Catherine II - Grade:  D-  (23.8% - 73)
+1. **Empress Wu - Grade:  D-  (20.5% - 63)**
+1. **Lincoln - Grade:  D-  (20.5% - 63)**
 {{% /tab %}}
 {{< /tabpane >}}
 

@@ -1,0 +1,198 @@
+[
+ {
+ 	"General": "Charles the Great",
+ 	"type": "Mayor",
+ 	"Leadership": 110,
+ 	"Attack": 103,
+ 	"Defense": 100,
+ 	"Politics": 114,
+ 	"4 Yellow": [{
+ 			"buffs": {
+ 				"Attack": 10,
+ 				"Defense": 10,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"First Star": [{
+ 			"buffs": {
+ 				"Attack": 15,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Second Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 5,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Third Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 5
+ 			}
+ 		}
+ 	],
+	"Fourth Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 10,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Fifth Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 20,
+ 				"Defense": 15,
+ 				"HP": 15
+ 			}
+ 		}
+ 	]
+ },
+ {
+ 	"General": "King Arthur",
+ 	"type": "Unknown",
+ 	"Leadership": 115,
+ 	"Attack": 109,
+ 	"Defense": 105,
+ 	"Politics": 94,
+ 	"4 Yellow": [{
+ 			"buffs": {
+ 				"Attack": 20,
+ 				"Defense": 10,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 6,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"First Star": [{
+ 			"buffs": {
+ 				"Attack": 20,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Second Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Third Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Fourth Star": [{
+ 			"buffs": {
+ 				"Attack": 0,
+ 				"Defense": 20,
+ 				"HP": 20
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	],
+	"Fifth Star": [{
+ 			"buffs": {
+ 				"Attack": 15,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		},
+ 		{
+ 			"debuffs": {
+ 				"Attack": 0,
+ 				"Defense": 0,
+ 				"HP": 0
+ 			}
+ 		}
+ 	]
+ }
+]
