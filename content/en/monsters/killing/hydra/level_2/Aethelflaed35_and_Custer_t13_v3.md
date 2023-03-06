@@ -1,7 +1,7 @@
 +++
-title = 'Killing Hydra 2 with Aethelflaed and t13s v2'
+title = 'Killing Hydra 2 with Aethelflaed and t13s v3'
 author = 'Luke Schierer'
-weight = 2
+weight = 3
 +++
 
 * Main General: Aethelflaed
@@ -15,19 +15,20 @@ weight = 2
     * mounted troop hp against monsters l4
   * 5.1m power
 * Assistant General: George A. Custer
-  * 3 purple specialties
+  * purple specialties: Mounted Troop Defense, Mounted Troop Ares
+  * orange specialty: Strike
   * skill books:
     * mounted troop defense l4
     * mounted troop hp l4
     * march size l4
 * Monarch Gear:
-  * L7 Thunder Staff
-  * L7 Thunder Grail
-  * L7 Thunder Decoration
+  * L8 Thunder Staff
+  * L8 Thunder Grail
+  * L8 Thunder Decoration
 * Blazons:
   * full soul set
-  * highest blazon at l6
+  * highest blazon at l7
 * Troops:
-  * 1,086,575 t13 mounted
-  * 6,307 wounded
+  * 1,131,575 t13 mounted
+  * 6,265 wounded
 
