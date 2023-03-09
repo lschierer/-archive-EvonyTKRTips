@@ -46,24 +46,25 @@ to slowly, over the course of (literally) years, assemble the fragments you
 need to [ascend][] this general.  My advice is to hang onto every copy of all
 three of the following generals that you come across:
 
-* Zucca (733)
-* Petronas (717) 
-* Septimius Serverus (651)
+* Zucca (738)
+* John Churchill (712)
+* Petronas (702) 
 
 However, only actually add skill books to whichever one you happen to get
 first, and only ever use this general in [BoC][] or [BoG][].
 
 You have lots of options for pairings depending on which general ends up being
 your main general, however, like my advice to the free players, Suleiman the
-Magnificent makes a strong choice for all of them, and the top choice for many
-of them.
+Magnificent makes the best assistant for all 3 of these. 
 
 Eventually you will have your [ranged][], [ground][], [wall][], and not just
 one [mounted][] but both a PvP and Monster pair in this type all maxed out on
 [rune stones][], and all either [ascended][] or waiting on more fragments to
 finish ascending.  *Then and only then* will you evaluate which of the three
 above generals you have the most fragments of and from that which one to start
-developing.
+developing.  In fact, you might even wait until you have *Suleiman's*
+specialties maxed out to four gold as well before deciding (although because
+Suleiman is an assistant, do not ascend him).
 
 [mounted]: <{{< relref "mounted" >}}>
 
