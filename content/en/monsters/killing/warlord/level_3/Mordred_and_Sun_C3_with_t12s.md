@@ -1,5 +1,5 @@
 +++
-title = 'Killing Ground Pan2 with Mordred and T12s'
+title = 'Killing Warlord 3 with Mordred and T12s'
 author = 'Luke Schierer'
 +++
 
