@@ -15,9 +15,9 @@ A break down on where your march size comes from.  Many thanks to [EvonyGuideWik
 
 This is your base march size.
 
-{{< tip  >}}
+{{< alert title="Note" color="info" >}}
 Any section using percentages below are based this base size.
-{{< /tip >}}
+{{< /alert >}}
 
 
 * Lv1 – 800
@@ -167,13 +167,13 @@ the reality has more gradations than this shows.
 * Matthias I +5%
 * George A. Custer +10%
 
-{{< tip >}}
+{{< alert title="Note" color="Info" >}}
 Some generals have a further increase when [ascended][], or from [specialties][].
 
 [ascended]: <{{< relref "reference/glossary#ascending" >}}>
 
 [specialties]: <{{< relref "reference/glossary#specialties" >}}>
-{{< /tip >}}
+{{< /alert >}}
 
 ## Skill Book
 

@@ -47,11 +47,11 @@ skill books between your two generals:
 * March Size
 * March Speed
 
-{{% tip "Specific General Notes" %}}
+{{% alert title="Specific General Notes" color="warning" %}}
 Note that if you use Turenne, or Soult, you _**cannot**_ use the Ground Troop Attack skill book on *either* general.
 
 Note that if you use Alessandra, she _**must**_ have the March Size Increase Skill Book.
-{{% /tip %}}
+{{% /alert %}}
 
 
 ### For light spenders
