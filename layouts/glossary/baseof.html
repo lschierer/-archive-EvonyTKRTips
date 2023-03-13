@@ -1,32 +1,44 @@
+{{ $config := site.Params }}
+{{ $context := . }}
 <!doctype html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
-    <header>
-      {{ partial "navbar.html" . }}
-    </header>
-    <div class="container-fluid td-outer">
-      <div class="td-main">
-        <div class="row flex-xl-nowrap">
-          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
-            {{ partial "sidebar.html" . }}
-          </aside>
-          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
-            {{ partial "page-meta-links.html" . }}
-            {{ partial "toc.html" . }}
-            {{ partial "taxonomy_terms_clouds.html" . }}
-          </aside>
-          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
-            {{ partial "version-banner.html" . }}
-            {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
-            {{ block "main" . }}{{ end }}
-          </main>
-        </div>
+<html lang="{{ site.Language.Lang }}"{{ with $config.enableDarkMode }} class="dark"{{ end }}{{ with $config.defaultLightingMode }}
+  data-mode="{{ . }}"
+{{ end }}>
+<head>
+  {{- partial "head" . }}
+</head>
+<body class="page-{{ .Kind }}" id="pagetop">
+  <header class="nav_header">
+    {{- partial "nav" . }}
+  </header>
+  {{ if or (eq .Section site.Params.blogDir) (eq .Type "search" ) }}
+    {{- block "main" . }}{{ end }}
+  {{ else }}
+  <div class="main wrap pt-4">
+    {{ $docSections := site.Params.docSections }}
+    {{- with $docSections }}{{- else }}
+      {{- $docSections = "docs" }}
+    {{- end }}
+    {{ $uniqueHomepage := .IsHome }}
+    {{ if site.Params.uniqueHomepage }}
+      {{ if .IsHome }}
+        {{ $uniqueHomepage = true }}
+      {{ end }}
+    {{ else }}
+      {{ $uniqueHomepage = false }}
+    {{ end }}
+    {{- if and (in $docSections .Section) (ne $uniqueHomepage true) }}
+      {{- partial "document" . }}
+    {{- else }}
+      <div class="content">
+        {{- block "main" . }}{{ end }}
       </div>
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "scripts.html" . }}
-  </body>
+    {{- end -}}
+  </div>
+  {{ end }}
+  {{- partialCached "footer" . -}}
+  {{- partialCached "sprites" . -}}
+  {{- partial "scripts/bundle" . -}}
+  {{- partial "scripts/other" . -}}
+</body>
 </html>

@@ -47,12 +47,12 @@ march. You want to think about what is left when that is out attacking someone.
 If none of these describe you, then consider Ly Thuong Kiet, but you really
 ought to question if you are ready to engage in PvP yet.
 
-{{% alert title="Event Participants" color="primary" %}}
+{{% tip "Event Participants" %}}
 If you see any of the following, they are superior choices for assistants available only as part of paid events:
 * Leo III (322) - specializes in siege troops
 * Lautaro (260) - specializes in ground troops with a secondary effect on mounted troops.
 * Yodo-dono (232) - specializes in ranged troops with a secondary generic boost to HP.
-{{% /alert %}}
+{{% /tip %}}
 
 [^230107-2]: See [Evony Answers][]' article on [ascending][].
 

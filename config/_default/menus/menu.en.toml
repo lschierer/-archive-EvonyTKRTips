@@ -1,0 +1,22 @@
+#   items
+[[main]]
+  name = "About"
+  url = '/'
+  weight = 1
+[[main]]
+  name = "Generals"
+  url = 'generals'
+  weight = 2
+[[main]]
+  name = 'Monsters'
+  url = 'monsters'
+  weight = 3
+[[main]]
+  name = 'SvS'
+  url = 'svs'
+  weight = 4
+[[main]]
+  name = 'Reference'
+  url = 'reference'
+  weight = 5
+

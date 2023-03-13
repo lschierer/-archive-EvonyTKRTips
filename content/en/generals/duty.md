@@ -69,11 +69,11 @@ officers.  This is highly advantageous.  In rough terms, there is either
     * Hospital Capacity Increase (when Hospital Officer):  +25%
     * Healing Speed Increase (when Hospital Officer):  +12%
 
-{{% alert %}}
+{{% tip %}}
 Some strong players actively dislike having a hospital duty officer, they
 prefer to rely on Source of Life rather than on Hospital Capacity and Healing
 Speed.  There are strong arguments both ways. 
-{{% /alert %}}
+{{% /tip %}}
 
 ### Keep 
 
