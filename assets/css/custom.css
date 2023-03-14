@@ -1,0 +1,15 @@
+/* Table of Contents */
+.dd-item ul,
+.dd-item li {
+	margin-left: 5px;
+}
+
+.sidenav {
+	height: 80%;
+	width: 15%;
+	position: fixed;
+	overflow: auto;
+	z-index: 1; /* Stay on top */
+	top: 10; /* Stay at the top */
+	left: 0;
+}

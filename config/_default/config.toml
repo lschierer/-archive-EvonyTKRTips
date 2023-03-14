@@ -4,6 +4,9 @@
 
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
+languageCode = "en"
+
+SectionPagesMenu = "side"
 
 enableRobotsTXT = true
 paginate = 10

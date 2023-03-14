@@ -4,6 +4,9 @@ displayName = "EN"
 isoCode = "en"
 weight = 1
 rtl = false
+contentDir = "content/en"
+
+navroot = "en/"
 
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
