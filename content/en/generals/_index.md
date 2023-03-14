@@ -1,5 +1,8 @@
 +++
 title = 'Picking generals'
+
+[[cascade]]
+   type = "docs"
 +++
 
 In the [Overview][], I explain my thinking.  This is a fairly long article, but
