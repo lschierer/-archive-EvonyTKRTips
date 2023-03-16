@@ -1,6 +1,7 @@
 ---
 title: 'Why Another Evony Guide'
 author: 'Luke Schierer'
+layout: '../../layouts/MainLayout.astro'
 ---
 
 ## Tips for Budget Gamers

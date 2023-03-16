@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@astrojs/react": "^2.1.0",
     "@cloudscape-design/components": "^3.0.229",
     "@cloudscape-design/global-styles": "^1.0.7",
     "@typescript-eslint/parser": "^5.55.0",
