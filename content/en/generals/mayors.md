@@ -15,9 +15,10 @@ skip it and dive right in here.
 
 {{% /alert %}}
 
-## Pick An Approach
+{{% blocks/section color="white"%}}
 There are two approaches to picking the mayors for your subcities.
-
+{{% /blocks/section %}}
+{{% blocks/section color="white"%}}
 As you look at the many generals in Evony for mayors, you are looking for what
 are called "debuff" generals.  These are generals that reduce one or more
 attributes of the attacking general and/or attacking army.  While you can
@@ -40,8 +41,9 @@ among the top choices available.
 
 [debuff]: <{{< relref "glossary#debuff" >}}>
 
+{{% /blocks/section %}}
 
-## Reducing the Enemy's Ability to Attack You
+{{% blocks/section title="Reducing the Enemy's Ability to Attack You" color="light"%}}
 This is for people who depend on their PvP march and are just trying to survive
 the enemy's attack in the mean time.  While you would not mind hurting the
 enemy, you are focused on preventing him/her from hurting you. 
@@ -50,8 +52,10 @@ In the tabs below, see how radically the lists change as you look at different
 levels of investment in your mayors.  I recommend Free Players use the 3 Purple
 list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
+{{% /blocks/section %}}
 
-### Fully Ascended/4 Yellows" 
+{{< tabpane text=true right=true >}}
+{{% tab header="Fully Ascended/4 Yellows" %}}
 1. Darius I - Grade:  A+  (100.0% - 637)
 1. Yeon Gaesomun - Grade:  A  (94.7% - 603)
 1. Gilgamesh - Grade:  A  (94.0% - 599)
@@ -67,8 +71,8 @@ generals are the only ones available without getting lucky in paid events.
 1. **Harald - Grade:  C  (68.8% - 438)**
 1. **Margaret I - Grade:  C-  (67.0% - 427)**
 1. **Mansa Musa - Grade:  C-  (63.4% - 404)**
-
-### 4 Yellow Specialties
+{{% /tab %}}
+{{% tab header="4 Yellow Specialties" %}}
 1. Darius I - Grade:  A+  (100.0% - 334)
 1. Yeon Gaesomun - Grade:  A+  (99.1% - 331)
 1. Baldwin IV - Grade:  A  (94.9% - 317)
@@ -84,8 +88,8 @@ generals are the only ones available without getting lucky in paid events.
 1. David Farragut - Grade:  B-  (76.6% - 256)
 1. Constantine the Great - Grade:  C+  (75.4% - 252)
 1. Flavius Aetius - Grade:  C+  (75.4% - 252)
-
-### 3 Orange Specialties
+{{% /tab %}}
+{{% tab header="3 Orange Specialties" %}}
 1. Yeon Gaesomun - Grade:  A+  (100.0% - 219)
 1. Darius I - Grade:  A+  (96.8% - 212)
 1. Baldwin IV - Grade:  A  (95.4% - 209)
@@ -101,8 +105,8 @@ generals are the only ones available without getting lucky in paid events.
 1. **Arminius - Grade:  B  (83.1% - 182)**
 1. Constantine the Great - Grade:  B  (80.8% - 177)
 1. **Himiko - Grade:  B-  (78.5% - 172)**
-
-### 3 Purple Specialties
+{{% /tab %}}
+{{% tab header="3 Purple Specialties" %}}
 1. Yeon Gaesomun - Grade:  A+  (100.0% - 213)
 1. Darius I - Grade:  A  (93.0% - 198)
 1. Baldwin IV - Grade:  A  (91.5% - 195)
@@ -118,8 +122,11 @@ generals are the only ones available without getting lucky in paid events.
 1. Cnut the Great - Grade:  B  (79.8% - 170)
 1. **Arminius - Grade:  B-  (78.4% - 167)**
 1. Maximilian I - Grade:  C+  (74.2% - 158)
+{{% /tab %}}
+{{< /tabpane >}}
 
-## Reducing the Enemy's Ability to Survive Your Attack
+
+{{% blocks/section title="Reducing the Enemy's Ability to Survive Your Attack" color="light"%}}
 This is for people who want to make the enemy regret the decision to attack
 their keep.  They plan on having enough sieged troops to totally destroy any
 incoming march.  To make this possible, they want to make each attack by their
@@ -129,8 +136,10 @@ In the tabs below, see how radically the lists change as you look at different
 levels of investment in your mayors.  I recommend Free Players use the 3 Purple
 list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
+{{< /blocks/section >}}
 
-### Fully Ascended/4 Yellows
+{{< tabpane text=true right=true >}}
+{{% tab header="Fully Ascended/4 Yellows" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 946)
 1. Nordic Barbarian King - Grade:  B+  (84.4% - 798)
 1. **Empress Dowager Cixi - Grade:  B-  (76.3% - 722)**
@@ -146,8 +155,8 @@ generals are the only ones available without getting lucky in paid events.
 1. **Arminius - Grade:  D  (50.0% - 473)**
 1. Flavius Aetius - Grade:  D  (46.6% - 441)
 1. **Andrew Jackson - Grade:  D-  (39.4% - 373)**
-
-### 4 Yellow Specialties" 
+{{% /tab %}}
+{{% tab header="4 Yellow Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 482)
 1. **Empress Dowager Cixi - Grade:  B-  (79.0% - 381)**
 1. **Nero - Grade:  C+  (75.1% - 362)**
@@ -163,8 +172,8 @@ generals are the only ones available without getting lucky in paid events.
 1. Yeon Gaesomun - Grade:  D  (50.0% - 241)
 1. Mark Antony - Grade:  D  (47.1% - 227)
 1. Flavius Aetius - Grade:  D  (45.2% - 218)
-
-### 3 Orange Specialties"
+{{% /tab %}}
+{{% tab header="3 Orange Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 278)
 1. **Empress Dowager Cixi - Grade:  B+  (87.4% - 243)**
 1. **Nero - Grade:  B  (80.6% - 224)**
@@ -180,8 +189,8 @@ generals are the only ones available without getting lucky in paid events.
 1. Mark Antony - Grade:  D+  (58.3% - 162)
 1. **Arminius - Grade:  D+  (55.0% - 153)**
 1. **Robert Guiscard - Grade:  D+  (54.0% - 150)**
-
-### 3 Purple Specialties
+{{% /tab %}}
+{{% tab header="3 Purple Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 264)
 1. **Empress Dowager Cixi - Grade:  B+  (86.0% - 227)**
 1. **Nero - Grade:  B-  (78.8% - 208)**
@@ -197,8 +206,11 @@ generals are the only ones available without getting lucky in paid events.
 1. Amr ibn al-As - Grade:  D+  (56.8% - 150)
 1. **Robert Guiscard - Grade:  D+  (56.1% - 148)**
 1. **Arminius - Grade:  D+  (55.3% - 146)**
+{{% /tab %}}
+{{< /tabpane >}}
 
-## Trying to find balance
+
+{{% blocks/section title="Trying to find balance" color="light"%}}
 Some authors advocate an approach where you look at the overall amount that
 each general reduces the enemy's stats, regardless of what specific attribute
 is being debuffed.  There are trade offs with this hybrid approach,
@@ -215,7 +227,11 @@ can help make the decision.
 
 [debuff]: <{{< relref "glossary#debuff" >}}>
 
-### Fully Ascended/4 Yellows
+{{< /blocks/section >}}
+
+
+{{< tabpane text=true right=true >}}
+{{% tab header="Fully Ascended/4 Yellows" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 1066)
 1. Darius I - Grade:  B+  (86.5% - 922)
 1. Nordic Barbarian King - Grade:  B+  (85.5% - 911)
@@ -253,8 +269,8 @@ can help make the decision.
 1. **Gustavus Adolphus - Grade:  D-  (21.5% - 229)**
 1. Elizabeth I - Grade:  D-  (19.5% - 208)
 1. **Robert Guiscard - Grade:  D-  (19.0% - 203)**
-
-### 4 Yellow Specialties
+{{% /tab %}}
+{{% tab header="4 Yellow Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 547)
 1. Darius I - Grade:  B-  (79.2% - 433)
 1. Cnut the Great - Grade:  C+  (72.8% - 398)
@@ -292,8 +308,8 @@ can help make the decision.
 1. **King Sejong - Grade:  D-  (20.5% - 112)**
 1. Catherine II - Grade:  D-  (19.2% - 105)
 1. **Empress Wu - Grade:  F  (15.9% - 87)**
-
-### 3 Orange Specialties
+{{% /tab %}}
+{{% tab header="3 Orange Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 322) 
 1. **Harald – Grade:  B+  (86.6% - 279)**
 1. Darius I - Grade:  B+  (84.2% - 271) 
@@ -331,8 +347,8 @@ can help make the decision.
 1. Catherine II – Grade:  D-  (24.2% - 78)
 1. **Empress Wu – Grade:  D-  (21.1% - 68)**
 1. **Lincoln – Grade:  D-  (20.8% - 67)**
-
-### 3 Purple Specialties
+{{% /tab %}}
+{{% tab header="3 Purple Specialties" %}}
 1. Gilgamesh - Grade:  A+  (100.0% - 307)
 1. **Harald - Grade:  B+  (86.3% - 265)**
 1. Darius I - Grade:  B+  (83.7% - 257)
@@ -370,6 +386,8 @@ can help make the decision.
 1. Catherine II - Grade:  D-  (23.8% - 73)
 1. **Empress Wu - Grade:  D-  (20.5% - 63)**
 1. **Lincoln - Grade:  D-  (20.5% - 63)**
+{{% /tab %}}
+{{< /tabpane >}}
 
 At this time, I do not recommend the use of peace time mayors for either free
 or light spenders.  I explain why [here][peace].
