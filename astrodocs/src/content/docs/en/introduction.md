@@ -1,25 +1,24 @@
 ---
-title: "Introduction"
-description: "Docs intro"
+title: 'Why Another Evony Guide'
+author: 'Luke Schierer'
 ---
 
-**Welcome to Astro!**
+## Tips for Budget Gamers
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
+There are lots of sites out there with tips on playing Evony.  Why am I
+creating yet another?  I find that the advice I am giving younger and/or less
+knowledgable players differs from what I find on any single site out there.
+This is largely because so many of the sites are targeted on people who spend
+far more on the game than I do.  While they have tons of very valuable info,
+figuring out the right course for the player with a smaller budget can be a
+real challenge.  This site is based on my experiences playing on a more limited
+budget.
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+Much of the information here comes from other authors' work on other sites.  In particular, I am heavily relying on the work of 
+* [Evony Answers](https://www.evonyanswers.com/)
+* [Evony: The King's Return GUIDE WIKI](https://evonyguidewiki.com/)
+* [One Chilled Gamer](https://onechilledgamer.com/)
+* [Evony The King's Return Guides](https://www.evonytkrguide.com/)
 
-## Getting Started
+Many thanks to the incredible work put forth by those who have come before me on these sites in documenting Evony TKR. 
 
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
-
-Found a missing feature that you can't live without? Please suggest it [on our Discord](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
-
-Good luck out there, Astronaut. 🧑‍🚀
