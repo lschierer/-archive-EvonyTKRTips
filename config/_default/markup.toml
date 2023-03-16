@@ -5,13 +5,30 @@
 
 [goldmark.extensions]
   definitionList = true
+  table = true
+  typographer = false
+
+[goldmark.parser]
+  attribute = true
+  autoHeadingID = true
+  autoHeadingIDType = "blackfriday"
 
 [goldmark.renderer]
   unsafe = true
 
 [highlight]
-  noClasses = false
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true
+  style = "emacs"
+  tabWidth = 4
 
 [tableOfContents]
   startLevel = 2
   endLevel = 4
+  ordered = false
+

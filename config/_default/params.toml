@@ -5,7 +5,6 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "evonytkr"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -57,15 +56,41 @@ enableCodeCopy = false
   groupByYear = true
   paginationWidth = 1
 
+[pushAssets]
+  css = [
+    "callouts",
+	"styles"
+  ]
+  js = [
+    "script"
+  ]
+
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
+  taxonomyCloud = ["tags"] # set taxonomyCloud = [] to hide taxonomy clouds
+  taxonomyCloudTitle = ["Tag Cloud"] # if used, must have same length as taxonomyCloud
+  taxonomyPageHeader = ["tags", "terms"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
 
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+
+[ui]
+  sidebar_menu_compact = false
+  sidebar_menu_foldable = true
+  sidebar_cache_limit = 1
+  breadcrumb_disable = true
+  taxonomy_breadcrumb_disable = true
+  sidebar_search_disable = false
+  navbar_logo = false
+  footer_about_disable = false
+
+[ui.feadback]
+  enable = false
+  yes = 'Glad to hear it!'
+  no = 'Sorry to hear it!'
 
 [verification]
   # google = ""
