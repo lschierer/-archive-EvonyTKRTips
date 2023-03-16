@@ -52,5 +52,8 @@
   "bugs": {
     "url": "https://github.com/lschierer/EvonyTKRTips/issues"
   },
-  "homepage": "https://github.com/lschierer/EvonyTKRTips"
+  "homepage": "https://github.com/lschierer/EvonyTKRTips",
+  "dependencies": {
+    "smart-webcomponents": "^15.0.11"
+  }
 }

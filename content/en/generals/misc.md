@@ -59,8 +59,8 @@ several different things.
 
 [Duty]: <{{< relref "duty" >}}>
 
-[General's Hall]: <{{< relref "/reference/glossary#Generals_Hall" >}}>
+[General's Hall]: <{{< relref "../reference/glossary#Generals_Hall" >}}>
 
-[RSS]: <{{< relref "/reference/glossary#RSS" >}}>
+[RSS]: <{{< relref "../reference/glossary#RSS" >}}>
 
 [Mayors]: <{{< relref "mayors" >}}>
