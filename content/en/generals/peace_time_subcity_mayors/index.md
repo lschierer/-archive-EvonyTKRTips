@@ -10,20 +10,24 @@ Periodically someone asks about Catherine II, or another of the peace time
 subcity mayors.  To answer this question, we need to compare the two following
 generals. 
 
-{{% icon "1-solid" %}}
+{{< blocks/section color="primary" >}}
+{{% blocks/feature icon="fa-1" %}}
 {{< imgproc2 Catherine_II Fit "400x550" >}}
 This instance of Catherine II has been only partially cultivated.
 * Leadership: +201
 * Attack: +119
 * Defense: +143
 * Politics: +214
-{{% icon "2-solid" %}}
+{{% /blocks/feature %}}
+{{% blocks/feature icon="fa-2" %}}
 {{< imgproc2 Harald Fit "400x550" >}}
 This instance of Harald has been extensively cultivated.
 * Leadership: +500
 * Attack: +258
 * Defense: +284
 * Politics: +500
+{{% /blocks/feature %}}
+{{< /blocks/section >}}
 
 Both mayors have been put on the same subcity in turn.  Mayor number 1,
 Catherine, results in an average training speed of +329.79% while mayor number
