@@ -1,18 +1,14 @@
-@import '@spectrum-web-components/styles/theme-darkest.css';
-@import '@spectrum-web-components/styles/theme-dark.css';
-@import '@spectrum-web-components/styles/theme-light.css';
-@import '@spectrum-web-components/styles/theme-lightest.css';
-
-{{ "<!-- in sp-table -->\n" | safeHTML }
+{{ "<!-- in sp-table -->\n" | safeHTML }}
 {{- $file := .Get 0 -}}
 {{- $id := path.BaseName $file -}}
 {{ printf "<!-- filename is %s -->\n" $file | safeHTML }}
 {{- $rows := resources.Get $file | transform.Unmarshal -}}
-<sp-table size="s" id="{{ $id }}" >
+
+<sp-table size="c" id="{{ $id }}" theme="spectrum"  color="dark" scale="medium" style="background-color: var(--spectrum-blue-800)">
 	{{ range first 1 $rows }}
     	{{ safeHTML ( print "<sp-table-head >" ) }}
 		{{ range . }} 
-			<sp-table-head-cell sortable sort-direction="desc" >
+			<sp-table-head-cell sortable sort-direction="desc" sort-key={{ . }}>
 			{{ . }}
 			</sp-table-head-cell>
 		{{ end }}
@@ -34,9 +30,11 @@
 		return items;
     };
 
+	let items = initItems();
+
 	const initTable = () => {
         const table = document.querySelector('{{printf "#%s" $id | safeJS}}');
-        table.items = initItems();
+        table.items = items;
 
         table.renderItem = (item, index) => {
 			{{ range first 1 (first 1 $rows)  }}
