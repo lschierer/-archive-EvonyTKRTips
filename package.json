@@ -2,7 +2,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "aws-cdk-lib": "^2.63.0",
-    "hugo-extended": "^0.110.0",
+    "hugo-extended": "^0.111.3",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0"
   },
