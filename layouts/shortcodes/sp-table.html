@@ -1,0 +1,70 @@
+@import '@spectrum-web-components/styles/theme-darkest.css';
+@import '@spectrum-web-components/styles/theme-dark.css';
+@import '@spectrum-web-components/styles/theme-light.css';
+@import '@spectrum-web-components/styles/theme-lightest.css';
+
+{{ "<!-- in sp-table -->\n" | safeHTML }
+{{- $file := .Get 0 -}}
+{{- $id := path.BaseName $file -}}
+{{ printf "<!-- filename is %s -->\n" $file | safeHTML }}
+{{- $rows := resources.Get $file | transform.Unmarshal -}}
+<sp-table size="s" id="{{ $id }}" >
+	{{ range first 1 $rows }}
+    	{{ safeHTML ( print "<sp-table-head >" ) }}
+		{{ range . }} 
+			<sp-table-head-cell sortable sort-direction="desc" >
+			{{ . }}
+			</sp-table-head-cell>
+		{{ end }}
+    </sp-table-head>
+	{{ end }}
+</sp-table>
+
+<script type="module">
+	const initItems = () => {
+		const items = [];
+
+		{{ range after 1 $rows }}
+			items.push({
+				{{ range $index, $value := . }}
+					{{ printf "c%d" $index | safeJS }}: {{ $value }},
+				{{ end }}
+			});
+		{{ end }}
+		return items;
+    };
+
+	const initTable = () => {
+        const table = document.querySelector('{{printf "#%s" $id | safeJS}}');
+        table.items = initItems();
+
+        table.renderItem = (item, index) => {
+			{{ range first 1 (first 1 $rows)  }}
+			{{ range $index, $v := . }}
+				{{ printf "// index is %d, v is %s-->" $index $v | safeJS }}
+				const {{ print "cell" (add $index 1) | safeJS}} = document.createElement('sp-table-cell');
+				{{ printf "cell%d.textContent = `${item.c%d}`;" (add $index 1) $index | safeJS }}
+			{{ end }}{{ end }}
+	        return [
+			{{ range first 1 (first 1 $rows)  }}
+			{{ range $index, $v := . }}
+				{{ printf "cell%d" (add $index 1) | safeJS }}, 
+			{{ end }}{{ end }}
+			];
+        };
+
+        table.addEventListener('sorted', (event) => {
+            const { sortDirection, sortKey } = event.detail;
+            items = items.sort((a, b) => {
+                const first = String(a[sortKey]);
+                const second = String(b[sortKey]);
+                return sortDirection === 'asc' ? first.localeCompare(second) : second.localeCompare(first);
+            });
+            table.items = [...items];
+        });
+    };
+
+    customElements.whenDefined('sp-table').then(() => {
+        initTable();
+    });
+</script>
