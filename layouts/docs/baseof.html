@@ -1,33 +1,72 @@
+{{/*
+
+Copyright 2020 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe.
+
+*/}}
 <!doctype html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
-  <head>
-    {{ partial "head.html" . }}
-	{{ partial "ts.html" . }}
-  </head>
-  <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
-    <header>
-      {{ partial "navbar.html" . }}
-    </header>
-    <div class="container-fluid td-outer">
-      <div class="td-main">
-        <div class="row flex-xl-nowrap">
-          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
-            {{ partial "sidebar.html" . }}
-          </aside>
-          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
-            {{ partial "page-meta-links.html" . }}
-            {{ partial "toc.html" . }}
-            {{ partial "taxonomy_terms_clouds.html" . }}
-          </aside>
-          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
-            {{ partial "version-banner.html" . }}
-            {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
-            {{ block "main" . }}{{ end }}
-          </main>
-        </div>
-      </div>
-      {{ partial "footer.html" . }}
+<html lang="{{ .Site.Language.Lang }}" class="no-js">
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "ts.html" . }}
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+</head>
+<body class="coral--lightest">
+{{ if not .Site.Params.ui.navbar_disable }}
+<header>
+<coral-shell>
+  {{ partial "navbar.html" . }}
+</coral-shell>
+</header>
+{{ end }}
+
+<input type="checkbox" class="hidden" id="menu-control" />
+<main class="container flex">
+  <!-- Left menu Content -->
+  <aside class="page-menu">
+    {{ template "leftPanel" . }}
+  </aside>
+  <div class="page-content">
+    <div class="page-header">
+      <!-- Mobile layout header -->
+      {{ template "mobileHeader" . }}
+      <aside class="hidden clearfix">
+        {{ template "rightPanel" . }}
+      </aside>
     </div>
-    {{ partial "scripts.html" . }}
-  </body>
+    <!-- Page Content -->
+    <article>
+      {{ template "main" . }}
+    </article>
+    <label for="menu-control" class="hidden page-menu-overlay"></label>
+  </div>
+  <aside class="page-toc">
+    {{ template "rightPanel" . }} <!-- Table of Contents -->
+  </aside>
+</main>
+{{ partial "hooks/body-end.html" . }}
+</body>
 </html>
+
+{{ define "leftPanel" }}
+  {{ partial "sidebar-tree.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
+  {{ .Render "content" }}
+{{ end }}
+
+{{ define "rightPanel" }}
+  {{ partial "toc.html" . }}
+{{ end }}
+
+{{ define "mobileHeader" }}
+  {{ partial "mobile-header.html" . }}
+{{ end }}
