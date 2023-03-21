@@ -62,6 +62,6 @@ point, it will be exciting.
 
 [buffs]: <{{< relref "../../reference/glossary#buff" >}}> 
 
-[Reports]: <{{< relref "killing" >}}>
+[Reports]: <{{< relref "../killing" >}}>
 
-[march size]: <{{< relref "march_size" >}}>
+[march size]: <{{< relref "../../reference/march_size" >}}>
