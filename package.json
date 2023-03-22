@@ -57,6 +57,7 @@
     "@adobe/coral-spectrum": "^4.15.12",
     "@spectrum-web-components/styles": "^0.23.1",
     "@spectrum-web-components/table": "^0.1.11",
-    "@spectrum-web-components/theme": "^0.14.12"
+    "@spectrum-web-components/theme": "^0.14.12",
+    "npm-check-updates": "^16.7.13"
   }
 }
