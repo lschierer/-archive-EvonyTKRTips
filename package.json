@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "aws-cdk-lib": "^2.63.0",
-    "hugo-extended": "^0.110.0",
+    "autoprefixer": "^10.4.14",
+    "aws-cdk-lib": "^2.70.0",
+    "hugo-extended": "^0.111.3",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0"
   },
@@ -54,8 +54,9 @@
   },
   "homepage": "https://github.com/lschierer/EvonyTKRTips",
   "dependencies": {
-    "@spectrum-web-components/styles": "^0.23.1",
-    "@spectrum-web-components/table": "^0.1.11",
-    "@spectrum-web-components/theme": "^0.14.12"
+    "@spectrum-web-components/styles": "^0.23.2",
+    "@spectrum-web-components/table": "^0.1.12",
+    "@spectrum-web-components/theme": "^0.14.13",
+    "npm-check-updates": "^16.8.0"
   }
 }
