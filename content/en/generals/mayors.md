@@ -85,7 +85,8 @@ rather than attempting to do both with one of these lists.
 I have included rather more generals in this section than in the other two
 because another use for this list is as a tie breaker: if you are debating
 between two generals in one of the other lists, knowing where they fall here
-can help make the decision.
+can help make the decision.  Again, note that the table may require scrolling
+horizontally.
 
 {{< sp-table csv="overall_mayors.csv" >}}
 
