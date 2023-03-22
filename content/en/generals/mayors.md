@@ -39,6 +39,11 @@ names that appear on both lists.  These may not be the strongest mayors in one
 or both categories, but that they show in the list at all means they are still
 among the top choices available. 
 
+At this time, I do not recommend the use of peace time mayors for either free
+or light spenders.  I explain why [here][peace].
+
+[peace]: <{{< relref "peace_time_subcity_mayors" >}}>
+
 [debuff]: <{{< relref "glossary#debuff" >}}>
 
 {{% /blocks/section %}}
@@ -53,6 +58,10 @@ levels of investment in your mayors.  I recommend Free Players use the 3 Purple
 list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
 {{% /blocks/section %}}
+
+{{< sp-table "attack_mayors.csv" >}}
+
+
 
 {{< tabpane text=true right=true >}}
 {{% tab header="Fully Ascended/4 Yellows" %}}
@@ -388,9 +397,4 @@ can help make the decision.
 1. **Lincoln - Grade:  D-  (20.5% - 63)**
 {{% /tab %}}
 {{< /tabpane >}}
-
-At this time, I do not recommend the use of peace time mayors for either free
-or light spenders.  I explain why [here][peace].
-
-[peace]: <{{< relref "peace_time_subcity_mayors" >}}>
 

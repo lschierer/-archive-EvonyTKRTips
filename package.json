@@ -63,7 +63,8 @@
   },
   "homepage": "https://github.com/lschierer/EvonyTKRTips",
   "dependencies": {
-    "astro": "^2.1.3",
-    "smart-webcomponents": "^15.0.11"
+    "@spectrum-web-components/styles": "^0.23.1",
+    "@spectrum-web-components/table": "^0.1.11",
+    "@spectrum-web-components/theme": "^0.14.12"
   }
 }
