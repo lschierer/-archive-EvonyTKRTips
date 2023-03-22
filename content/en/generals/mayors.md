@@ -53,13 +53,13 @@ This is for people who depend on their PvP march and are just trying to survive
 the enemy's attack in the mean time.  While you would not mind hurting the
 enemy, you are focused on preventing him/her from hurting you. 
 
-In the tabs below, see how radically the lists change as you look at different
-levels of investment in your mayors.  I recommend Free Players use the 3 Purple
-list and everyone else use the 3 Orange list. Further note, the **bold**
+In the table below, see how radically the list changes as you look at different
+levels of investment in your mayors.  I recommend Free Players sort by the 3
+Purple Rank and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
 {{% /blocks/section %}}
 
-{{< sp-table "attack_mayors.csv" >}}
+{{< sp-table csv="attack_mayors.csv" >}}
 
 
 
