@@ -1,10 +1,10 @@
 ---
-title: 'Killing Hard Viking 45 with Aethelflaed and t13s'
+title: 'Killing Hard Viking 46 with Aethelflaed and t13s'
 author: 'Luke Schierer'
 ---
 
 * Main General: Aethelflaed
-  * Level 35
+  * Level 36
   * 4 gold specialties
   * 3 red stars
   * All 5 star: ares spear and fear less ares leg armor, courageous dragon armor, fearless dragon boots, fearless dragon helmet, courageous dragon ring
@@ -47,5 +47,5 @@ author: 'Luke Schierer'
   * highest blazon at l6
 * Troops:
   * 1,269,925 t13 mounted
-  * 0 wounded
+  * 6,637 wounded
 
