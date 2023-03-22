@@ -1,9 +1,9 @@
-+++
-title = 'Reports on Killing Mounted Pan'
-disableTitleSeparator = true
-simple_list = true
+---
+title: 'Reports on Killing Mounted Pan'
 
-[[cascade]]
-  type = "docs"
-+++
+
+
+
+  
+---
 

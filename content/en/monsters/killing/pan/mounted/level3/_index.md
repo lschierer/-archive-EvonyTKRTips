@@ -1,9 +1,9 @@
-+++
-title = 'Reports on Killing Mounted Pan Level 3'
-disableTitleSeparator = true
-simple_list = true
+---
+title: 'Reports on Killing Mounted Pan Level 3'
 
-[[cascade]]
-  type = "docs"
-+++
+
+
+
+  
+---
 

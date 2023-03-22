@@ -7,7 +7,7 @@ weight: 1
 ### Get a General
 
 So you want to kill monsters.  First, you need at least one general, preferably
-a pair of them.  I have [a guide dedicated to this][mg].  Your pair of generals
+a pair of them.  I have [a guide dedicated to [this][mg].  Your pair of generals
 do not need to be fully developed to start your monster hunting journey.  You
 can start as soon as you get that first good mounted general.  However, as you
 develop your pair of generals, you will find that you can do **_much_** more
@@ -28,7 +28,7 @@ using mounted troops.  Some tips here.
    * the Pans event will suggest using other troop types.  As best we can tell,
      it lies.
 1. Use _**ONLY**_ one tier of troops.  Depending on your culture, the names for
-   each troop type and troop tier within each type change.  The [roman numerals][]
+   each troop type and troop tier within each type change.  The [roman numerals]
    for them do not.  Thus we typically ignore the names and prefix these roman
    numerals with a 't' for "tier", using that in place of the name. 
 1. When joining a rally someone else started, send *just one* troop, and your general.

@@ -1,11 +1,11 @@
-+++
-title = "Picking your duty generals"
-author = "Luke Schierer"
-weight = 6
-tags = ['recommendation']
-+++
+---
+title: "Picking your duty generals"
+author: "Luke Schierer"
+weight: 6
+tags: ['recommendation']
+---
 
-In the [Overview][], I explain my thinking.  This is a fairly long article, but
+In the [Overview], I explain my thinking.  This is a fairly long article, but
 contains a lot of useful background information if you want to understand how I
 arrived at these conclusions. If you just want to be told what to do, you can
 skip it and dive right in here. 
@@ -78,8 +78,8 @@ Speed.  There are strong arguments both ways.
 ### Keep 
 
 * You can start using a duty general at keep level 16
-* Depends on the buffs of the officer.  Officers that offer troop buffs must be
-  present when those troops are used.  Construction buffs are only used when
+* Depends on the [buffs] of the officer.  Officers that offer troop [buffs] must be
+  present when those troops are used.  Construction [buffs] are only used when
   construction is initiated.  You need not keep the general assigned for the
   duration of the construction.
 * Ashoka
@@ -103,7 +103,7 @@ Speed.  There are strong arguments both ways.
   Siege damage is inevitable, and the high cost of repairs is one of the
   biggest barriers to using siege effectively in the game.  A general that
   reduces those costs may be worth more than the difference in
-  [buffs][]/[debuffs][] that we see here.
+  [buffs]/[debuffs] that we see here.
 * Otto the Great
   * Premium General
     * I have not seen him in an event that you do not have to pay to win
@@ -123,8 +123,8 @@ Speed.  There are strong arguments both ways.
 ### Academy 
 
 * You can start using a duty general at academy level 20
-* Depends on the buffs of the officer.  Officers that offer troop buffs must be
-  present when those troops are used.  Research buffs are only used when
+* Depends on the [buffs] of the officer.  Officers that offer troop [buffs] must be
+  present when those troops are used.  Research [buffs] are only used when
   research is initiated.  You need not keep the general assigned for the
   duration of the research.
 * Hammurabi

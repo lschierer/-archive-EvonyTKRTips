@@ -1,9 +1,9 @@
-+++
-title = "Overview of Picking Generals"
-author = "Luke Schierer"
-weight = 1
-tags = ['guide']
-+++
+---
+title: "Overview of Picking Generals"
+author: "Luke Schierer"
+weight: 1
+tags: ['guide']
+---
 
 Knowing what generals to keep and what generals to get rid of is an important
 topic as you start building your keep. It is a complicated question.  Most of
@@ -15,14 +15,14 @@ If you look my sources[^230107-1], you will see that there is a 80 to 90 percent
 the information they provide in generals, but there is some disagreement
 between them.  Use whichever guide you feel you understand best.   
 
-[^230107-1]: See the list of pages on the [Home page][]
+[^230107-1]: See the list of pages on the [Home page]
 
 [Home page]: <{{< ref "/" >}}>
 
 When picking your generals, you need to consider several things. 
 
 1. If you play long enough, you will get premium generals.  You may not,
-   however, be able to *ever* fully [ascend][] these premium generals.  This
+   however, be able to *ever* fully [ascend] these premium generals.  This
    matters a great deal when picking your main general, but assistants are
    *comparatively* easy to replace, *until* you are ready to invest rune stones
    in an assistant general. 

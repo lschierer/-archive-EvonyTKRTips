@@ -1,28 +1,28 @@
-+++
-title = "Picking your wall generals"
-author = "Luke Schierer"
-weight = 4
-tags = ['recommendation']
-+++
+---
+title: "Picking your wall generals"
+author: "Luke Schierer"
+weight: 4
+tags: ['recommendation']
+---
 
-In the [Overview][], I explain my thinking.  This is a fairly long article, but
+In the [Overview], I explain my thinking.  This is a fairly long article, but
 contains a lot of useful background information if you want to understand how I
 arrived at these conclusions. If you just want to be told what to do, you can
 skip it and dive right in here. 
 
 [Overview]: <{{< relref "overview.md" >}}>
 
-When you first start out, you ought to be [ghosting][] your troops whenever you
+When you first start out, you ought to be [ghosting] your troops whenever you
 might be attacked.  As a result, your Wall generals are not going to help you
-any because they will not have any troops to lead. Focus on your [ranged][] and
-[mounted][] generals first.
+any because they will not have any troops to lead. Focus on your [ranged] and
+[mounted] generals first.
 
 While you are busy developing these other generals, keep your eye out for
 Shajar al-Durr.  If you find her in the tavern (or win her in an event), she
 makes an excellent _**peace time**_ wall general.  She will help you get the
 resources you need to do other things.
 
-Eventually however you are ready to grow beyond [ghosting][] and to do that,
+Eventually however you are ready to grow beyond [ghosting] and to do that,
 you need to have a good set of wall generals.  Moreover, you need to have them
 fairly well developed already, not brand new.
 
@@ -54,7 +54,7 @@ If you see any of the following, they are superior choices for assistants availa
 * Yodo-dono (232) - specializes in ranged troops with a secondary generic boost to HP.
 {{% /alert %}}
 
-[^230107-2]: See [Evony Answers][]' article on [ascending][].
+[^230107-2]: See [Evony Answers]' article on [ascending].
 
 [Evony Answers]: <https://www.evonyanswers.com>
 

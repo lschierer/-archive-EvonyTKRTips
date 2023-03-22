@@ -1,11 +1,6 @@
-+++
-title = 'Reports on Killing Monsters'
-disableTitleSeparator = true
-simple_list = true
-
-[[cascade]]
-  type = "docs"
-+++
+---
+title: 'Reports on Killing Monsters'
+---
 
 The reports on the troops, generals and gear needed to kill the various
 monsters in Evony are mostly very dated.  The game has grown very complicated,

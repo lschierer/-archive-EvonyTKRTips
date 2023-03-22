@@ -1,9 +1,9 @@
-+++
-title = 'Reports on Killing Normal Viking Level 50'
-disableTitleSeparator = true
-simple_list = true
+---
+title: 'Reports on Killing Normal Viking Level 50'
 
-[[cascade]]
-  type = "docs"
-+++
+
+
+
+  
+---
 

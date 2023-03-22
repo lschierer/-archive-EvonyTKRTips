@@ -1,11 +1,11 @@
-+++
-title = "Picking your first mounted pair"
-author = "Luke Schierer"
-weight = 2
-tags = ['recommendation']
-+++
+---
+title: "Picking your first mounted pair"
+author: "Luke Schierer"
+weight: 2
+tags: ['recommendation']
+---
 
-In the [Overview][], I explain my thinking.  This is a fairly long article, but
+In the [Overview], I explain my thinking.  This is a fairly long article, but
 contains a lot of useful background information if you want to understand how I
 arrived at these conclusions. If you just want to be told what to do, you can
 skip it and dive right in here. 
@@ -41,7 +41,7 @@ PvP and monsters.  Give him the following Skill Books:
 You could use Martinus instead of Roland, but Martinus is useless until you can
 give him a dragon.  Since you won't have two dragons until level 30, I dislike
 this approach.  Roland is useful far sooner, and saves your (red) Celtic dragon
-for your [ranged][] march.
+for your [ranged] march.
 
 [ranged]: <{{< relref "ranged" >}}>
 

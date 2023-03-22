@@ -1,10 +1,10 @@
-+++
-title = "Peace Time Subcity Mayors"
-author = "Luke Schierer"
-weight = 10
-tags = ['recommendation']
+---
+title: "Peace Time Subcity Mayors"
+author: "Luke Schierer"
+weight: 10
+tags: ['recommendation']
 
-+++
+---
 
 Periodically someone asks about Catherine II, or another of the peace time
 subcity mayors.  To answer this question, we need to compare the two following

@@ -1,11 +1,11 @@
-+++
-title = "Miscellaneous Generals You Ought to Have"
-author = "Luke Schierer"
-weight = 8
-tags = ['recommendation']
-+++
+---
+title: "Miscellaneous Generals You Ought to Have"
+author: "Luke Schierer"
+weight: 8
+tags: ['recommendation']
+---
 
-In the [Overview][], I explain my thinking.  This is a fairly long article, but
+In the [Overview], I explain my thinking.  This is a fairly long article, but
 contains a lot of useful background information if you want to understand how I
 arrived at these conclusions. If you just want to be told what to do, you can
 skip it and dive right in here. 
@@ -32,11 +32,11 @@ tavern is at the appropriate level.
 
 When you go into the tavern to start refreshing like crazy, you are looking for
 several different things.
-1. [Mayors][] for your sub cities.
+1. [Mayors] for your sub cities.
 1. Extra copies of generals you picked in other sections of this guide.
 1. Copies of Queen Jindock.  You want 5 copies to use, and maybe a few
    spare for fragments that you will someday use.  You will use her for
-   gathering [RSS][] from tiles.
+   gathering [RSS] from tiles.
 1. Copies of Baibars.  You want at least 4 copies to use, though like Queen
    Jindock, if you see extra copies grab them for fragments.  Someday you may
    want fragments.  If you do not have Theodora, consider getting 5 copies to use.
@@ -45,9 +45,9 @@ several different things.
    your load, the more you bring home.  Nothing else matters.  You can
    influence the speed of relic exploration with research, but nothing your
    general is or does will matter.  Amir also makes a useful assistant if you
-   find an empty keep that for some reason has a ton of available [RSS][].
-1. Some [Duty][] generals are also available in the tavern. 
-1. Certain generals necessary for the [General's Hall][] are available in the
+   find an empty keep that for some reason has a ton of available [RSS].
+1. Some [Duty] generals are also available in the tavern. 
+1. Certain generals necessary for the [General's Hall] are available in the
    tavern.  If these generals come up, get them.  _**However**_, if they are
    not listed somewhere in these recommendation pages, you are going to keep
    them just long enough to restart the game, and then sell them.  Restarting

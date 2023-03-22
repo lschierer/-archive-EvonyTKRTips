@@ -5,10 +5,10 @@ author: "Luke Schierer"
 
 ### The beginning of hunting 
 
-You have read [Getting Started][] and now you are hunting for boss monsters.
+You have read [Getting Started] and now you are hunting for boss monsters.
 While Evony provides bosses in all sorts of sizes for all different sized
-keeps, the significant rewards start around the time you can kill a [griffin][]
-or a [thief][].  This will be approximately when you get a march that holds
+keeps, the significant rewards start around the time you can kill a [griffin]
+or a [thief].  This will be approximately when you get a march that holds
 150,000 t10 mounted troops with your monster hunting general pair.  Depending
 on how strong your pair of generals is, and on other factors like your monarch
 gear, your research, and your blazons, you will *probably* still get wounded.
@@ -24,17 +24,17 @@ point, it will be exciting.
 ### Next Steps
 
 1. Exactly what you can kill when starts to depend fairly heavily on 
-   1. your [march size][]
+   1. your [march size]
    1. your monarch gear
    1. your research
    1. your general pair, and how developed said pair is.
    1. the gear your main general has, and what refines you have on that gear
    1. your blazons 
    1. specialized duty officers in keep buildings that offer relevant buffs
-   1. any [buffs][] you have either purchased (such as membership cards) or won
+   1. any [buffs] you have either purchased (such as membership cards) or won
       (such as keep attack buffs)
 1. Because of the previous bullet point, there is no exact point at which you
-   know that you can safely hunt for something.  The examples in the [Reports][]
+   know that you can safely hunt for something.  The examples in the [Reports]
    section are just that - examples. 
 1. You won't care about your t10s once you have t12s.  
 1. When you can train t11s, you do not need more than about 750,000 of them for
@@ -53,7 +53,7 @@ point, it will be exciting.
    * When you get to 1m you can kill still more.  However, anything above this
      and you start to get more and more wounded for less and less effect.
    * You may even consider having *two* marches of t12s if you do not care
-     about [ghosting][].  
+     about [ghosting].  
 1. Your t13 march is probably just as good as your 900k t12 march when it has
    somewhere between 600k and 700k troops in it.  The author has not fully
    explored the limits of t13s.

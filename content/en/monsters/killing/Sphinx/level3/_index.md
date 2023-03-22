@@ -1,9 +1,9 @@
-+++
-title = 'Reports on Killing Level 3 Sphinx'
-disableTitleSeparator = true
-simple_list = true
+---
+title: 'Reports on Killing Level 3 Sphinx'
 
-[[cascade]]
-  type = "docs"
-+++
+
+
+
+  
+---
 

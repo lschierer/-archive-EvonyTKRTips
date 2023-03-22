@@ -1,7 +1,7 @@
-+++
-title = 'Killing Ranged Pan Level 2 with Guan and t12s, v2'
-author = 'Luke Schierer'
-+++
+---
+title: 'Killing Ranged Pan Level 2 with Guan and t12s, v2'
+author: 'Luke Schierer'
+---
 
 * Main General: Guan Yu
   * Level 34

@@ -1,13 +1,7 @@
-+++
-title = 'About Monsters'
-disableTitleSeparator = true
-simple_list = true
-
-[[cascade]]
-  type = "docs"
-+++
-
-## Introduction
+---
+title: 'About Monsters'
+author: 'Luke Schierer'
+----
 
 Monster hunting is one of the most important activities in Evony.  You will get
 more resources, chests, and pretty much everything you need from items in less
@@ -25,4 +19,3 @@ As implied above, when looking at boss monsters, you might be participating in
 an "Alliance War" or "rally" with others from your alliance, or you might be
 hunting on your own.  The mechanics differ very slightly, the rewards do not.
 
-## Pages in this Section

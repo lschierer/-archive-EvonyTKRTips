@@ -1,11 +1,11 @@
-+++
-title = "March Size"
-author = "Luke Schierer"
-+++
+---
+title: "March Size"
+author: "Luke Schierer"
+---
 
-A break down on where your march size comes from.  Many thanks to [EvonyGuideWiki][] for collecting much of this information.[^230127-1]
+A break down on where your march size comes from.  Many thanks to [EvonyGuideWiki] for collecting much of this information.[^230127-1]
 
-[^230127-1]: [EvonyGuideWiki][]. Two articles:
+[^230127-1]: [EvonyGuideWiki]. Two articles:
     * "[12 ways to increase March Size](https://evonyguidewiki.com/en/how-to-increase-march-size-en/)" Posted 2020-10-11. Updated: 2022-11-24.
     * "[Maximum march size by keep level](https://evonyguidewiki.com/en/march-size-per-level-en/)" Posted: 2022-02-02. Updated: 2022-03-31.
 
@@ -168,7 +168,7 @@ the reality has more gradations than this shows.
 * George A. Custer +10%
 
 {{< alert title="Note" color="Info" >}}
-Some generals have a further increase when [ascended][], or from [specialties][].
+Some generals have a further increase when [ascended], or from [specialties].
 
 [ascended]: <{{< relref "glossary#ascending" >}}>
 

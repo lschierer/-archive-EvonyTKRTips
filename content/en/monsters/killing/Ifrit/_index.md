@@ -1,10 +1,10 @@
-+++
-title = 'Reports on Killing Ifrit'
-disableTitleSeparator = true
-simple_list = true
-weight = 11
+---
+title: 'Reports on Killing Ifrit'
 
-[[cascade]]
-  type = "docs"
-+++
+
+weight: 11
+
+
+  
+---
 
