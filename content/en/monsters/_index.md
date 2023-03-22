@@ -1,7 +1,7 @@
 ---
-title: 'About Monsters'
+title: 'All About Monsters'
 author: 'Luke Schierer'
-----
+---
 
 Monster hunting is one of the most important activities in Evony.  You will get
 more resources, chests, and pretty much everything you need from items in less
