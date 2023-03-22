@@ -15,10 +15,8 @@ skip it and dive right in here.
 
 {{% /alert %}}
 
-{{% blocks/section color="white"%}}
-There are two approaches to picking the mayors for your subcities.
-{{% /blocks/section %}}
-{{% blocks/section color="white"%}}
+## Philosophy
+
 As you look at the many generals in Evony for mayors, you are looking for what
 are called "debuff" generals.  These are generals that reduce one or more
 attributes of the attacking general and/or attacking army.  While you can
@@ -46,177 +44,32 @@ or light spenders.  I explain why [here][peace].
 
 [debuff]: <{{< relref "../reference/glossary#debuff" >}}>
 
-{{% /blocks/section %}}
+## Reducing the Enemy's Ability to Attack You
 
-{{% blocks/section title="Reducing the Enemy's Ability to Attack You" color="light"%}}
 This is for people who depend on their PvP march and are just trying to survive
 the enemy's attack in the mean time.  While you would not mind hurting the
 enemy, you are focused on preventing him/her from hurting you. 
 
 In the table below, see how radically the list changes as you look at different
 levels of investment in your mayors.  I recommend Free Players sort by the 3
-Purple Rank and everyone else use the 3 Orange list. Further note, the **bold**
-generals are the only ones available without getting lucky in paid events. 
-{{% /blocks/section %}}
+Purple Rank and everyone else use the 3 Orange list.  Note, you may have to
+scroll to the side to see all columns.
 
 {{< sp-table csv="attack_mayors.csv" >}}
 
+## Reducing the Enemy's Ability to Survive Your Attack
 
-
-{{< tabpane text=true right=true >}}
-{{% tab header="Fully Ascended/4 Yellows" %}}
-1. Darius I - Grade:  A+  (100.0% - 637)
-1. Yeon Gaesomun - Grade:  A  (94.7% - 603)
-1. Gilgamesh - Grade:  A  (94.0% - 599)
-1. Amr ibn al-As - Grade:  A  (92.9% - 592)
-1. Jester - Grade:  A-  (90.9% - 579)
-1. Cnut the Great - Grade:  A-  (90.3% - 575)
-1. Mark Antony - Grade:  A-  (87.6% - 558)
-1. Constantine the Great - Grade:  B+  (85.4% - 544)
-1. Baldwin IV - Grade:  B  (82.4% - 525)
-1. Nordic Barbarian King - Grade:  B  (82.4% - 525)
-1. Flavius Aetius - Grade:  C  (71.3% - 454)
-1. David Farragut - Grade:  C  (69.4% - 442)
-1. **Harald - Grade:  C  (68.8% - 438)**
-1. **Margaret I - Grade:  C-  (67.0% - 427)**
-1. **Mansa Musa - Grade:  C-  (63.4% - 404)**
-{{% /tab %}}
-{{% tab header="4 Yellow Specialties" %}}
-1. Darius I - Grade:  A+  (100.0% - 334)
-1. Yeon Gaesomun - Grade:  A+  (99.1% - 331)
-1. Baldwin IV - Grade:  A  (94.9% - 317)
-1. Jester - Grade:  A  (91.9% - 307)
-1. Gilgamesh - Grade:  A-  (91.0% - 304)
-1. Cnut the Great - Grade:  A-  (88.6% - 296)
-1. Mark Antony - Grade:  B+  (85.9% - 287)
-1. **Himiko - Grade:  B+  (85.9% - 287)**
-1. Amr ibn al-As - Grade:  B  (81.7% - 273)
-1. **Mansa Musa - Grade:  B  (79.6% - 266)**
-1. Nordic Barbarian King - Grade:  B-  (77.8% - 260)
-1. **Margaret I - Grade:  B-  (77.5% - 259)**
-1. David Farragut - Grade:  B-  (76.6% - 256)
-1. Constantine the Great - Grade:  C+  (75.4% - 252)
-1. Flavius Aetius - Grade:  C+  (75.4% - 252)
-{{% /tab %}}
-{{% tab header="3 Orange Specialties" %}}
-1. Yeon Gaesomun - Grade:  A+  (100.0% - 219)
-1. Darius I - Grade:  A+  (96.8% - 212)
-1. Baldwin IV - Grade:  A  (95.4% - 209)
-1. Gilgamesh - Grade:  A-  (89.5% - 196)
-1. Mark Antony - Grade:  A-  (89.5% - 196)
-1. **Mansa Musa - Grade:  A-  (89.5% - 196)**
-1. **Harald - Grade:  A-  (88.6% - 194)**
-1. Amr ibn al-As - Grade:  B+  (85.8% - 188)
-1. Jester - Grade:  B+  (85.4% - 187)
-1. Cnut the Great - Grade:  B+  (84.9% - 186)
-1. Nordic Barbarian King - Grade:  B+  (83.6% - 183)
-1. **Margaret I - Grade:  B  (83.1% - 182)**
-1. **Arminius - Grade:  B  (83.1% - 182)**
-1. Constantine the Great - Grade:  B  (80.8% - 177)
-1. **Himiko - Grade:  B-  (78.5% - 172)**
-{{% /tab %}}
-{{% tab header="3 Purple Specialties" %}}
-1. Yeon Gaesomun - Grade:  A+  (100.0% - 213)
-1. Darius I - Grade:  A  (93.0% - 198)
-1. Baldwin IV - Grade:  A  (91.5% - 195)
-1. Gilgamesh - Grade:  A-  (89.2% - 190)
-1. **Mansa Musa - Grade:  A-  (88.3% - 188)**
-1. **Harald - Grade:  A-  (88.3% - 188)**
-1. Mark Antony - Grade:  B+  (85.4% - 182)
-1. Amr ibn al-As - Grade:  B+  (85.4% - 182)
-1. Jester - Grade:  B+  (84.5% - 180)
-1. **Margaret I - Grade:  B+  (84.0% - 179)**
-1. Nordic Barbarian King - Grade:  B  (83.1% - 177)
-1. Constantine the Great - Grade:  B  (82.2% - 175)
-1. Cnut the Great - Grade:  B  (79.8% - 170)
-1. **Arminius - Grade:  B-  (78.4% - 167)**
-1. Maximilian I - Grade:  C+  (74.2% - 158)
-{{% /tab %}}
-{{< /tabpane >}}
-
-
-{{% blocks/section title="Reducing the Enemy's Ability to Survive Your Attack" color="light"%}}
 This is for people who want to make the enemy regret the decision to attack
 their keep.  They plan on having enough sieged troops to totally destroy any
 incoming march.  To make this possible, they want to make each attack by their
 own siege count for as much as possible.
 
-In the tabs below, see how radically the lists change as you look at different
-levels of investment in your mayors.  I recommend Free Players use the 3 Purple
-list and everyone else use the 3 Orange list. Further note, the **bold**
-generals are the only ones available without getting lucky in paid events. 
-{{< /blocks/section >}}
+In the table below, see how radically the list changes as you look at different
+levels of investment in your mayors.  I recommend Free Players sort by the 3
+Purple Rank and everyone else by the 3 Orange Rank.  Note, you may have to
+scroll to the side to see all columns.
 
-{{< tabpane text=true right=true >}}
-{{% tab header="Fully Ascended/4 Yellows" %}}
-1. Gilgamesh - Grade:  A+  (100.0% - 946)
-1. Nordic Barbarian King - Grade:  B+  (84.4% - 798)
-1. **Empress Dowager Cixi - Grade:  B-  (76.3% - 722)**
-1. **Nero - Grade:  C+  (74.7% - 707)**
-1. Darius I - Grade:  C+  (74.6% - 706)
-1. Amr ibn al-As - Grade:  C+  (74.4% - 704)
-1. Cnut the Great - Grade:  C+  (74.3% - 703)
-1. Yeon Gaesomun - Grade:  C+  (72.3% - 684)
-1. David Farragut - Grade:  C-  (64.5% - 610)
-1. **Harald - Grade:  C-  (63.7% - 603)**
-1. Mark Antony - Grade:  C-  (62.8% - 594)
-1. **Mansa Musa - Grade:  D+  (59.7% - 565)**
-1. **Arminius - Grade:  D  (50.0% - 473)**
-1. Flavius Aetius - Grade:  D  (46.6% - 441)
-1. **Andrew Jackson - Grade:  D-  (39.4% - 373)**
-{{% /tab %}}
-{{% tab header="4 Yellow Specialties" %}}
-1. Gilgamesh - Grade:  A+  (100.0% - 482)
-1. **Empress Dowager Cixi - Grade:  B-  (79.0% - 381)**
-1. **Nero - Grade:  C+  (75.1% - 362)**
-1. **Harald - Grade:  C-  (66.4% - 320)**
-1. **Mansa Musa - Grade:  C-  (65.6% - 316)**
-1. Nordic Barbarian King - Grade:  C-  (62.7% - 302)
-1. Darius I - Grade:  C-  (62.2% - 300)
-1. Cnut the Great - Grade:  D+  (60.8% - 293)
-1. **Suleiman the Magnificent - Grade:  D+  (58.7% - 283)**
-1. David Farragut - Grade:  D+  (56.6% - 273)
-1. **Arminius - Grade:  D+  (55.2% - 266)**
-1. Amr ibn al-As - Grade:  D+  (55.0% - 265)
-1. Yeon Gaesomun - Grade:  D  (50.0% - 241)
-1. Mark Antony - Grade:  D  (47.1% - 227)
-1. Flavius Aetius - Grade:  D  (45.2% - 218)
-{{% /tab %}}
-{{% tab header="3 Orange Specialties" %}}
-1. Gilgamesh - Grade:  A+  (100.0% - 278)
-1. **Empress Dowager Cixi - Grade:  B+  (87.4% - 243)**
-1. **Nero - Grade:  B  (80.6% - 224)**
-1. **Harald - Grade:  B  (79.9% - 222)**
-1. Nordic Barbarian King - Grade:  B-  (78.8% - 219)
-1. David Farragut - Grade:  B-  (76.6% - 213)
-1. Darius I - Grade:  C  (69.8% - 194)
-1. **Suleiman the Magnificent - Grade:  C  (68.3% - 190)**
-1. Yeon Gaesomun - Grade:  C-  (62.9% - 175)
-1. Cnut the Great - Grade:  C-  (62.2% - 173)
-1. **Mansa Musa - Grade:  D+  (59.7% - 166)**
-1. Amr ibn al-As - Grade:  D+  (59.0% - 164)
-1. Mark Antony - Grade:  D+  (58.3% - 162)
-1. **Arminius - Grade:  D+  (55.0% - 153)**
-1. **Robert Guiscard - Grade:  D+  (54.0% - 150)**
-{{% /tab %}}
-{{% tab header="3 Purple Specialties" %}}
-1. Gilgamesh - Grade:  A+  (100.0% - 264)
-1. **Empress Dowager Cixi - Grade:  B+  (86.0% - 227)**
-1. **Nero - Grade:  B-  (78.8% - 208)**
-1. **Harald - Grade:  B-  (78.8% - 208)**
-1. Nordic Barbarian King - Grade:  B-  (77.7% - 205)
-1. David Farragut - Grade:  C+  (75.4% - 199)
-1. Darius I - Grade:  C  (71.2% - 188)
-1. **Suleiman the Magnificent - Grade:  C-  (67.0% - 177)**
-1. Cnut the Great - Grade:  C-  (62.5% - 165)
-1. Yeon Gaesomun - Grade:  D+  (61.0% - 161)
-1. **Mansa Musa - Grade:  D+  (59.8% - 158)**
-1. Mark Antony - Grade:  D+  (59.1% - 156)
-1. Amr ibn al-As - Grade:  D+  (56.8% - 150)
-1. **Robert Guiscard - Grade:  D+  (56.1% - 148)**
-1. **Arminius - Grade:  D+  (55.3% - 146)**
-{{% /tab %}}
-{{< /tabpane >}}
+{{< sp-table csv="toughness_mayors.csv" >}}
 
 
 {{% blocks/section title="Trying to find balance" color="light"%}}
