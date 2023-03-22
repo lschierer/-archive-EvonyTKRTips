@@ -1,0 +1,15 @@
+<span style="text-align: center;">
+    <h3 class="coral-Heading--2">
+        <a class="coral-Link" href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+</span>
+
+<span style="text-align: center;">
+{{ .Summary }}
+      {{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <div>
+        <a href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+      {{ end }}
+</span>
