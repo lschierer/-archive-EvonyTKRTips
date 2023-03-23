@@ -7,14 +7,22 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
 
 [[module.mounts]]
 source = "node_modules/@spectrum-css/vars/dist/"
-target = "assets/scss/@spectrum-css/vars/dist"
+target = "assets/@spectrum-css/vars/dist"
 
 [[module.mounts]]
 source = "node_modules/@spectrum-css/page/dist/"
-target = "assets/scss/@spectrum-css/page/dist/"
+target = "assets/@spectrum-css/page/dist/"
 
 
 [[module.mounts]]
 source = "node_modules/@spectrum-css/button/dist/"
-target = "assets/scss/@spectrum-css/button/dist/"
+target = "assets/@spectrum-css/button/dist/"
+
+[[module.mounts]]
+source = "node_modules/@spectrum-css/table/dist/"
+target = "assets/@spectrum-css/table/dist/"
+
+[[module.mounts]]
+source = "node_modules/@spectrum-css/icone/dist/"
+target = "assets/@spectrum-css/icon/dist/"
 

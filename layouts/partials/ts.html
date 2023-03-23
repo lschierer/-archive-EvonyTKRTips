@@ -10,3 +10,7 @@
   src="{{ $js.RelPermalink }}"
   {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}
   type="module"></script>
+
+<script>
+  loadIcons('@spectrum-css/icon/dist/spectrum-css-icons.svg');
+</script>
