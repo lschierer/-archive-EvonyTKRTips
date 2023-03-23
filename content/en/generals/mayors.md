@@ -59,7 +59,7 @@ list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
 {{% /blocks/section %}}
 
-{{< sp-table "attack_mayors.csv" >}}
+{{< sp-table csv="attack_mayors.csv" >}}
 
 
 

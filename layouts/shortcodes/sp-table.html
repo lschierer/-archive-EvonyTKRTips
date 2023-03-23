@@ -1,68 +1,75 @@
-{{ "<!-- in sp-table -->\n" | safeHTML }}
-{{- $file := .Get 0 -}}
-{{- $id := path.BaseName $file -}}
-{{ printf "<!-- filename is %s -->\n" $file | safeHTML }}
-{{- $rows := resources.Get $file | transform.Unmarshal -}}
+{{- with .Get "class" -}} {{- $newclass := . -}}{{- end -}}
+{{- with .Get "csv" -}} {{- $csv_name := . -}} 
+{{- printf "<!-- filename is %s -->\n" $csv_name | safeHTML -}}
+{{- $rows := resources.Get $csv_name | transform.Unmarshal -}}
+{{- $r1 := first 1 $rows -}}
+{{- $r2 := first 1 (after 1 $rows) -}}
+{{- $data := newScratch -}}
+{{- $typeIsBool := false -}}
+{{- $typeIsNumber := false -}}
 
-<sp-table size="c" id="{{ $id }}" theme="spectrum"  color="dark" scale="medium" style="background-color: var(--spectrum-blue-800)">
-	{{ range first 1 $rows }}
-    	{{ safeHTML ( print "<sp-table-head >" ) }}
-		{{ range . }} 
-			<sp-table-head-cell sortable sort-direction="desc" sort-key={{ . }}>
-			{{ . }}
-			</sp-table-head-cell>
+{{- $data.Set "htmlTable" "<!-- start of Coral Table -->\n" -}}
+{{- $data.Add "htmlTable" "  <table is=\"coral-table\">\n" -}}
+  {{- range $r1 -}}
+    {{- $data.Add "htmlTable" "  <colgroup >\n" -}}
+    {{- range $r2 -}}
+      {{- range $i, $v := . -}}
+			  {{- printf "<!-- found column with content: %s -->\n" $v | safeHTML -}}
+				{{- if findRE "[^.0-9]" $v -}}
+				  {{- if or (eq $v "true") (eq $v "false") -}}
+					  {{- printf "<!-- matched as bool -->\n" | safeHTML -}}
+			      {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
+            {{- $data.Add "htmlTable" "sortabletype=\"alphanumeric\" " -}}
+			      {{- $data.Add "htmlTable" ">\n" -}}
+            {{- $data.SetInMap "r" (string $i) "bool" -}}
+					{{- else -}}
+            {{- $data.SetInMap "r" (string $i) "string" -}}
+			      {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
+			      {{- $data.Add "htmlTable" ">\n" -}}
+					{{- end -}}
+				{{- else -}}
+				  {{- printf "<!-- matched as number -->\n" | safeHTML -}}
+			    {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
+          {{- $data.Add "htmlTable" "sortabletype=\"number\" " -}}
+				  {{- $data.Add "htmlTable" ">\n" -}}
+          {{- $data.SetInMap "r" (string $i) "number" -}}
+				{{- end -}}
+			{{ end }}
 		{{ end }}
-    </sp-table-head>
-	{{ end }}
-</sp-table>
-
-<script type="module">
-	const initItems = () => {
-		const items = [];
-
-		{{ range after 1 $rows }}
-			items.push({
-				{{ range $index, $value := . }}
-					{{ printf "c%d" $index | safeJS }}: {{ $value }},
-				{{ end }}
-			});
-		{{ end }}
-		return items;
-    };
-
-	let items = initItems();
-
-	const initTable = () => {
-        const table = document.querySelector('{{printf "#%s" $id | safeJS}}');
-        table.items = items;
-
-        table.renderItem = (item, index) => {
-			{{ range first 1 (first 1 $rows)  }}
-			{{ range $index, $v := . }}
-				{{ printf "// index is %d, v is %s-->" $index $v | safeJS }}
-				const {{ print "cell" (add $index 1) | safeJS}} = document.createElement('sp-table-cell');
-				{{ printf "cell%d.textContent = `${item.c%d}`;" (add $index 1) $index | safeJS }}
-			{{ end }}{{ end }}
-	        return [
-			{{ range first 1 (first 1 $rows)  }}
-			{{ range $index, $v := . }}
-				{{ printf "cell%d" (add $index 1) | safeJS }}, 
-			{{ end }}{{ end }}
-			];
-        };
-
-        table.addEventListener('sorted', (event) => {
-            const { sortDirection, sortKey } = event.detail;
-            items = items.sort((a, b) => {
-                const first = String(a[sortKey]);
-                const second = String(b[sortKey]);
-                return sortDirection === 'asc' ? first.localeCompare(second) : second.localeCompare(first);
-            });
-            table.items = [...items];
-        });
-    };
-
-    customElements.whenDefined('sp-table').then(() => {
-        initTable();
-    });
-</script>
+  {{- $data.Add "htmlTable" "  </colgroup >\n" -}}
+  {{ end }}
+  {{- $data.Add "htmlTable" "  <thead is=\"coral-table-head\">\n" -}}
+		{{- $data.Add "htmlTable" "  <tr is=\"coral-table-row\">\n" -}}
+		{{- range first 1 $rows -}}
+      {{- range . -}}
+     	  {{- $data.Add "htmlTable" "    <th is=\"coral-table-headercell\">\n" -}}
+          {{- $data.Add "htmlTable" (. | markdownify )  -}}
+        {{- $data.Add "htmlTable" "\n    </th>\n" -}}
+			{{- end -}}
+		{{- end -}}
+		{{- $data.Add "htmlTable" "  </tr>\n" -}}
+	{{- $data.Add "htmlTable" "  </thead>\n" -}}
+  {{- $data.Add "htmlTable" "  <tbody is=\"coral-table-body\" divider=\"column\">\n" -}}
+		{{- range after 1 $rows -}}
+		  {{- $data.Add "htmlTable" "  <tr is=\"coral-table-row\">\n" -}}
+				{{- range $i, $c := . -}}
+  				{{- if eq (index ($data.Get "r") (string $i)) "number" -}} 
+	  				{{- $data.Add "htmlTable" (printf "   <td is=\"coral-table-cell\" value=\"%s\" " $c) -}}
+					{{ else }}
+            {{- $data.Add "htmlTable" "   <td is=\"coral-table-cell\" " -}}
+					{{ end }}
+					{{- if (eq $i  0) -}}
+						{{- $data.Add "htmlTable" "role=\"rowheader\" " -}}
+					{{- end -}}
+					{{- $data.Add "htmlTable" ">\n" -}}
+						{{- $data.Add "htmlTable" ( markdownify $c ) -}}
+			    {{- $data.Add "htmlTable" "\n   </td>\n" -}}
+				{{- end -}}
+  		{{- $data.Add "htmlTable" "  </tr>\n" -}}
+		{{- end -}}
+  {{- $data.Add "htmlTable" "  </tbody>\n" -}}
+{{- $data.Add "htmlTable" "  </table>\n" -}}
+{{- $data.Get "htmlTable" | safeHTML -}}
+{{- else -}} 
+	{{- errorf "missing value for param 'csv': %s" .Position -}}
+{{- end -}}
