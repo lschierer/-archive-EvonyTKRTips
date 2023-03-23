@@ -3,26 +3,25 @@
   min = "0.87.0"
 
 [[imports]]
-path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss"
 
-[[module.mounts]]
-source = "node_modules/@spectrum-css/vars/dist/"
-target = "assets/@spectrum-css/vars/dist"
+[[mounts]]
+source = 'node_modules/@spectrum-css/vars/dist/'
+target = 'static/@spectrum-css/vars/dist/'
 
-[[module.mounts]]
-source = "node_modules/@spectrum-css/page/dist/"
-target = "assets/@spectrum-css/page/dist/"
+[[mounts]]
+source = 'node_modules/@spectrum-css/button/dist/'
+target = 'static/@spectrum-css/button/dist/'
 
+[[mounts]]
+source = 'node_modules/@spectrum-css/page/dist/'
+target = 'static/@spectrum-css/page/dist/'
 
-[[module.mounts]]
-source = "node_modules/@spectrum-css/button/dist/"
-target = "assets/@spectrum-css/button/dist/"
+[[mounts]]
+source = 'node_modules/@spectrum-css/table/dist/'
+target = 'static/@spectrum-css/table/dist/'
 
-[[module.mounts]]
-source = "node_modules/@spectrum-css/table/dist/"
-target = "assets/@spectrum-css/table/dist/"
-
-[[module.mounts]]
-source = "node_modules/@spectrum-css/icone/dist/"
-target = "assets/@spectrum-css/icon/dist/"
+[[mounts]]
+source = 'node_modules/@spectrum-css/icon/dist/'
+target = 'static/@spectrum-css/icon/dist/'
 

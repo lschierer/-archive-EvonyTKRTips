@@ -54,7 +54,9 @@
   },
   "homepage": "https://github.com/lschierer/EvonyTKRTips",
   "dependencies": {
+    "@spectrum-css/button": "^9.0.9",
     "@spectrum-css/icon": "^3.0.35",
+    "@spectrum-css/page": "^5.0.19",
     "@spectrum-css/table": "^4.0.31",
     "@spectrum-css/typography": "^4.0.29",
     "@spectrum-css/underlay": "^2.0.40",
