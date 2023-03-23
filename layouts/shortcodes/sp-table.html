@@ -8,67 +8,31 @@
 {{- $typeIsBool := false -}}
 {{- $typeIsNumber := false -}}
 
-{{- $data.Set "htmlTable" "<!-- start of Coral Table -->\n" -}}
-{{- $data.Add "htmlTable" "  <table is=\"coral-table\">\n" -}}
-  {{- range $r1 -}}
-    {{- $data.Add "htmlTable" "  <colgroup >\n" -}}
-    {{- range $r2 -}}
-      {{- range $i, $v := . -}}
-			  {{- printf "<!-- found column with content: %s -->\n" $v | safeHTML -}}
-				{{- if findRE "[^.0-9]" $v -}}
-				  {{- if or (eq $v "true") (eq $v "false") -}}
-					  {{- printf "<!-- matched as bool -->\n" | safeHTML -}}
-			      {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
-            {{- $data.Add "htmlTable" "sortabletype=\"alphanumeric\" " -}}
-			      {{- $data.Add "htmlTable" ">\n" -}}
-            {{- $data.SetInMap "r" (string $i) "bool" -}}
-					{{- else -}}
-            {{- $data.SetInMap "r" (string $i) "string" -}}
-			      {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
-			      {{- $data.Add "htmlTable" ">\n" -}}
-					{{- end -}}
-				{{- else -}}
-				  {{- printf "<!-- matched as number -->\n" | safeHTML -}}
-			    {{- $data.Add "htmlTable" "    <col is=\"coral-table-column\" sortable=\"\" " -}}
-          {{- $data.Add "htmlTable" "sortabletype=\"number\" " -}}
-				  {{- $data.Add "htmlTable" ">\n" -}}
-          {{- $data.SetInMap "r" (string $i) "number" -}}
-				{{- end -}}
-			{{ end }}
-		{{ end }}
-  {{- $data.Add "htmlTable" "  </colgroup >\n" -}}
-  {{ end }}
-  {{- $data.Add "htmlTable" "  <thead is=\"coral-table-head\">\n" -}}
-		{{- $data.Add "htmlTable" "  <tr is=\"coral-table-row\">\n" -}}
-		{{- range first 1 $rows -}}
-      {{- range . -}}
-     	  {{- $data.Add "htmlTable" "    <th is=\"coral-table-headercell\">\n" -}}
-          {{- $data.Add "htmlTable" (. | markdownify )  -}}
-        {{- $data.Add "htmlTable" "\n    </th>\n" -}}
-			{{- end -}}
-		{{- end -}}
-		{{- $data.Add "htmlTable" "  </tr>\n" -}}
-	{{- $data.Add "htmlTable" "  </thead>\n" -}}
-  {{- $data.Add "htmlTable" "  <tbody is=\"coral-table-body\" divider=\"column\">\n" -}}
+{{- $data.Set "htmlTable" "<!-- start of sp Table -->\n" -}}
+{{- $data.Add "htmlTable" "  <div class=\"spectrum-Table spectrum-Table--sizeM\" role=\"grid\">\n" -}}
+  {{- $data.Add "htmlTable" "    <div class=\"spectrum-Table-head\" style=\"display: flex\" role=\"row\">\n" -}}
+  {{- range index $r1 0 -}}
+		{{- printf "<!-- found column with content: %s -->\n" . | safeHTML -}}
+		{{- $data.Add "htmlTable" "      <div class=\"spectrum-Table-headCell is-sortable is-sorted-desc\" style=\"flex: 1\" role=\"columnheader\" aria-sort=\"descending\" tabindex=\"0\">\n" -}}
+			{{- $data.Add "htmlTable" (markdownify . ) -}} 
+			{{- $data.Add "htmlTable" "\n        <svg class=\"spectrum-Icon spectrum-UIIcon-ArrowDown100 spectrum-Table-sortedIcon\" focusable=\"false\" aria-hidden=\"true\">\n" -}}
+			{{- $data.Add "htmlTable" "          <use xlink:href=\"#spectrum-css-icon-Arrow100\" />\n" -}}
+			{{- $data.Add "htmlTable" "        </svg>\n" -}}
+		{{- $data.Add "htmlTable"  "      </div>\n" -}}
+	{{ end }}
+  {{- $data.Add "htmlTable" "    </div >\n" -}}
+  {{- $data.Add "htmlTable" "    <div class=\"spectrum-Table-body\" style=\"height: 120px\" role=\"rowgroup\">\n" -}}
 		{{- range after 1 $rows -}}
-		  {{- $data.Add "htmlTable" "  <tr is=\"coral-table-row\">\n" -}}
+		  {{- $data.Add "htmlTable" "      <div class=\"spectrum-Table-row\" style=\"display: flex\" role=\"row\">\n" -}}
 				{{- range $i, $c := . -}}
-  				{{- if eq (index ($data.Get "r") (string $i)) "number" -}} 
-	  				{{- $data.Add "htmlTable" (printf "   <td is=\"coral-table-cell\" value=\"%s\" " $c) -}}
-					{{ else }}
-            {{- $data.Add "htmlTable" "   <td is=\"coral-table-cell\" " -}}
-					{{ end }}
-					{{- if (eq $i  0) -}}
-						{{- $data.Add "htmlTable" "role=\"rowheader\" " -}}
-					{{- end -}}
-					{{- $data.Add "htmlTable" ">\n" -}}
+          {{- $data.Add "htmlTable" "        <div class=\"spectrum-Table-cell\" style=\"flex: 1\" role=\"gridcell\" tabindex=\"0\">\n" -}}
 						{{- $data.Add "htmlTable" ( markdownify $c ) -}}
-			    {{- $data.Add "htmlTable" "\n   </td>\n" -}}
+			    {{- $data.Add "htmlTable" "\n        </div>\n" -}}
 				{{- end -}}
-  		{{- $data.Add "htmlTable" "  </tr>\n" -}}
+  		{{- $data.Add "htmlTable" "      </div>\n" -}}
 		{{- end -}}
-  {{- $data.Add "htmlTable" "  </tbody>\n" -}}
-{{- $data.Add "htmlTable" "  </table>\n" -}}
+  {{- $data.Add "htmlTable" "    </div>\n" -}}
+{{- $data.Add "htmlTable" "  </div>\n" -}}
 {{- $data.Get "htmlTable" | safeHTML -}}
 {{- else -}} 
 	{{- errorf "missing value for param 'csv': %s" .Position -}}
