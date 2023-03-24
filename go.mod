@@ -1,3 +1,3 @@
-module github.com/gohugoio/hugo-mod-bootstrap-scss-v4
+module github.com/gohugoio/hugo-mod-bootstrap-scss
 
 go 1.20
