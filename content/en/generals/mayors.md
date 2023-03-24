@@ -55,6 +55,8 @@ levels of investment in your mayors.  I recommend Free Players use the 3 Purple
 list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
 
+{{< sp-table csv="attack_mayors.csv" >}}
+
 ## Reducing the Enemy's Ability to Survive Your Attack
 
 This is for people who want to make the enemy regret the decision to attack

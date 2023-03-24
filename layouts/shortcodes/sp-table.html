@@ -9,7 +9,7 @@
 {{- $typeIsNumber := false -}}
 
 {{- $data.Set "htmlTable" "<!-- start of Spectrum Table -->\n" -}}
-{{- $data.Add "htmlTable" (printf "<sp-table size=\"m\" id=\"%s\" > \n" (path.BaseName $csv_name) ) -}}
+{{- $data.Add "htmlTable" (printf "<sp-table size=\"m\" style=\"width: 200em; height: 175px;\" scroller=\"true\" id=\"%s\" > \n" (path.BaseName $csv_name) ) -}}
 {{- $data.Add "htmlTable" (printf " <sp-table-head>\n") -}}
 {{- range $i, $v := $r1 -}}
 {{- $key := printf "c%s" (replaceRE `\W` "" $v) -}}
@@ -18,8 +18,8 @@
 {{- $data.Add "htmlTable" (printf "  </sp-table-head-cell> \n") -}}
 {{- end -}}
 {{- $data.Add "htmlTable" (printf " </sp-table-head>\n") -}}
-{{- $data.Add "htmlTable" "<!-- end of Spectrum Table -->\n" -}}
 {{- $data.Add "htmlTable" (printf "</sp-table>\n" ) -}}
+{{- $data.Add "htmlTable" "<!-- end of Spectrum Table -->\n" -}}
 
 {{- $data.Get "htmlTable" | safeHTML -}}
 
@@ -29,7 +29,7 @@
   const initItems = () => {
     const items = [];
     {{- printf " \n" | safeJS -}}  
-    {{- range $i, $row := first 3 (after 1 $rows) -}}
+    {{- range $i, $row := first 4 (after 1 $rows) -}}
       {{- printf "\t" | safeJS -}}  
       items.push({
         {{- range $j, $v := $r1 -}}
@@ -37,7 +37,7 @@
             {{- printf " \n" | safeJS -}}
           {{- end -}}
           {{- $key := printf "c%s" (replaceRE `\W` "" $v) -}}
-          {{- printf "\t\t\t%s: \"%s\",\n" $key (index $row $j) | safeJS -}}
+          {{- printf "\t\t\t%s: \"%s\",\n" $key (trim (index $row $j) " \t") | safeJS -}}
         {{- end -}}
       {{- printf "\t" | safeJS -}}  
       });
