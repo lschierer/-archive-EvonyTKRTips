@@ -1,98 +1,10 @@
 {{- with .Get "class" -}} {{- $newclass := . -}}{{- end -}}
 {{- with .Get "csv" -}} {{- $csv_name := . -}} 
-{{- printf "<!-- filename is %s -->\n" $csv_name | safeHTML -}}
-{{- $rows := resources.Get $csv_name | transform.Unmarshal -}}
-{{- $r1 := index (first 1 $rows) 0 -}}
-{{- $r2 := index (first 1 (after 1 $rows)) 0 -}}
-{{- $data := newScratch -}}
-{{- $typeIsBool := false -}}
-{{- $typeIsNumber := false -}}
+  {{- printf "<!-- filename is %s -->\n" $csv_name | safeHTML -}}
 
-{{- $data.Set "htmlTable" "<!-- start of Spectrum Table -->\n" -}}
-{{- $data.Add "htmlTable" (printf "<sp-table size=\"m\" style=\"width: 200em; height: 175px;\" scroller=\"true\" id=\"%s\" > \n" (path.BaseName $csv_name) ) -}}
-{{- $data.Add "htmlTable" (printf " <sp-table-head>\n") -}}
-{{- range $i, $v := $r1 -}}
-{{- $key := printf "c%s" (replaceRE `\W` "" $v) -}}
-{{- $data.Add "htmlTable" (printf "  <sp-table-head-cell sortable sort-direction=\"desc\" sort-key=\"%s\" > \n" $key) -}}
-{{- $data.Add "htmlTable" (printf "%s\n" (markdownify ($v) )) -}}
-{{- $data.Add "htmlTable" (printf "  </sp-table-head-cell> \n") -}}
-{{- end -}}
-{{- $data.Add "htmlTable" (printf " </sp-table-head>\n") -}}
-{{- $data.Add "htmlTable" (printf "</sp-table>\n" ) -}}
-{{- $data.Add "htmlTable" "<!-- end of Spectrum Table -->\n" -}}
-
-{{- $data.Get "htmlTable" | safeHTML -}}
-
-<!-- start of Spectrum Table Script -->
-
-<script type="module">
-  const initItems = () => {
-    const items = [];
-    {{- printf " \n" | safeJS -}}  
-    {{- range $i, $row := first 4 (after 1 $rows) -}}
-      {{- printf "\t" | safeJS -}}  
-      items.push({
-        {{- range $j, $v := $r1 -}}
-          {{- if (eq $j 0 ) -}}
-            {{- printf " \n" | safeJS -}}
-          {{- end -}}
-          {{- $key := printf "c%s" (replaceRE `\W` "" $v) -}}
-          {{- printf "\t\t\t%s: \"%s\",\n" $key (trim (index $row $j) " \t") | safeJS -}}
-        {{- end -}}
-      {{- printf "\t" | safeJS -}}  
-      });
-      {{- printf " \n" | safeJS -}}  
-    {{- end -}}
-    return items;
-  }
-
-  const initTable = () => {
-    {{- printf " \n" | safeJS -}}  
-    {{- printf "\tconst table = document.querySelector('#%s');\n" (path.BaseName $csv_name) | safeJS -}}
-    {{- printf "\t" | safeJS -}}  
-	let items = initItems();
-	table.items = items;
-    table.renderItem = (item, index) => {
-      {{- printf " \n" | safeJS -}}  
-      {{- range $j, $v := $r1 -}}
-        {{- $key := printf "c%s" (replaceRE `\W` "" $v) -}}
-        {{- printf "\t\t\tconst cell%d = document.createElement('sp-table-cell');\n" $j | safeJS -}}
-        {{- printf "\t\t\tcell%d.textContent = `${item.%s}`;\n" $j $key | safeJS -}}
-          
-      {{- end -}}
-      {{- printf " \n" | safeJS -}}  
-      return [
-        {{- range $j, $v := $r1 -}}
-          {{- if ( eq $j 0 ) -}}
-            {{- printf "cell%d" $j | safeJS -}}
-          {{- else -}}
-            {{- printf ", cell%d" $j | safeJS -}}
-          {{- end -}}
-        {{- end -}}
-        ];
-    }
-    table.addEventListener('sorted', (event) => {
-            const { sortDirection, sortKey } = event.detail;
-            items = items.sort((a, b) => {
-                const first = String(a[sortKey]);
-                const second = String(b[sortKey]);
-                return sortDirection === 'asc'
-                    ? first.localeCompare(second)
-                    : second.localeCompare(first);
-            });
-            table.items = [...items];
-        });
-  };
-
-  customElements.whenDefined('sp-table').then(() => {
-        initTable();
-    });
-    
-</script>
-
-<!-- end of Spectrum Table Script -->
+  {{- printf "<mayor-table data=\"%s\" ></mayor-table>\n" (resources.Get $csv_name) | safeHTML -}}
 
 {{- else -}}
-{{- errorf "missing value for param 'csv': %s" .Position -}}
+	{{- errorf "missing value for param 'csv': %s" .Position -}}
 {{- end -}}
 

@@ -6,66 +6,26 @@
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss"
 
 [[mounts]]
-source = 'node_modules/@spectrum-css/vars/dist/'
-target = 'static/@spectrum-css/vars/dist/'
-
-[[mounts]]
-source = 'node_modules/@spectrum-css/button/dist/'
-target = 'static/@spectrum-css/button/dist/'
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/asset/"
-target = "static/@spectrum-web-components/asset/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/base/"
-target = "static/@spectrum-web-components/base/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/icon/"
-target = "static/@spectrum-web-components/icon/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/icon-ui/"
-target = "static/@spectrum-web-components/icon-ui/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/icon-workflow/"
-target = "static/@spectrum-web-components/icon-workflow/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/iconset/"
-target = "static/@spectrum-web-components/iconset/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/shared/"
-target = "static/@spectrum-web-components/shared/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/styles/"
-target = "static/@spectrum-web-components/styles/"
-
-[[mounts]]
-source = "node_modules/@spectrum-web-components/theme/"
-target = "static/@spectrum-web-components/theme/"
-
-[[mounts]]
-source = 'node_modules/@spectrum-css/icon/dist/'
-target = 'static/@spectrum-css/icon/dist/'
-
-[[mounts]]
-source = "node_modules/@spectrum-css/page/dist/"
-target = "static/@spectrum-css/page/dist/"
-
-[[mounts]]
-source = 'node_modules/@spectrum-css/table/dist/'
-target = 'static/@spectrum-css/table/dist/'
-
-[[mounts]]
 source = 'node_modules/loadicons/'
-target = 'static/loadicons'
+target = 'static/loadicons/'
 
 [[mounts]]
-source = "node_modules/@spectrum-css/button/dist/"
-target = "static/@spectrum-css/button/dist/"
+source = 'node_modules/@webcomponents/'
+target = 'static/@webcomponents/'
+
+[[mounts]]
+source = 'node_modules/lit/'
+target = 'static/lit/'
+
+[[mounts]]
+source = 'node_modules/\@carbon/elements/'
+target = 'static/\@carbon/elements/'
+
+[[mounts]]
+source = 'node_modules/\@carbon/styles'
+target = 'static/\@carbon/styles'
+
+[[mounts]]
+source = 'node_modules/@carbon/web-components/'
+target = 'static/@carbon/web-components/'
 
