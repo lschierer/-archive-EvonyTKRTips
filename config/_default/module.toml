@@ -25,3 +25,7 @@ target = 'static/@spectrum-css/table/dist/'
 source = 'node_modules/@spectrum-css/icon/dist/'
 target = 'static/@spectrum-css/icon/dist/'
 
+[[mounts]]
+source = 'node_modules/loadicons/'
+target = 'static/loadicons'
+
