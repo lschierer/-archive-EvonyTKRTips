@@ -10,22 +10,6 @@ source = 'node_modules/loadicons/'
 target = 'static/loadicons/'
 
 [[mounts]]
-source = 'node_modules/@webcomponents/'
-target = 'static/@webcomponents/'
-
-[[mounts]]
 source = 'node_modules/lit/'
 target = 'static/lit/'
-
-[[mounts]]
-source = 'node_modules/\@carbon/elements/'
-target = 'static/\@carbon/elements/'
-
-[[mounts]]
-source = 'node_modules/\@carbon/styles'
-target = 'static/\@carbon/styles'
-
-[[mounts]]
-source = 'node_modules/@carbon/web-components/'
-target = 'static/@carbon/web-components/'
 
