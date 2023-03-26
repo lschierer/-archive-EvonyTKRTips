@@ -3,7 +3,7 @@
   min = "0.87.0"
 
 [[imports]]
-path = "github.com/gohugoio/hugo-mod-bootstrap-scss"
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
 [[mounts]]
 source = 'node_modules/loadicons/'
