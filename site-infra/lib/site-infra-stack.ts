@@ -3,6 +3,8 @@ import { Stack, StackProps, NestedStack, NestedStackProps } from 'aws-cdk-lib';
 import { aws_codebuild as codebuild } from 'aws-cdk-lib';
 import { aws_codecommit as codecommit } from 'aws-cdk-lib';
 
+import * as lambda from 'aws-cdk-lib/aws-lambda';
+
 import * as amplify from '@aws-cdk/aws-amplify-alpha'
 
 export class SiteInfraStack extends Stack {
@@ -33,6 +35,13 @@ export class SiteInfraStack extends Stack {
 		});
 		domain.mapRoot(masterBranch);
 		domain.mapSubDomain(masterBranch, 'www');
+
+		new lambda.Function(this, 'MyFunction', {
+      runtime: lambda.Runtime.PYTHON_3_7,
+      handler: 'app.lambda_handler',
+      code: lambda.Code.fromAsset('./my_function'),
+    });
+
 
   }
 }
