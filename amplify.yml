@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - curl -OL https://golang.org/dl/go1.20.2.linux-amd64.tar.gz
+        - tar -C /usr/local -xzf ./go1.20.2.linux-amd64.tar.gz
         - npm ci
     build:
       commands:
