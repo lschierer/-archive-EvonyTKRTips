@@ -80,6 +80,7 @@
     "@spectrum-web-components/theme": "^0.14.13",
     "@vaadin/grid": "^24.0.2",
     "@webcomponents/webcomponentsjs": "^2.7.0",
+    "aws-cdk": "^2.70.0",
     "csv": "^6.2.8",
     "lit": "^2.7.0",
     "loadicons": "^1.0.0",
