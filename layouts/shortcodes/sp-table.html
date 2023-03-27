@@ -1,8 +1,8 @@
 {{- with .Get "class" -}} {{- $newclass := . -}}{{- end -}}
 {{- with .Get "csv" -}} {{- $csv_name := . -}} 
   {{- printf "<!-- filename is %s -->\n" $csv_name | safeHTML -}}
-
-  {{- printf "<mayor-table data=\"%s\" ></mayor-table>\n" (resources.Get $csv_name) | safeHTML -}}
+  {{- $CsvResource := resources.GetMatch $csv_name -}}
+  {{- printf "<mayor-table CsvUrl=\"%s\" ></mayor-table>\n" $CsvResource.Permalink | safeHTML -}}
 
 {{- else -}}
 	{{- errorf "missing value for param 'csv': %s" .Position -}}

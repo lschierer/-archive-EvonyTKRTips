@@ -1,55 +1,167 @@
-import {LitElement, css, html} from 'lit';
-import {customElement, property} from 'lit/decorators.js';
-import { parse } from 'csv-parse/sync';
+import {ReactiveElement, LitElement, css, html, PropertyValues} from 'lit';
+import {customElement, property, query, state} from 'lit/decorators.js';
+import {asyncReplace} from 'lit/directives/async-replace.js';
+import { guard } from 'lit/directives/guard.js';
+import {when} from 'lit/directives/when.js';
+import {ref, createRef,until} from 'lit/directives/ref.js';
+import {render} from '@lit-labs/ssr';
+
+
+import {csv} from 'd3';
+import {autoType} from 'd3-dsv';
+
+import '@vaadin/grid/vaadin-grid.js';
+import '@vaadin/grid/vaadin-grid-selection-column.js';
+import '@vaadin/grid/vaadin-grid-sort-column.js';
+
+import * as path from 'path';
+
+export interface Mayor {
+    name: string,
+    free: boolean,
+    mrank: number,
+    mgrade: string,
+    mps: number,
+    mns: number,
+    yrank: number,
+    ygrade: string,
+    yps: number,
+    yns: number,
+    orank: number,
+    ograde: string,
+    ops: number,
+    ons: number,
+    prank: number,
+    pgrade: string,
+    pps: number,
+    pns: number,
+  };
 
 @customElement('mayor-table')
 export class MayorTable extends LitElement {
 
-  @property({type: String})
-  public data: string;
+  @property({type: String, reflect: true})
+  public CsvUrl: string;
+  
+  @state()
+  protected _headings: string[];
 
   @state()
-  protected _headings: [];
+  protected _ids: string[];
 
   @state()
-  protected _rows: [];
+  private items?: Mayor[];
+
+  @state()
+  private count: number;
 
   constructor() {
     super();
-    trows = parse(data, {
-      delimiter: ',',
-      trim: true,
+
+    this.count = 0;
+    this._headings = [
+      "Name",
+      "Availability",
+      "Maxed Out Rank",
+      "Maxed Out Grade",
+      "Maxed Out # Grade",
+      "Maxed Out Score",
+      "4 Yellows Rank",
+      "4 Yellows Grade",
+      "4 Yellows # Grade",
+      "4 Yellows Score",
+      "3 Orange Rank",
+      "3 Orange Grade",
+      "3 Orange # Grade",
+      "3 Orange Score",
+      "3 Purple Rank",
+      "3 Purple Grade",
+      "3 Purple # Grade",
+      "3 Purple Score",
+    ];
+
+    this._ids = [
+      "name",
+      "free",
+      "mrank",
+      "mgrade",
+      "mps",
+      "mns",
+      "yrank",
+      "ygrade",
+      "yps",
+      "yns",
+      "orank",
+      "ograde",
+      "ops",
+      "ons",
+      "prank",
+      "ograde",
+      "ops",
+      "ons",
+      "prank",
+      "pgrade",
+      "pps",
+      "pns"
+    ];
+     
+  }
+
+  public connectedCallback() {
+    super.connectedCallback();
+    this.getMayors();
+  }
+
+  public disconnectedCallback() {
+    console.log('disconnected callback');
+    super.disconnectedCallback();
+  }
+
+  protected async getMayors() {
+    await csv(this.CsvUrl).then((data) => {
+      for(let i = 0; i < data.length; i++) {
+        if (this.items === undefined) {
+          this.items = new Array<Mayors>;
+        }
+        this.items = this.items.concat([{
+            name: data[i].name,
+            free: data[i].free,
+            mrank: data[i].mrank,
+            mgrade: data[i].mgrade,
+            mps: data[i].mps,
+            mns: data[i].mns,
+            yrank: data[i].yrank,
+            ygrade: data[i].ygrade,
+            yps: data[i].yps,
+            yns: data[i].yns,
+            orank: data[i].orank,
+            ograde: data[i].ograde,
+            ops: data[i].ops,
+            ons: data[i].ons,
+            prank: data[i].prank,
+            pgrade: data[i].pgrade,
+            pps: data[i].pps,
+            pns: data[i].pns
+        }]);
+        this.count = this.items.length;
+      }
+      this.requestUpdate();
     });
-
-    headings = trows.shift();
-    headings.forEach(function(value) {
-      re = /[^\p{L}\p{M}]/gi; 
-      _headings.push(value.replace(re,''));
-      console.log(`original value was ${value}, new value is ${_headings[_headings.indexOf()]}\n`);
-    });
-
-    _rows = trows;
-
   }
 
   render() {
-    $hrow = "<bx-table-header-row>\n";
-    _headings.forEach(function (value) {
-      $hrow = `${hrow}<bx-table-header-cell data-column-id="${value}">\n`;
-    });
-    $hrow = `${hrow}</bx-table-header-row>\n`;
+    const itemTemplates = [];
+    for (let i = 0; i < this._headings.length; i++) {
+      itemTemplates.push(html`<vaadin-grid-sort-column header="${this._headings[i]}" path="${this._ids[i]}" direction="asc"></vaadin-grid-sort-column>` );
+    }
     return html`
-      <bx-data-table @bx-table-header-cell-sort=\${handleChangeSort} >
-       <bx-table>
-        <bx-table-head>
-          ${hrow}
-        </bx-table-head>
-       <bx-table-body>
-       </bx-table-body>
-      </bx-table>
-     </bx-data-table>
+      <vaadin-grid .items="${this.items}" theme="wrap-cell-content" >
+        ${itemTemplates}
+       </vaadin-grid>
     `;
   }
+
+
 }
 
 declare global {
@@ -58,5 +170,6 @@ declare global {
   }
 }
 
-// vim: shiftwidth=2:tabstop=2:expandtab
+
+// vi: sw=2:ts=2:expandtab:
 
