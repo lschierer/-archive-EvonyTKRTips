@@ -25,8 +25,9 @@ using mounted troops.  Some tips here.
 	 ranged to an otherwise mounted march, you can bump yourself over the edge
 	 and kill something that is otherwise outside of your reach.  Doing it this
 	 way *will involve getting wounded.*
-   * the Pans event will suggest using other troop types.  As best we can tell,
-     it lies.
+   * the Pans event will suggest using other troop types.  Following its
+     recommendation will allow you to kill bigger Pans sooner, but with enough
+     mounted you can do the same thing.
 1. Use _**ONLY**_ one tier of troops.  Depending on your culture, the names for
    each troop type and troop tier within each type change.  The [roman numerals][]
    for them do not.  Thus we typically ignore the names and prefix these roman
@@ -76,4 +77,4 @@ using mounted troops.  Some tips here.
 
 [roman numerals]: <https://wikipedia.org/wiki/Roman_numerals>
 
-[mg]: <{{< relref "mounted" >}}>
+[mg]: <{{< relref "../../generals//mounted" >}}>

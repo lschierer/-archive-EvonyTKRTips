@@ -1,8 +1,11 @@
 {
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "aws-cdk-lib": "^2.64.0",
-    "hugo-extended": "^0.110.0",
+    "@types/node": "^18.15.10",
+    "autoprefixer": "^10.4.14",
+    "aws-cdk-lib": "^2.70.0",
+    "d3": "^7.8.3",
+    "d3-dsv": "^3.0.1",
+    "hugo-extended": "^0.111.3",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0"
   },
@@ -52,5 +55,34 @@
   "bugs": {
     "url": "https://github.com/lschierer/EvonyTKRTips/issues"
   },
-  "homepage": "https://github.com/lschierer/EvonyTKRTips"
+  "homepage": "https://github.com/lschierer/EvonyTKRTips",
+  "dependencies": {
+    "@carbon/elements": "^11.20.0",
+    "@carbon/styles": "^1.25.0",
+    "@carbon/web-components": "^1.25.0",
+    "@spectrum-css/button": "^9.0.9",
+    "@spectrum-css/icon": "^3.0.35",
+    "@spectrum-css/page": "^5.0.19",
+    "@spectrum-css/table": "^4.0.31",
+    "@spectrum-css/typography": "^4.0.29",
+    "@spectrum-css/underlay": "^2.0.40",
+    "@spectrum-css/vars": "^8.0.5",
+    "@spectrum-web-components/base": "^0.7.4",
+    "@spectrum-web-components/card": "^0.14.0",
+    "@spectrum-web-components/icon": "^0.12.9",
+    "@spectrum-web-components/icons": "^0.9.6",
+    "@spectrum-web-components/icons-ui": "^0.9.10",
+    "@spectrum-web-components/iconset": "^0.7.6",
+    "@spectrum-web-components/reactive-controllers": "^0.3.5",
+    "@spectrum-web-components/shared": "^0.15.5",
+    "@spectrum-web-components/styles": "^0.23.2",
+    "@spectrum-web-components/table": "^0.1.12",
+    "@spectrum-web-components/theme": "^0.14.13",
+    "@vaadin/grid": "^24.0.2",
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "csv": "^6.2.8",
+    "lit": "^2.7.0",
+    "loadicons": "^1.0.0",
+    "npm-check-updates": "^16.8.0"
+  }
 }

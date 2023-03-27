@@ -1,6 +1,7 @@
 +++
 title = 'Killing Hydra2 with Aethelflaed and t13s'
 author = 'Luke Schierer'
+weight = 1
 +++
 
 * Main General: Aethelflaed

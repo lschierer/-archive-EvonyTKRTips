@@ -19,6 +19,7 @@ author = 'Luke Schierer'
     * mounted troop defense l4
     * mounted troop hp l4
     * march size l4
+* Fafnir was attached, but I forgot to record details
 * Monarch Gear:
   * L7 Thunder Staff
   * L7 Thunder Grail

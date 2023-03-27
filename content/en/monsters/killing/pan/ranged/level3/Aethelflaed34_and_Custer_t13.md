@@ -1,6 +1,7 @@
 +++
 title = 'Killing Ranged Pan 3 with Aethelflaed and t13s'
 author = 'Luke Schierer'
+weight = 2
 +++
 
 * Main General: Aethelflaed
