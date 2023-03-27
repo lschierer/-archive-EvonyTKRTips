@@ -69,6 +69,8 @@ levels of investment in your mayors.  I recommend Free Players use the 3 Purple
 list and everyone else use the 3 Orange list. Further note, the **bold**
 generals are the only ones available without getting lucky in paid events. 
 
+{{< sp-table csv="toughness_mayors.csv" >}}
+
 ## Trying to find balance
 
 Some authors advocate an approach where you look at the overall amount that
