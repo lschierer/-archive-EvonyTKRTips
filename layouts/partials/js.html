@@ -1,4 +1,4 @@
-{{- $js := resources.Get "ts/index.ts" -}}
+{{- $js := resources.Get "js/index.js" -}}
 {{ $params := (dict "search_config" site.Params.search_config "is_production" hugo.IsProduction ) }}
 {{ $sourceMap := cond hugo.IsProduction "" "inline" }}
 {{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
@@ -9,5 +9,6 @@
 <script
   src="{{ $js.RelPermalink }}"
   {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}
-  type="module"></script>
+  defer></script>
 
+<script src="/loadicons/index.js"></script>

@@ -1,3 +1,19 @@
 [hugoVersion]
-  extended = false
+  extended = true
   min = "0.87.0"
+
+[[imports]]
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
+[[mounts]]
+source = 'node_modules/loadicons/'
+target = 'static/loadicons/'
+
+[[mounts]]
+source = 'node_modules/lit/'
+target = 'static/lit/'
+
+[[mounts]]
+source = 'node_modules/@vaadin/grid/'
+target = 'static/@vaadin/grid/'
+

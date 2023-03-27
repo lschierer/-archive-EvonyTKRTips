@@ -1,6 +1,7 @@
 +++
 title = 'Killing Ranged Pan Level 2 with Guan'
 author = 'Luke Schierer'
+weight = 1
 +++
 
 * Main General: Guan Yu

@@ -1,10 +1,10 @@
 ---
-title: 'Killing Hard Viking 45 with Aethelflaed and t13s'
+title: 'Killing Hard Viking 46 with Aethelflaed and t13s'
 author: 'Luke Schierer'
 ---
 
 * Main General: Aethelflaed
-  * Level 35
+  * Level 36
   * 4 gold specialties
   * 3 red stars
   * All 5 star: ares spear and fear less ares leg armor, courageous dragon armor, fearless dragon boots, fearless dragon helmet, courageous dragon ring
@@ -14,7 +14,8 @@ author: 'Luke Schierer'
     * mounted troop hp against monsters l4
   * 5.1m power
 * Assistant General: George A. Custer
-  * 3 purple specialties
+  * Orange Strike Specialty
+  * Purple Mounted Troop Defense and Mounted Troop Ares specialties
   * skill books:
     * mounted troop defense l4
     * mounted troop hp l4
@@ -45,6 +46,6 @@ author: 'Luke Schierer'
   * full soul set
   * highest blazon at l6
 * Troops:
-  * 1,126,575 t13 mounted
-  * 6,025 wounded
+  * 1,269,925 t13 mounted
+  * 6,637 wounded
 

@@ -14,7 +14,8 @@ author: 'Luke Schierer'
     * mounted troop hp against monsters l4
   * 5.1m power
 * Assistant General: George A. Custer
-  * 3 purple specialties
+  * Orange Strike Specialty
+  * Purple Mounted Troop Defense and Mounted Troop Ares specialties
   * skill books:
     * mounted troop defense l4
     * mounted troop hp l4
@@ -45,6 +46,6 @@ author: 'Luke Schierer'
   * full soul set
   * highest blazon at l6
 * Troops:
-  * 1,126,575 t13 mounted
-  * 6,025 wounded
+  * 1,269,925 t13 mounted
+  * 0 wounded
 

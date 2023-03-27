@@ -260,7 +260,7 @@ Speed.  There are strong arguments both ways.
     * March Size Increase (when Rally Spot Officer):  +9%
 
 
-[debuffs]: <{{< relref "glossary#debuff" >}}>
+[debuffs]: <{{< relref "../reference/glossary#debuff" >}}>
 
-[buffs]: <{{< relref "glossary#buff" >}}>
+[buffs]: <{{< relref "../reference/glossary#buff" >}}>
 

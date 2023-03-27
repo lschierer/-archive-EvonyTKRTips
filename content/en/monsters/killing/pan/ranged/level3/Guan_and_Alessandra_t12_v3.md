@@ -1,6 +1,7 @@
 +++
 title = 'Killing Ranged Pan Level 3 with Guan and t12s, v3'
 author = 'Luke Schierer'
+weight = 4
 +++
 
 * Main General: Guan Yu

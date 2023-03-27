@@ -1,7 +1,7 @@
 +++
-title = 'Killing Ranged Pan 3 with Aethelflaed and t13s'
+title = 'Killing Sphinx 4 with Aethelflaed and t13s'
 author = 'Luke Schierer'
-weight = 2
+weight = 1
 +++
 
 * Main General: Aethelflaed
@@ -15,19 +15,20 @@ weight = 2
     * mounted troop hp against monsters l4
   * 5.1m power
 * Assistant General: George A. Custer
-  * 3 purple specialties
+  * purple specialties: Mounted Troop Defense, Mounted Troop Ares
+  * orange specialty: Strike
   * skill books:
     * mounted troop defense l4
     * mounted troop hp l4
     * march size l4
 * Monarch Gear:
-  * L7 Thunder Staff
-  * L7 Thunder Grail
-  * L7 Thunder Decoration
+  * L8 Thunder Staff
+  * L8 Thunder Grail
+  * L8 Thunder Decoration
 * Blazons:
   * full soul set
-  * highest blazon at l6
+  * highest blazon at l7
 * Troops:
-  * 1,040,201 t13 mounted
-  * 18,429 wounded
+  * 1,131,575 t13 mounted
+  * 10,347 wounded
 
