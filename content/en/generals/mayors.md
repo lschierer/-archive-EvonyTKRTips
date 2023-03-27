@@ -87,3 +87,5 @@ because another use for this list is as a tie breaker: if you are debating
 between two generals in one of the other lists, knowing where they fall here
 can help make the decision.
 
+{{< sp-table csv="overall_mayors.csv" >}}
+
