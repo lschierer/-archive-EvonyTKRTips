@@ -52,8 +52,9 @@ enemy, you are focused on preventing him/her from hurting you.
 
 In the tabs below, see how radically the lists change as you look at different
 levels of investment in your mayors.  I recommend Free Players use the 3 Purple
-list and everyone else use the 3 Orange list. Further note, the **bold**
-generals are the only ones available without getting lucky in paid events. 
+list and everyone else use the 3 Orange list. Further note, generals marked
+with a 'Y' in the 'Availability' column are the only ones available without
+getting lucky in paid events.
 
 {{< sp-table csv="attack_mayors.csv" >}}
 
@@ -66,8 +67,9 @@ own siege count for as much as possible.
 
 In the tabs below, see how radically the lists change as you look at different
 levels of investment in your mayors.  I recommend Free Players use the 3 Purple
-list and everyone else use the 3 Orange list. Further note, the **bold**
-generals are the only ones available without getting lucky in paid events. 
+list and everyone else use the 3 Orange list. Further note, generals marked
+with a 'Y' in the 'Availability' column are the only ones available without
+getting lucky in paid events. 
 
 {{< sp-table csv="toughness_mayors.csv" >}}
 
