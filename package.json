@@ -55,18 +55,18 @@
   "homepage": "https://github.com/lschierer/EvonyTKRTips",
   "dependencies": {
     "@vaadin/grid": "^24.0.2",
-    "aws-cdk": "^2.70.0",
+    "aws-cdk": "^2.71.0",
     "csv": "^6.2.8",
     "lit": "^2.7.0",
     "loadicons": "^1.0.0",
-    "npm-check-updates": "^16.8.0"
+    "npm-check-updates": "^16.8.2"
   },
   "devDependencies": {
     "@tsconfig/node18": "^1.0.1",
-    "@types/node": "^18.15.10",
+    "@types/node": "^18.15.11",
     "autoprefixer": "^10.4.14",
-    "aws-cdk-lib": "2.62.2",
-    "constructs": "10.1.156",
+    "aws-cdk-lib": "2.71.0",
+    "constructs": "10.1.294",
     "d3": "^7.8.3",
     "d3-dsv": "^3.0.1",
     "hugo-extended": "^0.111.3",
