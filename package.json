@@ -39,7 +39,7 @@
     "remove": "sst remove",
     "serve:hugo": "npm run _serve:hugo",
     "serve": "npm run _serve",
-    "test": "npm run check-links",
+    "test": "npm run check-links && sst bind -- vitest run",
     "typecheck": "tsc --noEmit",
     "update:pkg:hugo": "npm install --save-dev --save-exact hugo-extended@latest",
     "update:pkg:hugo+": "npm install --save-dev autoprefixer@latest postcss@latest postcss-cli@latest",
