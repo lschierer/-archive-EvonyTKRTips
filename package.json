@@ -54,7 +54,6 @@
   },
   "homepage": "https://github.com/lschierer/EvonyTKRTips",
   "dependencies": {
-    "@aws-amplify/cli": "^11.0.3",
     "@vaadin/grid": "^24.0.2",
     "aws-cdk": "^2.70.0",
     "csv": "^6.2.8",
