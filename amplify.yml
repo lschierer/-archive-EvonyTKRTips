@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - curl -OL https://golang.org/dl/go1.20.2.linux-amd64.tar.gz
+        - tar -C /usr/local -xzf ./go1.20.2.linux-amd64.tar.gz
+        - npm ci
+    build:
+      commands:
+        - PATH=$PATH:/usr/local/go/bin npm run build
+  artifacts:
+    baseDirectory: public
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
