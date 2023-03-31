@@ -1,15 +1,19 @@
 import { use, StackContext, StaticSite } from "sst/constructs";
-import { Api } from "./Api.js";
+import { Storage } from "./Storage";
 
-export function Web({ stack }: StackContext) {
-  const api = use(Api);
+export function Web({ stack, app }) {
+
+  const bucket = use(Storage);
 
   const site = new StaticSite(stack, "site", {
-    path: "packages/web",
-    buildCommand: "npm run build",
-    buildOutput: "dist",
+    bind: [bucket],
+    path: ".",
+    buildCommand: "npm run build:hugo",
+    buildOutput: "public",
     environment: {
-      VITE_GRAPHQL_URL: api.url + "/graphql",
+	    VITE_APP_API_URL: app.url,
+	    REACT_APP_REGION: stack.region,
+	    REACT_APP_BUCKET: bucket.bucketName,
     },
   });
 

@@ -1,17 +1,22 @@
 import { SSTConfig } from "sst";
-import { API } from "./stacks/MyStack";
+import {Storage} from "./stacks/Storage";
+import { Web } from "./stacks/Web";
+import { Api } from "./stacks/Api";
 import { Database } from "./stacks/Database";
 
 export default {
   config(_input) {
     return {
       name: "EvonyTKRTips",
+      profile: "home",
       region: "us-east-2",
     };
   },
   stacks(app) {
     app
+      .stack(Storage)
       .stack(Database)
-      .stack(API);
+      .stack(Api)
+      .stack(Web);
   }
 } satisfies SSTConfig;
