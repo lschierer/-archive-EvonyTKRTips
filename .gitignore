@@ -1,9 +1,6 @@
 # dependencies
 node_modules
 
-public
-.hugo_build.lock
-
 # sst
 .sst
 .build
