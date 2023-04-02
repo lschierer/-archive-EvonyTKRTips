@@ -1,38 +1,43 @@
-import { use, StackContext, StaticSite } from "sst/constructs";
-import { API } from "./Api";
+import { Bucket, use, StackContext, StaticSite } from "sst/constructs";
+import * as cdk from "aws-cdk-lib";
 
 import { RemovalPolicy } from "aws-cdk-lib";
 import {
   ViewerProtocolPolicy,
   AllowedMethods,
 } from "aws-cdk-lib/aws-cloudfront";
+import * as cloudfront from "aws-cdk-lib/aws-cloudfront";
+import * as cloudfrontOrigins from "aws-cdk-lib/aws-cloudfront-origins";
 
 
 export function Web({ stack }: StackContext) {
-  const ApiUrl = use (API);
   const site = new StaticSite(stack, "Site", {
-    path: "packages/web/",
+    path: "packages/web/dist/",
+    indexPage: "index.html",
     cdk: {
       bucket: {
-        removalPolicy: RemovalPolicy.DESTROY,
+        cors: [
+          {
+            allowedMethods: ["GET", "HEAD"],
+            allowedOrigins: [
+              "https://www.evonytkrtips.net",
+              "https://evonytkrtips.net",
+            ],
+          },
+        ],
+        autoDeleteObjects: true,
+        removalPolicy: cdk.RemovalPolicy.DESTROY,
       },
       distribution: {
         defaultBehavior: {
           viewerProtocolPolicy: ViewerProtocolPolicy.HTTPS_ONLY,
-          allowedMethods: AllowedMethods.ALLOW_ALL,
         },
       },
     },
-    environment: {
-      VITE_APP_API_URL: ApiUrl,
-    },
-    vite: {
-      types: "types/my-env.d.ts",
-    },
     customDomain: {
-      domainName:
-        stack.stage === "prod" ? "evonytkrtips.net" : undefined,
-      domainAlias: stack.stage === "prod" ? "www.evonytkrtips.net" : undefined,
+      domainName: "evonytkrtips.net",
+      domainAlias: "www.evonytkrtips.net",
     },
-   });
+  });
+
 }
