@@ -12,7 +12,11 @@ import * as cloudfrontOrigins from "aws-cdk-lib/aws-cloudfront-origins";
 
 export function Web({ stack }: StackContext) {
   const site = new StaticSite(stack, "Site", {
-    path: "packages/web/dist/",
+    path: "packages/web",
+    buildOutput: "dist",
+    buildCommand: "npm run build",
+    environment: {
+    },
     indexPage: "index.html",
     cdk: {
       bucket: {
@@ -41,3 +45,5 @@ export function Web({ stack }: StackContext) {
   });
 
 }
+
+// vi: ts=2:sw=2:expandtab:
