@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run build:hugo && npm run build:vite",
-    "build:hugo": "npx hugo -d dist",
-    "build:vite": "npx tsc && npx vite build",
+    "build:hugo": "pwd && hugo -v -d dist",
+    "build:vite": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -19,12 +19,12 @@
     "onchange": "^7.1.0",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "typescript": "^4.9.3",
-    "vite": "^4.2.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
     "vite-hugo-plugin": "^3.1.0"
   },
   "dependencies": {
-    "@vaadin/grid": "^23.2.18",
+    "@vaadin/grid": "^23.3.10",
     "csv": "^6.2.8",
     "d3": "^7.8.4",
     "d3-dsv": "^3.0.1",

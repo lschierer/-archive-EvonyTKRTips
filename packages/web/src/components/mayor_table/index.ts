@@ -3,7 +3,8 @@ import {customElement, property, query, state} from 'lit/decorators.js';
 import {asyncReplace} from 'lit/directives/async-replace.js';
 import { guard } from 'lit/directives/guard.js';
 import {when} from 'lit/directives/when.js';
-import {ref, createRef,until} from 'lit/directives/ref.js';
+import {ref, createRef } from 'lit/directives/ref.js';
+import { until } from 'lit/directives/until.js';
 import {render} from '@lit-labs/ssr';
 
 
@@ -17,24 +18,24 @@ import '@vaadin/grid/vaadin-grid-sort-column.js';
 import * as path from 'path';
 
 export interface Mayor {
-    name: string,
-    free: boolean,
-    mrank: number,
-    mgrade: string,
-    mps: number,
-    mns: number,
-    yrank: number,
-    ygrade: string,
-    yps: number,
-    yns: number,
-    orank: number,
-    ograde: string,
-    ops: number,
-    ons: number,
-    prank: number,
-    pgrade: string,
-    pps: number,
-    pns: number,
+    name: string|undefined,
+    free: string|undefined,
+    mrank: string|undefined,
+    mgrade: string|undefined,
+    mps: string|undefined,
+    mns: string|undefined,
+    yrank: string|undefined,
+    ygrade: string|undefined,
+    yps: string|undefined,
+    yns: string|undefined,
+    orank: string|undefined,
+    ograde: string|undefined,
+    ops: string|undefined,
+    ons: string|undefined,
+    prank: string|undefined,
+    pgrade: string|undefined,
+    pps: string|undefined,
+    pns: string|undefined,
   };
 
 @customElement('mayor-table')
@@ -57,6 +58,8 @@ export class MayorTable extends LitElement {
 
   constructor() {
     super();
+
+    this.CsvUrl = '';
 
     this.count = 0;
     this._headings = [
@@ -121,7 +124,7 @@ export class MayorTable extends LitElement {
     await csv(this.CsvUrl).then((data) => {
       for(let i = 0; i < data.length; i++) {
         if (this.items === undefined) {
-          this.items = new Array<Mayors>;
+          this.items = new Array<Mayor>;
         }
         this.items = this.items.concat([{
             name: data[i].name,

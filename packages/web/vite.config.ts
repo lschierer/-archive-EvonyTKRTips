@@ -12,8 +12,18 @@ const hugoOutDir = resolve(appDir, 'dist');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [
-      hugoPlugin({ appDir, hugoOutDir })
-    ], 
-});
+  plugins: [
+    //hugoPlugin({ appDir, hugoOutDir })
+  ], 
+  build: {
+    emptyOutDir: false,
+    lib: {
+      entry: 'src/index.ts',
+      formats: ['es'],
+    },
+    rollupOptions: {
+      external: /^lit/,
+    },
+  },
+})
 
