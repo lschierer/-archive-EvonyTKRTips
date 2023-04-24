@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run build:hugo && npm run build:vite",
+    "dev": "hugo serve -d dist",
+    "build": "npm run build:hugo",
     "build:hugo": "pwd && hugo -v -d dist",
     "build:vite": "tsc && vite build",
     "prepare": "cd themes/docsy && npm install",
