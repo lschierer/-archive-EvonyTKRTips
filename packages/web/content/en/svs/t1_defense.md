@@ -2,6 +2,8 @@
 author:
   - 'Luke Schierer' 
   - - 'Redwood'
+tags:
+  - 'guide'
 --- 
  
 This article leans heavily on a set of king's mails that another
