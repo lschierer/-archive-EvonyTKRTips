@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@lit-labs/ssr": "^3.1.1",
-    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/node18": "^2.0.0",
     "autoprefixer": "^10.4.14",
     "aws-cdk": "^2.72.1",
     "aws-cdk-lib": "2.72.1",
@@ -36,10 +36,11 @@
     "packages/*"
   ],
   "dependencies": {
-    "@vaadin/grid": "^23.3.10",
-    "csv": "^6.2.8",
+    "@vaadin/grid": "^24.0.4",
+    "csv": "^6.2.12",
     "d3": "^7.8.4",
     "d3-dsv": "^3.0.1",
-    "loadicons": "^1.0.0"
+    "loadicons": "^1.0.0",
+    "npm-check": "^6.0.1"
   }
 }
