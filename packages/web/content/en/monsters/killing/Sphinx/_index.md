@@ -1,5 +1,5 @@
 +++
-title = 'Reports on Killing Spinx'
+title = 'Reports on Killing Sphinx'
 disableTitleSeparator = true
 simple_list = true
 
