@@ -1,7 +1,7 @@
 +++
-title = 'Killing Ymir2 with Roland, Sun Ce, and T11s'
+title = 'Killing Ymir2 with Roland, Sun Ce, and T11s v3'
 author = 'Luke Schierer'
-weight = 1
+weight = 3
 +++
 
 * Main General: Roland
@@ -33,6 +33,6 @@ weight = 1
   * full soul set
   * highest blazon at l9
 * Troops:
-  * 350,000 t11 mounted 
-  * 6,517 wounded
+  * 904,850 t11 mounted 
+  * 0 wounded
 
