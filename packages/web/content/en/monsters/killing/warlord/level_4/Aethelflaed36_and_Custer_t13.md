@@ -46,6 +46,6 @@ weight = 4
   * full soul set
   * highest blazon at l9
 * Troops:
-  * 1,121,175 t13 mounted
-  * 0 wounded
+  * 1,321,175 t13 mounted
+  * 17,663 wounded
 

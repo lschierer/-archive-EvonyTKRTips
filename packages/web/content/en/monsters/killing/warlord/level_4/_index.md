@@ -1,5 +1,5 @@
 +++
-title = 'Reports on Killing Sphinx'
+title = 'Reports on Killing Level 4 Warlords'
 disableTitleSeparator = true
 simple_list = true
 
